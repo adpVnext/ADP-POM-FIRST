@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B7EB8477B4FD43062AAFB73A1F4E787A1BF75026",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "792D0BE54624DBEED5A542E13BF8161BC281173C" : 0,
+    "B7EB8477B4FD43062AAFB73A1F4E787A1BF75026" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3CBB298E-8DAE-47CF-B91B-F2FCD6BC4052",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "792D0BE54624DBEED5A542E13BF8161BC281173C" : "ADP%20-%20POM%20Framework\/",
+    "B7EB8477B4FD43062AAFB73A1F4E787A1BF75026" : "ADP%20-%20POM%20First\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "First",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/First.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/vnext.visualstudio.com\/DefaultCollection\/_git\/ADP%2520-%2520POM%2520-%2520Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "792D0BE54624DBEED5A542E13BF8161BC281173C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/vnext.visualstudio.com\/DefaultCollection\/ADP%2520-%2520POM%2520-%2520Git\/_git\/ADP%2520-%2520First%2520-%2520Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B7EB8477B4FD43062AAFB73A1F4E787A1BF75026"
+    }
+  ]
+}

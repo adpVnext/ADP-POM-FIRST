@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3CBB298E-8DAE-47CF-B91B-F2FCD6BC4052</string>
+	<key>IDESourceControlProjectName</key>
+	<string>First</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B7EB8477B4FD43062AAFB73A1F4E787A1BF75026</key>
+		<string>https://vnext.visualstudio.com/DefaultCollection/ADP%2520-%2520POM%2520-%2520Git/_git/ADP%2520-%2520First%2520-%2520Git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/First.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B7EB8477B4FD43062AAFB73A1F4E787A1BF75026</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://vnext.visualstudio.com/DefaultCollection/ADP%2520-%2520POM%2520-%2520Git/_git/ADP%2520-%2520First%2520-%2520Git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B7EB8477B4FD43062AAFB73A1F4E787A1BF75026</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B7EB8477B4FD43062AAFB73A1F4E787A1BF75026</string>
+			<key>IDESourceControlWCCName</key>
+			<string>master</string>
+		</dict>
+	</array>
+</dict>
+</plist>
