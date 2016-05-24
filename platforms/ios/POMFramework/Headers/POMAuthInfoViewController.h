@@ -66,7 +66,7 @@
 /**
  *  Rafraichit et réaffiche la vue infos
  */
-- (void)RefreshInfo;
+- (void)authInfoRefreshInfo;
 
 /**
  *  Affiche la vue d'enrollement d'un device

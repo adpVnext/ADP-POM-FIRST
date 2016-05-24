@@ -34,7 +34,7 @@
 			<key>DefaultValue</key>
 			<string>https://pom-val.prod.adp.fr/ws/</string>
 			<key>Title</key>
-			<string>URL du service POM :</string>
+			<string>URL POM :</string>
 			<key>Key</key>
 			<string>URLPOM</string>
 		</dict>
@@ -44,7 +44,7 @@
 			<key>DefaultValue</key>
 			<string>https://pom-val.prod.adp.fr/sts/</string>
 			<key>Title</key>
-			<string>URL du service d&apos;authentification : </string>
+			<string>URL STS : </string>
 			<key>Key</key>
 			<string>URLSTS</string>
 		</dict>

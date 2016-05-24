@@ -13,7 +13,7 @@
     
     IBOutlet UIView                 *containerInfos;        // Container des infos d'authentification
     POMAuthInfoViewController       *authInfoView;          // View Infos d'authentification
-    IBOutlet UIButton               *deconnexion;           // Bouton de déconnexion
+     IBOutlet UIButton               *deconnexion;           // Bouton de déconnexion
     IBOutlet UIImageView            *loginPhoto;            // Photo user si connecté
     IBOutlet UIView                 *bordurePhoto;          // Bordure blanche
     

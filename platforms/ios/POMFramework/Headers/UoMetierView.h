@@ -26,6 +26,8 @@
 @property (weak, nonatomic) IBOutlet UIPickerView *MetierPickerView;
 @property (weak, nonatomic) IBOutlet UIButton *ReturnButton;
 @property (weak, nonatomic) IBOutlet UITableView *CouplesUOMetierTableView;
+
+
 -(IBAction)RetourButtonClick:(id)sender;
 - (IBAction)addButtonClicked:(id)sender;
 +(id) UoMetierView;

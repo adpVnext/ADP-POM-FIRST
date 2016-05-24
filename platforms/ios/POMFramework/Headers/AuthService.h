@@ -29,6 +29,9 @@
 
 + (id)sharedManager;
 
+/**
+ *  Timer principal du menu POM - Vérifie la sécurité (CheckSecurity toutes les 10 secondes)
+ */
 - (void)InitSyncTimer;
 
 

@@ -15,17 +15,18 @@
 
 @interface POMService : NSObject
 {
-    BOOL _DisplayStandardMenu;
-    NSString* urlToOpen;
+    
+    BOOL        _DisplayStandardMenu;
+    NSString    *urlToOpen;
+    
 }
 
 -(NSArray *)GetLibraryList;
 -(NSArray*)GetApplicationList;
 -(void)SyncApplicationList;
-- (NSData *)DownloadFile:(NSString *)urlToDownload;
+-(NSData *)DownloadFile:(NSString *)urlToDownload;
 -(void)ViewFile:(NSString *)url inVC:(UIViewController *)viewController;
-- (void)CallApplication:(NSString *)destinationAppURL;
-
+-(void)CallApplication:(NSString *)destinationAppURL;
 
 + (id)sharedManager;
 
@@ -40,3 +41,4 @@ static NSString * const ApplicationListChanged = @"OnApplicationListChanged";
 static NSString * const ShowMenuEvent = @"ShowMenuEvent";
 static NSString * const HideMenuEvent = @"HideMenuEvent";
 static NSString * const HidePopoverEvent = @"HidePopover";
+static NSString * const MovePomToFrontEvent = @"MovePomToFront";

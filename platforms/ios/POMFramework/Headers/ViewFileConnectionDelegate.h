@@ -14,5 +14,13 @@
 @property UIAlertView *downloadAlert;
 @property NSString *filename;
 @property UIViewController *viewController;
+
+/**
+ *  Prépare la vue du document (Download si nécessaire)
+ *
+ *  @param url            url du fichier à visualiser
+ *  @param viewController view controller où visualiser le document
+ */
 -(void)InitViewFile:(NSString *)url inVC:(UIViewController *)viewController;
+
 @end
