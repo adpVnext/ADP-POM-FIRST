@@ -16,7 +16,7 @@
 			<key>Key</key>
 			<string>Url</string>
 			<key>KeyboardType</key>
-			<string>Alphabet</string>
+			<string>URL</string>
 			<key>Title</key>
 			<string>Url</string>
 			<key>Type</key>
@@ -37,6 +37,11 @@
 			<string>URL POM :</string>
 			<key>Key</key>
 			<string>URLPOM</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+            <key>KeyboardType</key>
+            <string>URL</string>
+
 		</dict>
 		<dict>
 			<key>Type</key>
@@ -47,6 +52,11 @@
 			<string>URL STS : </string>
 			<key>Key</key>
 			<string>URLSTS</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+            <key>KeyboardType</key>
+            <string>URL</string>
+
 		</dict>
 	</array>
 	<key>StringsTable</key>
