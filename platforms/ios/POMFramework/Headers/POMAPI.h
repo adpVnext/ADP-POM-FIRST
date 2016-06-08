@@ -27,6 +27,8 @@
 - (NSString*)GetUserThumbnailURL;
 - (NSData*)GetUserThumbnailPicture;
 - (BOOL)IsTokenBlackListed:(NSString*)token;
+- (NSString*)POMFrameworkVersion;
+
 
 - (void)DidEnterForeground;
 - (void)DidEnterBackground;

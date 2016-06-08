@@ -6,6 +6,8 @@
 //  Copyright © 2016 Aéroports de Paris. All rights reserved.
 //
 
+#define kPOMFrameworkVersion     @"1.6.4"
+
 // Synchro
 
 #define kTempoSyncTimer         30    
@@ -72,8 +74,8 @@
 #define kPomFontSousTexteSizeIPhone 10
 
 #define kPomFontTabBar              kPomFontRegular
-#define kPomFontTabBarSize          21
-#define kPomFontTabBarSizeIPhone    8
+#define kPomFontTabBarSize          19
+#define kPomFontTabBarSizeIPhone    7
 
 
 /**

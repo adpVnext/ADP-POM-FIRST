@@ -3,7 +3,7 @@
 //
 //  Modified by Essam Dahab on 15/06/2015.
 //
-// v1.6.3
+// v1.6.4
 
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
@@ -13,10 +13,10 @@
 #import <POMFramework/ScanService.h>
 */
 
-// POMFramework
 #import "POMFramework.h"
 #import "ScanAPI.h"
 #import "ScanService.h"
+
 
 @interface CDVPOM  : CDVPlugin
 {}

@@ -35,7 +35,6 @@
 - (void)InitSyncTimer;
 
 
-
 - (DeviceAuthInfo*)Level1SecurityInfo;
 - (UserAuthInfo*)Level2SecurityInfo;
 - (void)ForceRefreshSecurity;
@@ -48,10 +47,18 @@
 - (BOOL)IsTokenBlacklisted:(NSString*)token;
 - (void)CallLevel1Security;
 
-
+/**
+ *  Connexion niveau 2, username et password variables privées
+ */
 - (void)CallLevel2Security;
-- (void)CallLevel2Security:(NSString*)usr password:(NSString*)pwd ; // appel d'une aute view
 
+/**
+ *  Connexion niveau 2
+ *
+ *  @param usr : Usermaume
+ *  @param pwd : Mot de passe
+ */
+- (void)CallLevel2Security:(NSString*)usr password:(NSString*)pwd ;
 - (UoMetierContainer *)GetUoMetierList;
 - (DeviceInfo *)EnrollDevice:(NSString *)deviceLabel;
 - (DeviceInfo *)UnEnrollDevice:(NSString *)deviceLabel;
@@ -80,7 +87,8 @@ static NSString * const OnLevel2SecurityInfoChange = @"OnLevel2SecurityInfoChang
 static NSString * const OnLevel1Loaded = @"OnLevel1Loaded";
 static NSString * const OnLevel2Loaded = @"OnLevel2Loaded";
 static NSString * const OnLevel2PreSignOut = @"OnLevel2PreSignOut";
-
+static NSString * const OnLevel2Logout = @"OnLevel2Logout";
+static NSString * const onUrlCalledWithoutLevel2 = @"onUrlCalledWithoutLevel2";
 
 static NSString * const InvalidSecurityTokenErrorType = @"InvalidSecurityToken";
 

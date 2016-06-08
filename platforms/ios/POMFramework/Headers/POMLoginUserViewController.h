@@ -16,12 +16,16 @@
     IBOutlet UITextField        *motdepasse;            // mot de passe niveau 2
     IBOutlet UIButton           *sidentifier;           // bouton d'identification
     
+    NSString                    *urlToOpen;                         // Url scheme de l'application sélectionée
+
+    
 }
 
 @property (nonatomic, strong)  IBOutlet UILabel            *titreLogin;
 @property (nonatomic, strong)  IBOutlet UITextField        *identifiant;
 @property (nonatomic, strong)  IBOutlet UITextField        *motdepasse;
 @property (nonatomic, strong)  IBOutlet UIButton           *sidentifier;
+@property (nonatomic, strong)  NSString                    *urlToOpen;
 
 
 /** Connexion utilisateur niveau2

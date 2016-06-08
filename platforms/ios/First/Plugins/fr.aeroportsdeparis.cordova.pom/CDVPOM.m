@@ -3,19 +3,11 @@
 //
 //  Modified by Essam Dahab on 15/06/2015.
 //
-// v1.6.3
+// v1.6.4
 
 #import "CDVPOM.h"
-/*
-#import <POMFramework/NSDictionaryExtension.h>
-#import <POMFramework/JSONHelper.h>
-#import <POMFramework/ScanResult.h>
-#import <POMFramework/FlightInformation.h>
-#import <POMFramework/NSObject+ObjectMap.h>
-#import <POMFramework/POMApplication.h>
-#import <POMFramework/POMFramework.h>
-*/
 
+// POMFramework
 
 #import "NSDictionaryExtension.h"
 #import "JSONHelper.h"
@@ -33,7 +25,6 @@
 
 -(void)InitMenu:(CDVInvokedUrlCommand*)command{
 
-    // ajout du menu POM
     float pomMenuWidth = kPomMenuWidth;
     float pomMenuHeight = kPomMenuHeight;
     float margin = kPomMenuMarginTop;

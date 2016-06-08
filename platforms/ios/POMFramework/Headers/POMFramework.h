@@ -18,8 +18,8 @@ FOUNDATION_EXPORT const unsigned char POMFrameworkVersionString[];
 
 #import "POMAPI.h"
 #import "DocAPI.h"
+#import "ScanAPI.h"
 #import "ReachabilityManager.h"
-//#import "POMMenu.h"
 #import "POMMenuV2.h"
 #import "ErrorHelper.h"
 #import "NSObject+ObjectMap.h"

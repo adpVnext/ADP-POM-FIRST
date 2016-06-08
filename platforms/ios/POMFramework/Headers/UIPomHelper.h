@@ -23,7 +23,12 @@
  *  @param path Fichier de la police
  *  @param type tye defichier (otf, ttf, ..)
  */
-+(void) loadMyCustomFont:(NSString*)path ofType:(NSString*)type;
++ (void) loadMyCustomFont:(NSString*)path ofType:(NSString*)type;
++ (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
++(void)animateGrowView:(UIView *)theView;
++(void)animateShrinkView:(UIView *)theView;
++(void)animateView:(UIView *)theView toPosition:(CGPoint)thePosition;
+
 
 @end
 static UIAlertView *_alertView;

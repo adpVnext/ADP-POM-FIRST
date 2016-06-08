@@ -41,4 +41,3 @@ static NSString * const ApplicationListChanged = @"OnApplicationListChanged";
 static NSString * const ShowMenuEvent = @"ShowMenuEvent";
 static NSString * const HideMenuEvent = @"HideMenuEvent";
 static NSString * const HidePopoverEvent = @"HidePopover";
-static NSString * const MovePomToFrontEvent = @"MovePomToFront";

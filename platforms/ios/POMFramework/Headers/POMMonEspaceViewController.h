@@ -13,9 +13,12 @@
     
     IBOutlet UIView                 *containerInfos;        // Container des infos d'authentification
     POMAuthInfoViewController       *authInfoView;          // View Infos d'authentification
-     IBOutlet UIButton               *deconnexion;           // Bouton de déconnexion
     IBOutlet UIImageView            *loginPhoto;            // Photo user si connecté
     IBOutlet UIView                 *bordurePhoto;          // Bordure blanche
+    
+    IBOutlet UIButton               *deconnexion;           // Bouton de déconnexion
+    IBOutlet UIImageView            *ligne;                 // ligne rouge Message plus de réseau
+    IBOutlet UILabel                *plusDeReseau;          // Message plus de réseau
     
 }
 
@@ -24,6 +27,9 @@
 @property (nonatomic, strong) IBOutlet UIButton             *deconnexion;
 @property (nonatomic, strong) IBOutlet UIImageView          *loginPhoto;
 @property (nonatomic, strong) IBOutlet UIView               *bordurePhoto;
+
+@property (nonatomic, strong) IBOutlet UIImageView            *ligne;                 // ligne rouge Message "Vous n'avez plus de réseau"
+@property (nonatomic, strong) IBOutlet UILabel                *plusDeReseau;          // Message "Vous n'avez plus de réseau"
 
 
 /** logout utilisateur niveau2
