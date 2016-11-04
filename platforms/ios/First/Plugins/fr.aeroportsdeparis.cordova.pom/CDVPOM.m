@@ -3,7 +3,7 @@
 //
 //  Modified by Essam Dahab on 15/06/2015.
 //
-// v1.6.4
+// v1.6.5
 
 #import "CDVPOM.h"
 
@@ -279,7 +279,7 @@
     }
     else
     {
-        [[DocAPI sharedInstance] ViewFile:url inVC:self.viewController];
+        [[DocAPI sharedInstance] ViewFile:url inVC:self.viewController withMode:@"F"];
         result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"ViewFile launched"];
     }
     [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];

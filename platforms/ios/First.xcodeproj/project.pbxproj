@@ -95,12 +95,12 @@
 		CE1929AD1CE21CE300348DF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		CE1929AE1CE21CE300348DF2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
 		CE1929AF1CE21CE300348DF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
-		CEB177261D08088D00E0572E /* libPOMFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB177241D08088D00E0572E /* libPOMFramework.a */; };
-		CEB177271D08088D00E0572E /* libPOMFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB177241D08088D00E0572E /* libPOMFramework.a */; };
-		CEB177281D08088D00E0572E /* libPOMFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB177241D08088D00E0572E /* libPOMFramework.a */; };
-		CEB177291D08088D00E0572E /* POMRessources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEB177251D08088D00E0572E /* POMRessources.bundle */; };
-		CEB1772A1D08088D00E0572E /* POMRessources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEB177251D08088D00E0572E /* POMRessources.bundle */; };
-		CEB1772B1D08088D00E0572E /* POMRessources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEB177251D08088D00E0572E /* POMRessources.bundle */; };
+		CEC529731D255AAE007B7E97 /* libPOMFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC529711D255AAE007B7E97 /* libPOMFramework.a */; };
+		CEC529741D255AAE007B7E97 /* libPOMFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC529711D255AAE007B7E97 /* libPOMFramework.a */; };
+		CEC529751D255AAE007B7E97 /* libPOMFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC529711D255AAE007B7E97 /* libPOMFramework.a */; };
+		CEC529761D255AAE007B7E97 /* POMRessources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEC529721D255AAE007B7E97 /* POMRessources.bundle */; };
+		CEC529771D255AAE007B7E97 /* POMRessources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEC529721D255AAE007B7E97 /* POMRessources.bundle */; };
+		CEC529781D255AAE007B7E97 /* POMRessources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEC529721D255AAE007B7E97 /* POMRessources.bundle */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 /* End PBXBuildFile section */
@@ -216,88 +216,88 @@
 		CE1928FD1CE218B000348DF2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CE1929851CE21CE000348DF2 /* First-IntVal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-IntVal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1929B41CE21CE300348DF2 /* First-Val.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-Val.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEB176D41D08088D00E0572E /* ApplicationListConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationListConnectionDelegate.h; sourceTree = "<group>"; };
-		CEB176D51D08088D00E0572E /* ApplicationListResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationListResponseParser.h; sourceTree = "<group>"; };
-		CEB176D61D08088D00E0572E /* AuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthService.h; sourceTree = "<group>"; };
-		CEB176D71D08088D00E0572E /* BaseAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAuthInfo.h; sourceTree = "<group>"; };
-		CEB176D81D08088D00E0572E /* CaptureBarcodeResultDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureBarcodeResultDelegate.h; sourceTree = "<group>"; };
-		CEB176D91D08088D00E0572E /* CaptureBarcodesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureBarcodesViewController.h; sourceTree = "<group>"; };
-		CEB176DA1D08088D00E0572E /* CaptureBarcodeTicketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureBarcodeTicketDelegate.h; sourceTree = "<group>"; };
-		CEB176DB1D08088D00E0572E /* CaptureOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureOverlayView.h; sourceTree = "<group>"; };
-		CEB176DC1D08088D00E0572E /* ClaimModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClaimModel.h; sourceTree = "<group>"; };
-		CEB176DD1D08088D00E0572E /* ClaimsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClaimsParser.h; sourceTree = "<group>"; };
-		CEB176DE1D08088D00E0572E /* CustomCellForMetierUOTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellForMetierUOTableViewCell.h; sourceTree = "<group>"; };
-		CEB176DF1D08088D00E0572E /* DeviceAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceAuthInfo.h; sourceTree = "<group>"; };
-		CEB176E01D08088D00E0572E /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
-		CEB176E11D08088D00E0572E /* DocAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocAPI.h; sourceTree = "<group>"; };
-		CEB176E21D08088D00E0572E /* EncodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeHelper.h; sourceTree = "<group>"; };
-		CEB176E31D08088D00E0572E /* ErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHelper.h; sourceTree = "<group>"; };
-		CEB176E41D08088D00E0572E /* FileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileModel.h; sourceTree = "<group>"; };
-		CEB176E51D08088D00E0572E /* FlightInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightInformation.h; sourceTree = "<group>"; };
-		CEB176E61D08088D00E0572E /* FlightLeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightLeg.h; sourceTree = "<group>"; };
-		CEB176E71D08088D00E0572E /* GEDDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEDDocument.h; sourceTree = "<group>"; };
-		CEB176E81D08088D00E0572E /* GEDLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEDLibrary.h; sourceTree = "<group>"; };
-		CEB176E91D08088D00E0572E /* GetDeviceInfoParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDeviceInfoParser.h; sourceTree = "<group>"; };
-		CEB176EA1D08088D00E0572E /* IsTokenBlacklistedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsTokenBlacklistedParser.h; sourceTree = "<group>"; };
-		CEB176EB1D08088D00E0572E /* JSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHelper.h; sourceTree = "<group>"; };
-		CEB176EC1D08088D00E0572E /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
-		CEB176ED1D08088D00E0572E /* Level1ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level1ConnectionDelegate.h; sourceTree = "<group>"; };
-		CEB176EE1D08088D00E0572E /* Level2ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level2ConnectionDelegate.h; sourceTree = "<group>"; };
-		CEB176EF1D08088D00E0572E /* LibraryFileResponseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryFileResponseDelegate.h; sourceTree = "<group>"; };
-		CEB176F01D08088D00E0572E /* LibraryFileResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryFileResponseParser.h; sourceTree = "<group>"; };
-		CEB176F11D08088D00E0572E /* LibraryListResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryListResponseParser.h; sourceTree = "<group>"; };
-		CEB176F21D08088D00E0572E /* NSArray+LinqExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LinqExtensions.h"; sourceTree = "<group>"; };
-		CEB176F31D08088D00E0572E /* NSBundle+POMResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+POMResources.h"; sourceTree = "<group>"; };
-		CEB176F41D08088D00E0572E /* NSDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateHelper.h; sourceTree = "<group>"; };
-		CEB176F51D08088D00E0572E /* NSDictionary+LinqExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LinqExtensions.h"; sourceTree = "<group>"; };
-		CEB176F61D08088D00E0572E /* NSDictionaryExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryExtension.h; sourceTree = "<group>"; };
-		CEB176F71D08088D00E0572E /* NSObject+ObjectMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMap.h"; sourceTree = "<group>"; };
-		CEB176F81D08088D00E0572E /* NSStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtension.h; sourceTree = "<group>"; };
-		CEB176F91D08088D00E0572E /* OUMetierListParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OUMetierListParser.h; sourceTree = "<group>"; };
-		CEB176FA1D08088D00E0572E /* POMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMAPI.h; sourceTree = "<group>"; };
-		CEB176FB1D08088D00E0572E /* POMApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMApplication.h; sourceTree = "<group>"; };
-		CEB176FC1D08088D00E0572E /* POMApplicationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMApplicationListViewController.h; sourceTree = "<group>"; };
-		CEB176FD1D08088D00E0572E /* POMAuthInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMAuthInfoViewController.h; sourceTree = "<group>"; };
-		CEB176FE1D08088D00E0572E /* POMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMConstants.h; sourceTree = "<group>"; };
-		CEB176FF1D08088D00E0572E /* POMEnrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMEnrollViewController.h; sourceTree = "<group>"; };
-		CEB177001D08088D00E0572E /* POMFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMFramework.h; sourceTree = "<group>"; };
-		CEB177011D08088D00E0572E /* POMLoginUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMLoginUserViewController.h; sourceTree = "<group>"; };
-		CEB177021D08088D00E0572E /* POMMenuV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMenuV2.h; sourceTree = "<group>"; };
-		CEB177031D08088D00E0572E /* POMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMenuViewController.h; sourceTree = "<group>"; };
-		CEB177041D08088D00E0572E /* POMMesParametresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMesParametresViewController.h; sourceTree = "<group>"; };
-		CEB177051D08088D00E0572E /* POMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMessage.h; sourceTree = "<group>"; };
-		CEB177061D08088D00E0572E /* POMMetier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMetier.h; sourceTree = "<group>"; };
-		CEB177071D08088D00E0572E /* POMMonEspaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMonEspaceViewController.h; sourceTree = "<group>"; };
-		CEB177081D08088D00E0572E /* POMRessource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMRessource.h; sourceTree = "<group>"; };
-		CEB177091D08088D00E0572E /* POMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMService.h; sourceTree = "<group>"; };
-		CEB1770A1D08088D00E0572E /* POMUo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMUo.h; sourceTree = "<group>"; };
-		CEB1770B1D08088D00E0572E /* POMUoMetier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMUoMetier.h; sourceTree = "<group>"; };
-		CEB1770C1D08088D00E0572E /* POMUoMetiersViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMUoMetiersViewControler.h; sourceTree = "<group>"; };
-		CEB1770D1D08088D00E0572E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		CEB1770E1D08088D00E0572E /* ReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityManager.h; sourceTree = "<group>"; };
-		CEB1770F1D08088D00E0572E /* ResourceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceHelper.h; sourceTree = "<group>"; };
-		CEB177101D08088D00E0572E /* ResourceMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceMatcher.h; sourceTree = "<group>"; };
-		CEB177111D08088D00E0572E /* ScanAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanAPI.h; sourceTree = "<group>"; };
-		CEB177121D08088D00E0572E /* ScanResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanResult.h; sourceTree = "<group>"; };
-		CEB177131D08088D00E0572E /* ScanService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanService.h; sourceTree = "<group>"; };
-		CEB177141D08088D00E0572E /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
-		CEB177151D08088D00E0572E /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
-		CEB177161D08088D00E0572E /* StorageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageHelper.h; sourceTree = "<group>"; };
-		CEB177171D08088D00E0572E /* ThumbnailDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailDataParser.h; sourceTree = "<group>"; };
-		CEB177181D08088D00E0572E /* ThumbnailURLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailURLParser.h; sourceTree = "<group>"; };
-		CEB177191D08088D00E0572E /* TokenContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenContainer.h; sourceTree = "<group>"; };
-		CEB1771A1D08088D00E0572E /* UIImage+POMResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+POMResources.h"; sourceTree = "<group>"; };
-		CEB1771B1D08088D00E0572E /* UIPomHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPomHelper.h; sourceTree = "<group>"; };
-		CEB1771C1D08088D00E0572E /* UoMetierContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UoMetierContainer.h; sourceTree = "<group>"; };
-		CEB1771D1D08088D00E0572E /* UoMetierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UoMetierView.h; sourceTree = "<group>"; };
-		CEB1771E1D08088D00E0572E /* URLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLParser.h; sourceTree = "<group>"; };
-		CEB1771F1D08088D00E0572E /* UserAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAuthInfo.h; sourceTree = "<group>"; };
-		CEB177201D08088D00E0572E /* ViewFileConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFileConnectionDelegate.h; sourceTree = "<group>"; };
-		CEB177211D08088D00E0572E /* VPNHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNHelper.h; sourceTree = "<group>"; };
-		CEB177221D08088D00E0572E /* WSPomHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPomHelper.h; sourceTree = "<group>"; };
-		CEB177231D08088D00E0572E /* WSTrustHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTrustHelper.h; sourceTree = "<group>"; };
-		CEB177241D08088D00E0572E /* libPOMFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPOMFramework.a; sourceTree = "<group>"; };
-		CEB177251D08088D00E0572E /* POMRessources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = POMRessources.bundle; sourceTree = "<group>"; };
+		CEC529211D255AAE007B7E97 /* ApplicationListConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationListConnectionDelegate.h; sourceTree = "<group>"; };
+		CEC529221D255AAE007B7E97 /* BaseAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAuthInfo.h; sourceTree = "<group>"; };
+		CEC529231D255AAE007B7E97 /* CaptureBarcodeResultDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureBarcodeResultDelegate.h; sourceTree = "<group>"; };
+		CEC529241D255AAE007B7E97 /* CaptureBarcodesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureBarcodesViewController.h; sourceTree = "<group>"; };
+		CEC529251D255AAE007B7E97 /* CaptureBarcodeTicketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureBarcodeTicketDelegate.h; sourceTree = "<group>"; };
+		CEC529261D255AAE007B7E97 /* CaptureOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureOverlayView.h; sourceTree = "<group>"; };
+		CEC529271D255AAE007B7E97 /* ClaimModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClaimModel.h; sourceTree = "<group>"; };
+		CEC529281D255AAE007B7E97 /* CustomCellForMetierUOTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellForMetierUOTableViewCell.h; sourceTree = "<group>"; };
+		CEC529291D255AAE007B7E97 /* CVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCell.h; sourceTree = "<group>"; };
+		CEC5292A1D255AAE007B7E97 /* DeviceAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceAuthInfo.h; sourceTree = "<group>"; };
+		CEC5292B1D255AAE007B7E97 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		CEC5292C1D255AAE007B7E97 /* DocAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocAPI.h; sourceTree = "<group>"; };
+		CEC5292D1D255AAE007B7E97 /* EncodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeHelper.h; sourceTree = "<group>"; };
+		CEC5292E1D255AAE007B7E97 /* ErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHelper.h; sourceTree = "<group>"; };
+		CEC5292F1D255AAE007B7E97 /* FileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileModel.h; sourceTree = "<group>"; };
+		CEC529301D255AAE007B7E97 /* FlightInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightInformation.h; sourceTree = "<group>"; };
+		CEC529311D255AAE007B7E97 /* FlightLeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightLeg.h; sourceTree = "<group>"; };
+		CEC529321D255AAE007B7E97 /* GEDDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEDDocument.h; sourceTree = "<group>"; };
+		CEC529331D255AAE007B7E97 /* GEDLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEDLibrary.h; sourceTree = "<group>"; };
+		CEC529341D255AAE007B7E97 /* JSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHelper.h; sourceTree = "<group>"; };
+		CEC529351D255AAE007B7E97 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		CEC529361D255AAE007B7E97 /* Level1ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level1ConnectionDelegate.h; sourceTree = "<group>"; };
+		CEC529371D255AAE007B7E97 /* Level2ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level2ConnectionDelegate.h; sourceTree = "<group>"; };
+		CEC529381D255AAE007B7E97 /* LibraryFileResponseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryFileResponseDelegate.h; sourceTree = "<group>"; };
+		CEC529391D255AAE007B7E97 /* LibraryFileResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryFileResponseParser.h; sourceTree = "<group>"; };
+		CEC5293A1D255AAE007B7E97 /* LibraryListResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryListResponseParser.h; sourceTree = "<group>"; };
+		CEC5293B1D255AAE007B7E97 /* NSArray+LinqExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LinqExtensions.h"; sourceTree = "<group>"; };
+		CEC5293C1D255AAE007B7E97 /* NSBundle+POMResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+POMResources.h"; sourceTree = "<group>"; };
+		CEC5293D1D255AAE007B7E97 /* NSDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateHelper.h; sourceTree = "<group>"; };
+		CEC5293E1D255AAE007B7E97 /* NSDictionary+LinqExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LinqExtensions.h"; sourceTree = "<group>"; };
+		CEC5293F1D255AAE007B7E97 /* NSDictionaryExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryExtension.h; sourceTree = "<group>"; };
+		CEC529401D255AAE007B7E97 /* NSObject+ObjectMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMap.h"; sourceTree = "<group>"; };
+		CEC529411D255AAE007B7E97 /* NSStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtension.h; sourceTree = "<group>"; };
+		CEC529421D255AAE007B7E97 /* POMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMAPI.h; sourceTree = "<group>"; };
+		CEC529431D255AAE007B7E97 /* POMApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMApplication.h; sourceTree = "<group>"; };
+		CEC529441D255AAE007B7E97 /* POMApplicationListResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMApplicationListResponseParser.h; sourceTree = "<group>"; };
+		CEC529451D255AAE007B7E97 /* POMApplicationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMApplicationListViewController.h; sourceTree = "<group>"; };
+		CEC529461D255AAE007B7E97 /* POMAuthentificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMAuthentificationService.h; sourceTree = "<group>"; };
+		CEC529471D255AAE007B7E97 /* POMAuthInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMAuthInfoViewController.h; sourceTree = "<group>"; };
+		CEC529481D255AAE007B7E97 /* POMClaimsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMClaimsParser.h; sourceTree = "<group>"; };
+		CEC529491D255AAE007B7E97 /* POMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMConstants.h; sourceTree = "<group>"; };
+		CEC5294A1D255AAE007B7E97 /* POMEnrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMEnrollViewController.h; sourceTree = "<group>"; };
+		CEC5294B1D255AAE007B7E97 /* POMFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMFramework.h; sourceTree = "<group>"; };
+		CEC5294C1D255AAE007B7E97 /* POMGetDeviceInfoParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMGetDeviceInfoParser.h; sourceTree = "<group>"; };
+		CEC5294D1D255AAE007B7E97 /* POMIsTokenBlacklistedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMIsTokenBlacklistedParser.h; sourceTree = "<group>"; };
+		CEC5294E1D255AAE007B7E97 /* POMLoginUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMLoginUserViewController.h; sourceTree = "<group>"; };
+		CEC5294F1D255AAE007B7E97 /* POMMenuV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMenuV2.h; sourceTree = "<group>"; };
+		CEC529501D255AAE007B7E97 /* POMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMenuViewController.h; sourceTree = "<group>"; };
+		CEC529511D255AAE007B7E97 /* POMMesParametresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMesParametresViewController.h; sourceTree = "<group>"; };
+		CEC529521D255AAE007B7E97 /* POMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMessage.h; sourceTree = "<group>"; };
+		CEC529531D255AAE007B7E97 /* POMMetier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMetier.h; sourceTree = "<group>"; };
+		CEC529541D255AAE007B7E97 /* POMMonEspaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMMonEspaceViewController.h; sourceTree = "<group>"; };
+		CEC529551D255AAE007B7E97 /* POMRessource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMRessource.h; sourceTree = "<group>"; };
+		CEC529561D255AAE007B7E97 /* POMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMService.h; sourceTree = "<group>"; };
+		CEC529571D255AAE007B7E97 /* POMThumbnailDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMThumbnailDataParser.h; sourceTree = "<group>"; };
+		CEC529581D255AAE007B7E97 /* POMThumbnailURLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMThumbnailURLParser.h; sourceTree = "<group>"; };
+		CEC529591D255AAE007B7E97 /* POMUo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMUo.h; sourceTree = "<group>"; };
+		CEC5295A1D255AAE007B7E97 /* POMUoMetier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMUoMetier.h; sourceTree = "<group>"; };
+		CEC5295B1D255AAE007B7E97 /* POMUoMetierContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMUoMetierContainer.h; sourceTree = "<group>"; };
+		CEC5295C1D255AAE007B7E97 /* POMUoMetierListParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMUoMetierListParser.h; sourceTree = "<group>"; };
+		CEC5295D1D255AAE007B7E97 /* POMUoMetiersViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMUoMetiersViewControler.h; sourceTree = "<group>"; };
+		CEC5295E1D255AAE007B7E97 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CEC5295F1D255AAE007B7E97 /* ReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityManager.h; sourceTree = "<group>"; };
+		CEC529601D255AAE007B7E97 /* ResourceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceHelper.h; sourceTree = "<group>"; };
+		CEC529611D255AAE007B7E97 /* ResourceMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceMatcher.h; sourceTree = "<group>"; };
+		CEC529621D255AAE007B7E97 /* ScanAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanAPI.h; sourceTree = "<group>"; };
+		CEC529631D255AAE007B7E97 /* ScanResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanResult.h; sourceTree = "<group>"; };
+		CEC529641D255AAE007B7E97 /* ScanService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanService.h; sourceTree = "<group>"; };
+		CEC529651D255AAE007B7E97 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		CEC529661D255AAE007B7E97 /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		CEC529671D255AAE007B7E97 /* StorageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageHelper.h; sourceTree = "<group>"; };
+		CEC529681D255AAE007B7E97 /* TokenContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenContainer.h; sourceTree = "<group>"; };
+		CEC529691D255AAE007B7E97 /* UIImage+POMResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+POMResources.h"; sourceTree = "<group>"; };
+		CEC5296A1D255AAE007B7E97 /* UIPomHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPomHelper.h; sourceTree = "<group>"; };
+		CEC5296B1D255AAE007B7E97 /* URLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLParser.h; sourceTree = "<group>"; };
+		CEC5296C1D255AAE007B7E97 /* UserAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAuthInfo.h; sourceTree = "<group>"; };
+		CEC5296D1D255AAE007B7E97 /* ViewFileConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFileConnectionDelegate.h; sourceTree = "<group>"; };
+		CEC5296E1D255AAE007B7E97 /* VPNHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNHelper.h; sourceTree = "<group>"; };
+		CEC5296F1D255AAE007B7E97 /* WSPomHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPomHelper.h; sourceTree = "<group>"; };
+		CEC529701D255AAE007B7E97 /* WSTrustHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTrustHelper.h; sourceTree = "<group>"; };
+		CEC529711D255AAE007B7E97 /* libPOMFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPOMFramework.a; sourceTree = "<group>"; };
+		CEC529721D255AAE007B7E97 /* POMRessources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = POMRessources.bundle; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = First/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -308,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9242AC7B18103E3B00D93F4D /* libsqlite3.0.dylib in Frameworks */,
-				CEB177261D08088D00E0572E /* libPOMFramework.a in Frameworks */,
+				CEC529731D255AAE007B7E97 /* libPOMFramework.a in Frameworks */,
 				9242AC7C18103E3B00D93F4D /* libsqlite3.dylib in Frameworks */,
 				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
@@ -323,7 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1929791CE21CE000348DF2 /* libsqlite3.0.dylib in Frameworks */,
-				CEB177271D08088D00E0572E /* libPOMFramework.a in Frameworks */,
+				CEC529741D255AAE007B7E97 /* libPOMFramework.a in Frameworks */,
 				CE19297A1CE21CE000348DF2 /* libsqlite3.dylib in Frameworks */,
 				CE19297B1CE21CE000348DF2 /* AssetsLibrary.framework in Frameworks */,
 				CE19297C1CE21CE000348DF2 /* libCordova.a in Frameworks */,
@@ -338,7 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1929A81CE21CE300348DF2 /* libsqlite3.0.dylib in Frameworks */,
-				CEB177281D08088D00E0572E /* libPOMFramework.a in Frameworks */,
+				CEC529751D255AAE007B7E97 /* libPOMFramework.a in Frameworks */,
 				CE1929A91CE21CE300348DF2 /* libsqlite3.dylib in Frameworks */,
 				CE1929AA1CE21CE300348DF2 /* AssetsLibrary.framework in Frameworks */,
 				CE1929AB1CE21CE300348DF2 /* libCordova.a in Frameworks */,
@@ -393,9 +393,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				CE1928F81CE218B000348DF2 /* Settings-IntVal */,
-				CE1928FA1CE218B000348DF2 /* Settings-Prod */,
-				CE1928FC1CE218B000348DF2 /* Settings-Val */,
+				CE8C53A61D1033CD0023EB5E /* Settings */,
 				8D1107310486CEB800E47090 /* First-Info.plist */,
 				9242AC7918103E3B00D93F4D /* libsqlite3.0.dylib */,
 				9242AC7A18103E3B00D93F4D /* libsqlite3.dylib */,
@@ -439,7 +437,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEB176D21D08088D00E0572E /* POMFramework */,
+				CEC5291F1D255AAE007B7E97 /* POMFramework */,
 				5AEE5B34173C68D80009041E /* CoreLocation.framework */,
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -539,99 +537,110 @@
 			path = "Settings-Val";
 			sourceTree = "<group>";
 		};
-		CEB176D21D08088D00E0572E /* POMFramework */ = {
+		CE8C53A61D1033CD0023EB5E /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				CEB176D31D08088D00E0572E /* Headers */,
-				CEB177241D08088D00E0572E /* libPOMFramework.a */,
-				CEB177251D08088D00E0572E /* POMRessources.bundle */,
+				CE1928F81CE218B000348DF2 /* Settings-IntVal */,
+				CE1928FA1CE218B000348DF2 /* Settings-Prod */,
+				CE1928FC1CE218B000348DF2 /* Settings-Val */,
 			);
-			path = POMFramework;
+			name = Settings;
 			sourceTree = "<group>";
 		};
-		CEB176D31D08088D00E0572E /* Headers */ = {
+		CEC5291F1D255AAE007B7E97 /* POMFramework */ = {
 			isa = PBXGroup;
 			children = (
-				CEB176D41D08088D00E0572E /* ApplicationListConnectionDelegate.h */,
-				CEB176D51D08088D00E0572E /* ApplicationListResponseParser.h */,
-				CEB176D61D08088D00E0572E /* AuthService.h */,
-				CEB176D71D08088D00E0572E /* BaseAuthInfo.h */,
-				CEB176D81D08088D00E0572E /* CaptureBarcodeResultDelegate.h */,
-				CEB176D91D08088D00E0572E /* CaptureBarcodesViewController.h */,
-				CEB176DA1D08088D00E0572E /* CaptureBarcodeTicketDelegate.h */,
-				CEB176DB1D08088D00E0572E /* CaptureOverlayView.h */,
-				CEB176DC1D08088D00E0572E /* ClaimModel.h */,
-				CEB176DD1D08088D00E0572E /* ClaimsParser.h */,
-				CEB176DE1D08088D00E0572E /* CustomCellForMetierUOTableViewCell.h */,
-				CEB176DF1D08088D00E0572E /* DeviceAuthInfo.h */,
-				CEB176E01D08088D00E0572E /* DeviceInfo.h */,
-				CEB176E11D08088D00E0572E /* DocAPI.h */,
-				CEB176E21D08088D00E0572E /* EncodeHelper.h */,
-				CEB176E31D08088D00E0572E /* ErrorHelper.h */,
-				CEB176E41D08088D00E0572E /* FileModel.h */,
-				CEB176E51D08088D00E0572E /* FlightInformation.h */,
-				CEB176E61D08088D00E0572E /* FlightLeg.h */,
-				CEB176E71D08088D00E0572E /* GEDDocument.h */,
-				CEB176E81D08088D00E0572E /* GEDLibrary.h */,
-				CEB176E91D08088D00E0572E /* GetDeviceInfoParser.h */,
-				CEB176EA1D08088D00E0572E /* IsTokenBlacklistedParser.h */,
-				CEB176EB1D08088D00E0572E /* JSONHelper.h */,
-				CEB176EC1D08088D00E0572E /* KeychainItemWrapper.h */,
-				CEB176ED1D08088D00E0572E /* Level1ConnectionDelegate.h */,
-				CEB176EE1D08088D00E0572E /* Level2ConnectionDelegate.h */,
-				CEB176EF1D08088D00E0572E /* LibraryFileResponseDelegate.h */,
-				CEB176F01D08088D00E0572E /* LibraryFileResponseParser.h */,
-				CEB176F11D08088D00E0572E /* LibraryListResponseParser.h */,
-				CEB176F21D08088D00E0572E /* NSArray+LinqExtensions.h */,
-				CEB176F31D08088D00E0572E /* NSBundle+POMResources.h */,
-				CEB176F41D08088D00E0572E /* NSDateHelper.h */,
-				CEB176F51D08088D00E0572E /* NSDictionary+LinqExtensions.h */,
-				CEB176F61D08088D00E0572E /* NSDictionaryExtension.h */,
-				CEB176F71D08088D00E0572E /* NSObject+ObjectMap.h */,
-				CEB176F81D08088D00E0572E /* NSStringExtension.h */,
-				CEB176F91D08088D00E0572E /* OUMetierListParser.h */,
-				CEB176FA1D08088D00E0572E /* POMAPI.h */,
-				CEB176FB1D08088D00E0572E /* POMApplication.h */,
-				CEB176FC1D08088D00E0572E /* POMApplicationListViewController.h */,
-				CEB176FD1D08088D00E0572E /* POMAuthInfoViewController.h */,
-				CEB176FE1D08088D00E0572E /* POMConstants.h */,
-				CEB176FF1D08088D00E0572E /* POMEnrollViewController.h */,
-				CEB177001D08088D00E0572E /* POMFramework.h */,
-				CEB177011D08088D00E0572E /* POMLoginUserViewController.h */,
-				CEB177021D08088D00E0572E /* POMMenuV2.h */,
-				CEB177031D08088D00E0572E /* POMMenuViewController.h */,
-				CEB177041D08088D00E0572E /* POMMesParametresViewController.h */,
-				CEB177051D08088D00E0572E /* POMMessage.h */,
-				CEB177061D08088D00E0572E /* POMMetier.h */,
-				CEB177071D08088D00E0572E /* POMMonEspaceViewController.h */,
-				CEB177081D08088D00E0572E /* POMRessource.h */,
-				CEB177091D08088D00E0572E /* POMService.h */,
-				CEB1770A1D08088D00E0572E /* POMUo.h */,
-				CEB1770B1D08088D00E0572E /* POMUoMetier.h */,
-				CEB1770C1D08088D00E0572E /* POMUoMetiersViewControler.h */,
-				CEB1770D1D08088D00E0572E /* Reachability.h */,
-				CEB1770E1D08088D00E0572E /* ReachabilityManager.h */,
-				CEB1770F1D08088D00E0572E /* ResourceHelper.h */,
-				CEB177101D08088D00E0572E /* ResourceMatcher.h */,
-				CEB177111D08088D00E0572E /* ScanAPI.h */,
-				CEB177121D08088D00E0572E /* ScanResult.h */,
-				CEB177131D08088D00E0572E /* ScanService.h */,
-				CEB177141D08088D00E0572E /* SimplePing.h */,
-				CEB177151D08088D00E0572E /* SimplePingHelper.h */,
-				CEB177161D08088D00E0572E /* StorageHelper.h */,
-				CEB177171D08088D00E0572E /* ThumbnailDataParser.h */,
-				CEB177181D08088D00E0572E /* ThumbnailURLParser.h */,
-				CEB177191D08088D00E0572E /* TokenContainer.h */,
-				CEB1771A1D08088D00E0572E /* UIImage+POMResources.h */,
-				CEB1771B1D08088D00E0572E /* UIPomHelper.h */,
-				CEB1771C1D08088D00E0572E /* UoMetierContainer.h */,
-				CEB1771D1D08088D00E0572E /* UoMetierView.h */,
-				CEB1771E1D08088D00E0572E /* URLParser.h */,
-				CEB1771F1D08088D00E0572E /* UserAuthInfo.h */,
-				CEB177201D08088D00E0572E /* ViewFileConnectionDelegate.h */,
-				CEB177211D08088D00E0572E /* VPNHelper.h */,
-				CEB177221D08088D00E0572E /* WSPomHelper.h */,
-				CEB177231D08088D00E0572E /* WSTrustHelper.h */,
+				CEC529201D255AAE007B7E97 /* Headers */,
+				CEC529711D255AAE007B7E97 /* libPOMFramework.a */,
+				CEC529721D255AAE007B7E97 /* POMRessources.bundle */,
+			);
+			name = POMFramework;
+			path = ../../../POMFamework/DISTRIB/POMFramework;
+			sourceTree = "<group>";
+		};
+		CEC529201D255AAE007B7E97 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CEC529211D255AAE007B7E97 /* ApplicationListConnectionDelegate.h */,
+				CEC529221D255AAE007B7E97 /* BaseAuthInfo.h */,
+				CEC529231D255AAE007B7E97 /* CaptureBarcodeResultDelegate.h */,
+				CEC529241D255AAE007B7E97 /* CaptureBarcodesViewController.h */,
+				CEC529251D255AAE007B7E97 /* CaptureBarcodeTicketDelegate.h */,
+				CEC529261D255AAE007B7E97 /* CaptureOverlayView.h */,
+				CEC529271D255AAE007B7E97 /* ClaimModel.h */,
+				CEC529281D255AAE007B7E97 /* CustomCellForMetierUOTableViewCell.h */,
+				CEC529291D255AAE007B7E97 /* CVCell.h */,
+				CEC5292A1D255AAE007B7E97 /* DeviceAuthInfo.h */,
+				CEC5292B1D255AAE007B7E97 /* DeviceInfo.h */,
+				CEC5292C1D255AAE007B7E97 /* DocAPI.h */,
+				CEC5292D1D255AAE007B7E97 /* EncodeHelper.h */,
+				CEC5292E1D255AAE007B7E97 /* ErrorHelper.h */,
+				CEC5292F1D255AAE007B7E97 /* FileModel.h */,
+				CEC529301D255AAE007B7E97 /* FlightInformation.h */,
+				CEC529311D255AAE007B7E97 /* FlightLeg.h */,
+				CEC529321D255AAE007B7E97 /* GEDDocument.h */,
+				CEC529331D255AAE007B7E97 /* GEDLibrary.h */,
+				CEC529341D255AAE007B7E97 /* JSONHelper.h */,
+				CEC529351D255AAE007B7E97 /* KeychainItemWrapper.h */,
+				CEC529361D255AAE007B7E97 /* Level1ConnectionDelegate.h */,
+				CEC529371D255AAE007B7E97 /* Level2ConnectionDelegate.h */,
+				CEC529381D255AAE007B7E97 /* LibraryFileResponseDelegate.h */,
+				CEC529391D255AAE007B7E97 /* LibraryFileResponseParser.h */,
+				CEC5293A1D255AAE007B7E97 /* LibraryListResponseParser.h */,
+				CEC5293B1D255AAE007B7E97 /* NSArray+LinqExtensions.h */,
+				CEC5293C1D255AAE007B7E97 /* NSBundle+POMResources.h */,
+				CEC5293D1D255AAE007B7E97 /* NSDateHelper.h */,
+				CEC5293E1D255AAE007B7E97 /* NSDictionary+LinqExtensions.h */,
+				CEC5293F1D255AAE007B7E97 /* NSDictionaryExtension.h */,
+				CEC529401D255AAE007B7E97 /* NSObject+ObjectMap.h */,
+				CEC529411D255AAE007B7E97 /* NSStringExtension.h */,
+				CEC529421D255AAE007B7E97 /* POMAPI.h */,
+				CEC529431D255AAE007B7E97 /* POMApplication.h */,
+				CEC529441D255AAE007B7E97 /* POMApplicationListResponseParser.h */,
+				CEC529451D255AAE007B7E97 /* POMApplicationListViewController.h */,
+				CEC529461D255AAE007B7E97 /* POMAuthentificationService.h */,
+				CEC529471D255AAE007B7E97 /* POMAuthInfoViewController.h */,
+				CEC529481D255AAE007B7E97 /* POMClaimsParser.h */,
+				CEC529491D255AAE007B7E97 /* POMConstants.h */,
+				CEC5294A1D255AAE007B7E97 /* POMEnrollViewController.h */,
+				CEC5294B1D255AAE007B7E97 /* POMFramework.h */,
+				CEC5294C1D255AAE007B7E97 /* POMGetDeviceInfoParser.h */,
+				CEC5294D1D255AAE007B7E97 /* POMIsTokenBlacklistedParser.h */,
+				CEC5294E1D255AAE007B7E97 /* POMLoginUserViewController.h */,
+				CEC5294F1D255AAE007B7E97 /* POMMenuV2.h */,
+				CEC529501D255AAE007B7E97 /* POMMenuViewController.h */,
+				CEC529511D255AAE007B7E97 /* POMMesParametresViewController.h */,
+				CEC529521D255AAE007B7E97 /* POMMessage.h */,
+				CEC529531D255AAE007B7E97 /* POMMetier.h */,
+				CEC529541D255AAE007B7E97 /* POMMonEspaceViewController.h */,
+				CEC529551D255AAE007B7E97 /* POMRessource.h */,
+				CEC529561D255AAE007B7E97 /* POMService.h */,
+				CEC529571D255AAE007B7E97 /* POMThumbnailDataParser.h */,
+				CEC529581D255AAE007B7E97 /* POMThumbnailURLParser.h */,
+				CEC529591D255AAE007B7E97 /* POMUo.h */,
+				CEC5295A1D255AAE007B7E97 /* POMUoMetier.h */,
+				CEC5295B1D255AAE007B7E97 /* POMUoMetierContainer.h */,
+				CEC5295C1D255AAE007B7E97 /* POMUoMetierListParser.h */,
+				CEC5295D1D255AAE007B7E97 /* POMUoMetiersViewControler.h */,
+				CEC5295E1D255AAE007B7E97 /* Reachability.h */,
+				CEC5295F1D255AAE007B7E97 /* ReachabilityManager.h */,
+				CEC529601D255AAE007B7E97 /* ResourceHelper.h */,
+				CEC529611D255AAE007B7E97 /* ResourceMatcher.h */,
+				CEC529621D255AAE007B7E97 /* ScanAPI.h */,
+				CEC529631D255AAE007B7E97 /* ScanResult.h */,
+				CEC529641D255AAE007B7E97 /* ScanService.h */,
+				CEC529651D255AAE007B7E97 /* SimplePing.h */,
+				CEC529661D255AAE007B7E97 /* SimplePingHelper.h */,
+				CEC529671D255AAE007B7E97 /* StorageHelper.h */,
+				CEC529681D255AAE007B7E97 /* TokenContainer.h */,
+				CEC529691D255AAE007B7E97 /* UIImage+POMResources.h */,
+				CEC5296A1D255AAE007B7E97 /* UIPomHelper.h */,
+				CEC5296B1D255AAE007B7E97 /* URLParser.h */,
+				CEC5296C1D255AAE007B7E97 /* UserAuthInfo.h */,
+				CEC5296D1D255AAE007B7E97 /* ViewFileConnectionDelegate.h */,
+				CEC5296E1D255AAE007B7E97 /* VPNHelper.h */,
+				CEC5296F1D255AAE007B7E97 /* WSPomHelper.h */,
+				CEC529701D255AAE007B7E97 /* WSTrustHelper.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -713,6 +722,9 @@
 					CE1929581CE21CE000348DF2 = {
 						DevelopmentTeam = 2ZP448W2WZ;
 					};
+					CE1929871CE21CE300348DF2 = {
+						DevelopmentTeam = 2ZP448W2WZ;
+					};
 				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "First" */;
@@ -767,7 +779,7 @@
 				308D05381370CCF300D202BF /* icon.png in Resources */,
 				308D05391370CCF300D202BF /* icon@2x.png in Resources */,
 				1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */,
-				CEB177291D08088D00E0572E /* POMRessources.bundle in Resources */,
+				CEC529761D255AAE007B7E97 /* POMRessources.bundle in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */,
 				3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */,
@@ -790,7 +802,7 @@
 				CE1929611CE21CE000348DF2 /* icon-72.png in Resources */,
 				CE1929621CE21CE000348DF2 /* icon.png in Resources */,
 				CE1929641CE21CE000348DF2 /* icon@2x.png in Resources */,
-				CEB1772A1D08088D00E0572E /* POMRessources.bundle in Resources */,
+				CEC529771D255AAE007B7E97 /* POMRessources.bundle in Resources */,
 				CE1929651CE21CE000348DF2 /* Localizable.strings in Resources */,
 				CE1929661CE21CE000348DF2 /* MainViewController.xib in Resources */,
 				CE1929671CE21CE000348DF2 /* Default-Landscape@2x~ipad.png in Resources */,
@@ -813,7 +825,7 @@
 				CE1929901CE21CE300348DF2 /* icon-72.png in Resources */,
 				CE1929911CE21CE300348DF2 /* icon.png in Resources */,
 				CE1929931CE21CE300348DF2 /* icon@2x.png in Resources */,
-				CEB1772B1D08088D00E0572E /* POMRessources.bundle in Resources */,
+				CEC529781D255AAE007B7E97 /* POMRessources.bundle in Resources */,
 				CE1929941CE21CE300348DF2 /* Localizable.strings in Resources */,
 				CE1929951CE21CE300348DF2 /* MainViewController.xib in Resources */,
 				CE1929961CE21CE300348DF2 /* Default-Landscape@2x~ipad.png in Resources */,
@@ -980,7 +992,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Eric Craeymeersch (44H79V2R4T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Eric Craeymeersch (44H79V2R4T)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
@@ -1019,7 +1031,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = First;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "726eb728-9207-41e4-8db2-c54ca2c63715";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 armv7";
@@ -1031,7 +1043,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Aeroports de Paris Ent";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aeroports de Paris Ent";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
@@ -1068,7 +1080,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = First;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "726eb728-9207-41e4-8db2-c54ca2c63715";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 armv7";
@@ -1270,7 +1282,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Eric Craeymeersch (44H79V2R4T)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Eric Craeymeersch (44H79V2R4T)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
@@ -1302,7 +1314,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "19476ced-ac8a-4d81-bf79-c485c47e65f0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 armv7";
@@ -1314,7 +1326,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Aeroports de Paris Ent";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aeroports de Paris Ent";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
@@ -1344,7 +1356,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "726eb728-9207-41e4-8db2-c54ca2c63715";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 armv7";
