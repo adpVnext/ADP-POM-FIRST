@@ -10,7 +10,7 @@
 			<key>AutocorrectionType</key>
 			<string>No</string>
 			<key>DefaultValue</key>
-			<string>http://webformval-v5.prod.adp.fr/</string>
+			<string>http://pc237251.prod.adp.fr/First</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>Key</key>
@@ -37,11 +37,10 @@
 			<string>URL POM :</string>
 			<key>Key</key>
 			<string>URLPOM</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>KeyboardType</key>
-            <string>URL</string>
-
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
 		</dict>
 		<dict>
 			<key>Type</key>
@@ -52,11 +51,10 @@
 			<string>URL STS : </string>
 			<key>Key</key>
 			<string>URLSTS</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>KeyboardType</key>
-            <string>URL</string>
-
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
 		</dict>
 	</array>
 	<key>StringsTable</key>

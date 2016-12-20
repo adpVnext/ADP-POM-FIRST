@@ -1,0 +1,6 @@
+framework module POMFramework {
+  umbrella header "POMFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -5,22 +5,9 @@ source 'https://github.com/jacquespupponi/Specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 
-target ‘First’ do
+target ‘cdvcocoa’ do
 
-    project ‘First.xcodeproj'
-    pod 'POMFramework',:path => '~/Documents/PODS/POMFramework'
-
-end
-
-target ‘First-Val’ do
-
-    project ‘First.xcodeproj'
-    pod 'POMFramework',:path => '~/Documents/PODS/POMFramework'
-
-end
-target ‘First-IntVal’ do
-
-    project ‘First.xcodeproj'
+    project ‘./cdvcocoa.xcodeproj'
     pod 'POMFramework',:path => '~/Documents/PODS/POMFramework'
 
 end

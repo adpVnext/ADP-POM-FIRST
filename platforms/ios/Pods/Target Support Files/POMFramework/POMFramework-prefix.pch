@@ -1,0 +1,29 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+//
+//  PomFramework.pch
+//  POMFramework
+//
+//  Created by Pupponi Jacques - Société VNEXT on 09/09/2016.
+//  Copyright © 2016 Aéroports de Paris. All rights reserved.
+//
+
+#ifndef PomFramework_pch
+#define PomFramework_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef DEBUG
+#define DLog( s, ... ) NSLog( @"<%@:(%d)> => %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DLog( s, ... )
+#endif
+
+
+
+
+#endif /* PomFramework_pch */

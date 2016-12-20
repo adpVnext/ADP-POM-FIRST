@@ -7,16 +7,16 @@
 
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
-/*
+
 #import <POMFramework/POMFramework.h>
 #import <POMFramework/ScanAPI.h>
 #import <POMFramework/ScanService.h>
-*/
 
+/*
 #import "POMFramework.h"
 #import "ScanAPI.h"
 #import "ScanService.h"
-
+*/
 
 @interface CDVPOM  : CDVPlugin
 {}

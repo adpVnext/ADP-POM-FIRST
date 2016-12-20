@@ -17,7 +17,7 @@
  * under the License.
  */
 var vpnAlreadyCall = false;
-var configUlr ="https://first.prod.adp.fr/";
+var configUrl ="https://first.prod.adp.fr/";
 var intervalId;
 
 
@@ -47,22 +47,28 @@ var app = {
         window.setTimeout(function(){
                           ADP.POM.managers.coreManager.OnLevel2SecurityInfoChange(app.checkAuthenticated);
                           },10000);
+    
         
-        window.plugins.applicationPreferences.get('Url',
-           function(result) {
-               if(result[result.length - 1] != '/')
-                  result = result + '/';
-                                                  //if(resultresult.length-1) != '/')
-                                                  // result = result + '/';
-               console.log('Url: ' + result);
-               configUrl = result;
-               //check authenticated , if authenticated navigation to configURL
-               window.setTimeout(app.checkAuthenticated(),7000);
-               app.testRelaunchAutomaticVpn();
-                                        
-            },
-            function(error) {alert("Failed to retrieve a setting: " + error);}
+        var appp = (typeof AppPreferences !== "undefined") ? new AppPreferences () : plugins.appPreferences;
+        
+        appp.fetch (
+                               function(result) {
+                               if(result[result.length - 1] != '/')
+                               result = result + '/';
+                               //if(resultresult.length-1) != '/')
+                               // result = result + '/';
+                               console.log('Url: ' + result);
+                               configUrl = result;
+                               //check authenticated , if authenticated navigation to configURL
+                               window.setTimeout(app.checkAuthenticated(),7000);
+                               app.testRelaunchAutomaticVpn();
+                               
+                               },
+                               function(error) {alert("Failed to retrieve a setting: " + error);},
+                    
+                               'Url'
         );
+    
     },
     checkAuthenticated: function(){
         ADP.POM.managers.coreManager.Level2SecurityInfo(

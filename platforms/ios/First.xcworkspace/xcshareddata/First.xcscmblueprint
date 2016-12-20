@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B92DC50DFA5E6150053C4971ECCC97E0A017B58",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B92DC50DFA5E6150053C4971ECCC97E0A017B58" : 9223372036854775807,
+    "BAB4E9693DA3C9DB541052457F589D8AEACAFDFA" : 9223372036854775807,
+    "33259DF69A92AD60139ABFDB8C97E8F299C3477C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0942018F-3ADE-4C58-9EA6-DF802E5D3726",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B92DC50DFA5E6150053C4971ECCC97E0A017B58" : "First\/",
+    "BAB4E9693DA3C9DB541052457F589D8AEACAFDFA" : "POMFramework\/",
+    "33259DF69A92AD60139ABFDB8C97E8F299C3477C" : "..\/..\/PODS\/POMFramework"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "First",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/First.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tfs2012pro-v1:8080\/tfs\/DSICW\/A352K%20-%20POM%20GIT\/_git\/POMFramework_Pods",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "33259DF69A92AD60139ABFDB8C97E8F299C3477C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tfs2012pro-v1:8080\/tfs\/DSICW\/A352K%20-%20POM%20GIT\/_git\/ADP%20-%20POM%20-%20FIRST",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B92DC50DFA5E6150053C4971ECCC97E0A017B58"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tfs2012pro-v1:8080\/tfs\/DSICW\/A352K%20-%20POM%20GIT\/_git\/ADP%20-%20POM%20-%20Framework",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BAB4E9693DA3C9DB541052457F589D8AEACAFDFA"
+    }
+  ]
+}

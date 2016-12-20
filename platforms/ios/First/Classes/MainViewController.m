@@ -26,7 +26,11 @@
 //
 
 #import "MainViewController.h"
+#import <CoreLocation/CoreLocation.h>
 
+@interface MainViewController() <CLLocationManagerDelegate>
+    
+@end
 @implementation MainViewController
 
 - (id)initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)nibBundleOrNil
@@ -70,6 +74,7 @@
     // you can do so here.
 
     [super viewWillAppear:animated];
+      
 }
 
 - (void)viewDidLoad
