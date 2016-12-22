@@ -1,7 +1,7 @@
 /*
  Editor : Essam Dahab
  Last Modification : 03/04/2015
- Version : 1.6.5
+ Version : 1.7.0
  */
 
 var ADP = ADP || {};

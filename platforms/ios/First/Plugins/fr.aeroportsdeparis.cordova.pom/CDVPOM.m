@@ -3,7 +3,7 @@
 //
 //  Modified by Essam Dahab on 15/06/2015.
 //
-// v1.6.5
+// v1.7.0
 
 #import "CDVPOM.h"
 

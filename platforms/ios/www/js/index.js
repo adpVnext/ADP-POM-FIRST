@@ -25,82 +25,83 @@ var app = {
     
     
     // Application Constructor
-    initialize: function() {
-        this.bindEvents();
-    },
+initialize: function() {
+    this.bindEvents();
+},
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-    },
+bindEvents: function() {
+    document.addEventListener('deviceready', this.onDeviceReady, false);
+},
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-        ADP.POM.managers.coreManager.InitMenu();
-        
-        //When authenticationChange checkAuthenticated
-        window.setTimeout(function(){
-                          ADP.POM.managers.coreManager.OnLevel2SecurityInfoChange(app.checkAuthenticated);
-                          },10000);
+onDeviceReady: function() {
     
-        
-        var appp = (typeof AppPreferences !== "undefined") ? new AppPreferences () : plugins.appPreferences;
-        
-        appp.fetch (
-                               function(result) {
-                               if(result[result.length - 1] != '/')
-                               result = result + '/';
-                               //if(resultresult.length-1) != '/')
-                               // result = result + '/';
-                               console.log('Url: ' + result);
-                               configUrl = result;
-                               //check authenticated , if authenticated navigation to configURL
-                               window.setTimeout(app.checkAuthenticated(),7000);
-                               app.testRelaunchAutomaticVpn();
-                               
-                               },
-                               function(error) {alert("Failed to retrieve a setting: " + error);},
-                    
-                               'Url'
-        );
+    app.receivedEvent('deviceready');
+    ADP.POM.managers.coreManager.InitMenu();
     
-    },
-    checkAuthenticated: function(){
-        ADP.POM.managers.coreManager.Level2SecurityInfo(
-                  function(result){
-                     var parentElement = document.getElementById('deviceready');
-                     var receivedElement = parentElement.querySelector('.received');
-                                                        console.log("success: ");
-                                                        console.log(result);
-                     if  (result==null)
-                         receivedElement.innerHTML  = "Veuillez vous authentifier à l'aide du menu ci-dessus";
-                     else{
-                       if(navigator.onLine){
-                           receivedElement.innerHTML  = "Vérification du VPN ...";
-                           window.setTimeout(app.ping(configUrl),500);
-                       } else{
-                        window.setTimeout(function(){app.retry(configUrl)},1000);
-                       }
-                     }
-                   },function(result){
-                                                        
-                     var parentElement = document.getElementById('deviceready');
-                     var receivedElement = parentElement.querySelector('.received');
-                                                        console.log(result);
-                     if (result.toString().indexOf("authentication")>0){
-                         receivedElement.innerHTML  = "Veuillez vous authentifier à l'aide du menu ci-dessus";
-                     }
-                     else{
-                         receivedElement.innerHTML  = "Une erreur s'est produite: "+ result;
-                     }
-                }
-        );
-    },
+    //When authenticationChange checkAuthenticated
+    window.setTimeout(function(){
+                      ADP.POM.managers.coreManager.OnLevel2SecurityInfoChange(app.checkAuthenticated);
+                      },10000);
+    
+    
+    var appp = (typeof AppPreferences !== "undefined") ? new AppPreferences () : plugins.appPreferences;
+    
+    appp.fetch (
+                function(result) {
+                if(result[result.length - 1] != '/')
+                result = result + '/';
+                //if(resultresult.length-1) != '/')
+                // result = result + '/';
+                console.log('Url: ' + result);
+                configUrl = result;
+                //check authenticated , if authenticated navigation to configURL
+                window.setTimeout(app.checkAuthenticated(),7000);
+                app.testRelaunchAutomaticVpn();
+                
+                },
+                function(error) {alert("Failed to retrieve a setting: " + error);},
+                
+                'Url'
+                );
+    
+},
+checkAuthenticated: function(){
+    ADP.POM.managers.coreManager.Level2SecurityInfo(
+                                                    function(result){
+                                                    var parentElement = document.getElementById('deviceready');
+                                                    var receivedElement = parentElement.querySelector('.received');
+                                                    console.log("success: ");
+                                                    console.log(result);
+                                                    if  (result==null)
+                                                    receivedElement.innerHTML  = "Veuillez vous authentifier à l'aide du menu ci-dessus";
+                                                    else{
+                                                    if(navigator.onLine){
+                                                    receivedElement.innerHTML  = "Vérification du VPN ...";
+                                                    window.setTimeout(app.ping(configUrl),500);
+                                                    } else{
+                                                    window.setTimeout(function(){app.retry(configUrl)},1000);
+                                                    }
+                                                    }
+                                                    },function(result){
+                                                    
+                                                    var parentElement = document.getElementById('deviceready');
+                                                    var receivedElement = parentElement.querySelector('.received');
+                                                    console.log(result);
+                                                    if (result.toString().indexOf("authentication")>0){
+                                                    receivedElement.innerHTML  = "Veuillez vous authentifier à l'aide du menu ci-dessus";
+                                                    }
+                                                    else{
+                                                    receivedElement.innerHTML  = "Une erreur s'est produite: "+ result;
+                                                    }
+                                                    }
+                                                    );
+},
     retry : function(configUrl){
         var parentElement = document.getElementById('deviceready');
         var receivedElement = parentElement.querySelector('.received');
@@ -125,62 +126,62 @@ var app = {
                timeout: 5000,
                dataType: 'json',
                success: function(data){
-                    if(data && data.data){
-                        console.log('ping OK go to url');
-                        var parentElement = document.getElementById('deviceready');
-                        var receivedElement = parentElement.querySelector('.received');
-                        receivedElement.innerHTML  = "VPN Ok, ouverture de l'url : " + configUrl;
-                        ADP.POM.managers.coreManager.PostClaims(configUrl+"/Account/PostClaims",configUrl);
-                        //window.setTimeout(function(){window.location = configUrl;},1000);
-                    }
-                    else
-                    {
-                        console.log('ping bad response');
+               if(data && data.data){
+               console.log('ping OK go to url');
+               var parentElement = document.getElementById('deviceready');
+               var receivedElement = parentElement.querySelector('.received');
+               receivedElement.innerHTML  = "VPN Ok, ouverture de l'url : " + configUrl;
+               ADP.POM.managers.coreManager.PostClaims(configUrl+"/Account/PostClaims",configUrl);
+               //window.setTimeout(function(){window.location = configUrl;},1000);
+               }
+               else
+               {
+               console.log('ping bad response');
                
-                        window.setTimeout(function(){
-                            app.ping(configUrl);
-                        },5000);
-                    }
+               window.setTimeout(function(){
+                                 app.ping(configUrl);
+                                 },5000);
+               }
                },
                error: function(){
-                    console.log('ping no response');
-                    window.setTimeout(function(){
-                        app.ping(configUrl);
-                    },5000);
+               console.log('ping no response');
+               window.setTimeout(function(){
+                                 app.ping(configUrl);
+                                 },5000);
                }
                });
     },
-
+    
     // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-    },
-    testRelaunchAutomaticVpn: function(){
-        $.ajax(
+receivedEvent: function(id) {
+    var parentElement = document.getElementById(id);
+    var listeningElement = parentElement.querySelector('.listening');
+    var receivedElement = parentElement.querySelector('.received');
+    
+    listeningElement.setAttribute('style', 'display:none;');
+    receivedElement.setAttribute('style', 'display:block;');
+    
+    console.log('Received Event: ' + id);
+},
+testRelaunchAutomaticVpn: function(){
+    $.ajax(
            {
-               url : configUrl + "Resources/Ping/",
-               type: 'GET',
-               timeout: 5000,
-               dataType: 'json',
-               success: function(data){
-               setTimeout(function(){app.testRelaunchAutomaticVpn();},10000)
-                        console.log("success");
-                        console.log(data);
-               },
-               error: function(data){
-                        console.log("error");
-                        console.log(data);
-               setTimeout(function(){app.testRelaunchAutomaticVpn();},5000);
-               }
+           url : configUrl + "Resources/Ping/",
+           type: 'GET',
+           timeout: 5000,
+           dataType: 'json',
+           success: function(data){
+           setTimeout(function(){app.testRelaunchAutomaticVpn();},10000)
+           console.log("success");
+           console.log(data);
+           },
+           error: function(data){
+           console.log("error");
+           console.log(data);
+           setTimeout(function(){app.testRelaunchAutomaticVpn();},5000);
+           }
            });
-    }
+}
     
 };
 
@@ -188,9 +189,9 @@ var app = {
 
 
 
-                  setTimeout(function(){
-                             ADP.POM.managers.coreManager.OnLevel2PreSignOut(ADP.POM.managers.coreManager.RequestLevel2SignOut());
-                                                          },10000);
+setTimeout(function(){
+           ADP.POM.managers.coreManager.OnLevel2PreSignOut(ADP.POM.managers.coreManager.RequestLevel2SignOut());
+           },10000);
 ADP.POM.managers.coreManager.OnMessageRaised(function(result){
                                              console.log(result);
                                              console.log(result.Message);
