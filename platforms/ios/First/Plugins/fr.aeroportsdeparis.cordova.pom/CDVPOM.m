@@ -55,7 +55,8 @@
 -(void) onLevel2SecurityInfoChange:(NSNotification *)notice
 {
     UserAuthInfo *user = notice.object;
-    [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onLevel2SecurityInfoChanged", [user JSONString]]];
+    NSString *commandeJs = [NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onLevel2SecurityInfoChanged", [user JSONString]];
+    [self.commandDelegate evalJs:commandeJs];
 }
 
 -(void) OnLevel2PreSignOut:(NSNotification *)notice
