@@ -1,5 +1,13 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
 #endif
 
 #import "ApplicationListConnectionDelegate.h"
@@ -14,12 +22,13 @@
 #import "NSDictionaryExtension.h"
 #import "NSObject+ObjectMap.h"
 #import "NSStringExtension.h"
+#import "NSUserDefaults+AdpAppGroup.h"
 #import "UIImage+POMResources.h"
 #import "EncodeHelper.h"
 #import "ErrorHelper.h"
 #import "JSONHelper.h"
 #import "NSDateHelper.h"
-#import "POMEventTracker.h"
+#import "POMLogHelper.h"
 #import "ResourceHelper.h"
 #import "ResourceMatcher.h"
 #import "SimplePingHelper.h"
@@ -30,11 +39,19 @@
 #import "WSPomHelper.h"
 #import "WSTrustHelper.h"
 #import "KeychainItemWrapper.h"
+#import "KSCrashInstallationPomLog.h"
+#import "KSCrashReportSinkPomLog.h"
+#import "POMEventTracker.h"
+#import "POMTechLog.h"
 #import "CustomCellForMetierUOTableViewCell.h"
 #import "POMApplicationListViewController.h"
 #import "POMAuthInfoViewController.h"
 #import "POMEnrollViewController.h"
+#import "POMLogDetailViewController.h"
 #import "POMLoginUserViewController.h"
+#import "POMLogTableViewCell.h"
+#import "POMLogTableViewController.h"
+#import "POMLogViewController.h"
 #import "POMMenuV2.h"
 #import "POMMenuViewController.h"
 #import "POMMesParametresViewController.h"
@@ -57,6 +74,7 @@
 #import "GEDDocument.h"
 #import "GEDLibrary.h"
 #import "POMApplication.h"
+#import "POMLog.h"
 #import "POMMessage.h"
 #import "POMMetier.h"
 #import "POMRessource.h"

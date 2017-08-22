@@ -1,13 +1,30 @@
 inhibit_all_warnings!
 use_frameworks!
 
-source 'https://github.com/jacquespupponi/Specs.git'
+
+# Private podspec pour jsonStore : permet de linker JsonStore avec sqlite3
+# 1. sur Github
+# source 'https://github.com/adppods/Specs.git'
+# 2. sur TFS ADP
+source 'http://tfs2012pro-v1:8080/tfs/DSICW/A352K%20-%20POM%20GIT/_git/POMPrivatePodspecs'
+
+# Global podspec
 source 'https://github.com/CocoaPods/Specs.git'
 
-
-target ‘cdvcocoa’ do
-
-    project ‘./cdvcocoa.xcodeproj'
+# PROD
+target ‘First’ do
+    project ‘First.xcodeproj'
     pod 'POMFramework',:path => '~/Documents/PODS/POMFramework'
+end
 
+# VABF
+target ‘First-IntVal’ do
+    project ‘First.xcodeproj'
+    pod 'POMFramework',:path => '~/Documents/PODS/POMFramework'
+end
+
+# INTEGRATION
+target ‘First-Val’ do
+    project ‘First.xcodeproj'
+    pod 'POMFramework',:path => '~/Documents/PODS/POMFramework'
 end

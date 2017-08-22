@@ -1,6 +1,6 @@
 {
   "name": "POMFramework",
-  "version": "1.6.6",
+  "version": "1.8.2",
   "summary": "A short description of POMFramework.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "http://tfs2012pro-v1:8080/tfs/DSICW/A352K - POM GIT/_git/POMFramework_Pods",
@@ -16,7 +16,7 @@
     "branch": "Master"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "POMFramework/Classes/**/*",
   "prefix_header_file": "POMFramework/SupportingFiles/PomFramework.pch",
@@ -35,8 +35,8 @@
     "JSONStore": [
 
     ],
-    "KissXML": [
-
+    "KSCrash": [
+      "~> 1.15"
     ]
   }
 }

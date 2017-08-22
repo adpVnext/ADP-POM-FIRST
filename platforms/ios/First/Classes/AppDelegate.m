@@ -92,6 +92,11 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
+    // Settings POM
+    // Récupère les infos par défaut au lancement de l'appli
+    // Penser à ajouter cette ligne dans la doc d'intégration
+    [[POMAPI sharedInstance] registerDefaultsFromSettingsBundle];
+
 
     return YES;
 }
@@ -156,42 +161,33 @@
     [[NSURLCache sharedURLCache] removeAllCachedResponses];
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {
-    
-    DLog(@"applicationWillTerminate");
-    [[POMAPI sharedInstance]WillTerminate];
+#pragma mark - Gestion du background timeout
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+
+    DLog(@"applicationDidEnterBackground");
+    [[POMAPI sharedInstance] DidEnterBackground];
 }
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    
+    DLog(@"applicationWillEnterForeground");
+    [[POMAPI sharedInstance] DidEnterForeground];
+}
+
+#pragma mark - appGroup
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     DLog(@"applicationDidBecomeActive");
     [[POMAPI sharedInstance]DidBecomeActive];
     
-//    NSString *function = [[NSString alloc] initWithFormat: @"location.reload(true)"];
-//    NSString *result = [self.viewController.webView  stringByEvaluatingJavaScriptFromString:function];
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
+    
     DLog(@"applicationWillResignActive");
     [[POMAPI sharedInstance]WillResignActive];
-}
-
-
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     
-    [[POMAPI sharedInstance] DidEnterBackground];
 }
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-    
-    NSLog(@"applicationWillEnterForeground");
-    
-    [[POMAPI sharedInstance] DidEnterForeground];
-}
-
-
 @end
