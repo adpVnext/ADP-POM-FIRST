@@ -32,7 +32,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.1.7</string>
+	<string>3.1.8</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -71,8 +71,8 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>Utiliser la caméra</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Autoriser la localisation</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Utiiser la bibliothèque de photos</string>
 	<key>UIStatusBarHidden</key>

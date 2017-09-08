@@ -67,6 +67,11 @@
 -(void) onMessageRaised:(NSNotification *)notice
 {
     [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onMessageRaised", [notice.object JSONString]]];
+    
+    // TechLog
+    POMMessage *pomMessage = notice.object;
+    [[POMService sharedManager] pomTechLog:@"pom message" withMessage:pomMessage.Message];
+
 }
 
 #pragma API POM
