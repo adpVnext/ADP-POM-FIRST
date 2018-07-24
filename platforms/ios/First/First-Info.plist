@@ -32,7 +32,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.1.8</string>
+	<string>3.2.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -45,14 +45,14 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>10</string>
+	<string>12</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>f5edgeclient-lite</string>
 		<string>first</string>
 		<string>mesdocuments</string>
 		<string>primamobile</string>
-		<string>testpom</string>
+		<string>pfd</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
@@ -72,6 +72,10 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Utiliser la caméra</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Autoriser la localisation</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Autoriser la localisation</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Autoriser la localisation</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Utiiser la bibliothèque de photos</string>

@@ -3295,7 +3295,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/POMFramework/ResourceBundle-POMRessources-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = POMRessources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3323,7 +3323,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/POMFramework/POMFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/POMFramework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/POMFramework/POMFramework.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -3345,7 +3345,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/POMFramework/ResourceBundle-POMRessources-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = POMRessources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3794,7 +3794,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/POMFramework/POMFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/POMFramework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/POMFramework/POMFramework.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;

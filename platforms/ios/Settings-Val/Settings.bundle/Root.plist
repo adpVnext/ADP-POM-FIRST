@@ -60,15 +60,15 @@
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string>Log évènements</string>
+			<string>Application insight</string>
 		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>DefaultValue</key>
-			<true/>
+			<false/>
 			<key>Title</key>
-			<string>Serveur Intégration ?</string>
+			<string>Mode Debug</string>
 			<key>Key</key>
 			<string>LOGINT</string>
 			<key>TrueValue</key>
@@ -80,9 +80,9 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>DefaultValue</key>
-			<string>http://pc237251.prod.adp.fr/adp.pom.webservice/Service.svc/</string>
+			<string></string>
 			<key>Title</key>
-			<string>URL LOG Service : </string>
+			<string>URL LOG Service</string>
 			<key>Key</key>
 			<string>URLLOGSVC</string>
 			<key>AutocorrectionType</key>

@@ -10,7 +10,7 @@
 			<key>AutocorrectionType</key>
 			<string>No</string>
 			<key>DefaultValue</key>
-			<string>http://pc237251.prod.adp.fr/First</string>
+			<string>https://webformval-v4.prod.adp.fr/First</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>Key</key>
@@ -32,7 +32,7 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>DefaultValue</key>
-			<string>https://pomintval-v1.prod.adp.fr/webservice/</string>
+			<string>https://pom-val.prod.adp.fr/ws/</string>
 			<key>Title</key>
 			<string>URL POM :</string>
 			<key>Key</key>
@@ -46,7 +46,7 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>DefaultValue</key>
-			<string>https://pomintval-v1.prod.adp.fr/sts/</string>
+			<string>https://pom-val.prod.adp.fr/sts/</string>
 			<key>Title</key>
 			<string>URL STS : </string>
 			<key>Key</key>
@@ -56,41 +56,40 @@
 			<key>KeyboardType</key>
 			<string>URL</string>
 		</dict>
-        <dict>
-            <key>Type</key>
-            <string>PSGroupSpecifier</string>
-            <key>Title</key>
-            <string>Log évènements</string>
-        </dict>
-        <dict>
-            <key>Type</key>
-            <string>PSToggleSwitchSpecifier</string>
-            <key>DefaultValue</key>
-            <true/>
-            <key>Title</key>
-            <string>Serveur Intégration ?</string>
-            <key>Key</key>
-            <string>LOGINT</string>
-            <key>TrueValue</key>
-            <true/>
-            <key>FalseValue</key>
-            <false/>
-        </dict>
-        <dict>
-            <key>Type</key>
-            <string>PSTextFieldSpecifier</string>
-            <key>DefaultValue</key>
-            <string>http://pc237251.prod.adp.fr/adp.pom.webservice/Service.svc/</string>
-            <key>Title</key>
-            <string>URL LOG Service : </string>
-            <key>Key</key>
-            <string>URLLOGSVC</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>KeyboardType</key>
-            <string>URL</string>
-        </dict>
-
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Application insight</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Title</key>
+			<string>Mode Debug</string>
+			<key>Key</key>
+			<string>LOGINT</string>
+			<key>TrueValue</key>
+			<true/>
+			<key>FalseValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>Title</key>
+			<string>URL LOG Service</string>
+			<key>Key</key>
+			<string>URLLOGSVC</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+		</dict>
 	</array>
 	<key>StringsTable</key>
 	<string>Root</string>
