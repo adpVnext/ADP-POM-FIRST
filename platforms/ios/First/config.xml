@@ -62,4 +62,5 @@
     <preference name="disable-cursor" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    
 </widget>

@@ -39,6 +39,7 @@
 - (void)GetUserThumbnailURL:(CDVInvokedUrlCommand*)command;
 - (void)GetUserThumbnailPicture:(CDVInvokedUrlCommand*)command;
 - (void)IsTokenBlacklisted:(CDVInvokedUrlCommand*)command;
+- (void)GetIpadName:(CDVInvokedUrlCommand*)command;
 
 - (void)DownloadFile:(CDVInvokedUrlCommand*)command;
 - (void)ViewFile:(CDVInvokedUrlCommand*)command;

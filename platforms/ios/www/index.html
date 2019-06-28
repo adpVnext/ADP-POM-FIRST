@@ -1,129 +1,229 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/css.css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <script src="js/jquery-1.8.2.js"></script>
         <script src="js/jquery.mobile-1.2.0.js"></script>
         <style>
-            .ui-overlay-a{ background: #C1E9F5 !important;}
+            .ui-overlay-a {
+                background: #c2eaf6 !important;
+            }
+        
+        #LogOn .ui-body-c {
+            border: 0;
+        }
+        
+        .ui-overlay-shadow {
+            -moz-box-shadow: 0px 0px 0;
+            -webkit-box-shadow: 0px 0px 0;
+            box-shadow: 0px 0px 0;
+        }
+        
+        @media all and (min-width: 1024px) {
             #LogOn {
-                background-size: auto !important;background: #C1E9F5 url('img/logon-bg.jpg') top center no-repeat !important;
+                background-size: cover !important;
             }
-            #LogOn .ui-body-c {
-                border: 0;
-            }
-            .ui-overlay-shadow {
-                -moz-box-shadow: 0px 0px 0;
-                -webkit-box-shadow: 0px 0px 0;
-                box-shadow: 0px 0px 0;
-            }
-            
-            @media all and (min-width: 1024px)
-            {
-                #LogOn {
-                    background-size: cover  !important;
-                }
-            }
-            
-            .ui-body-a, .ui-overlay-a{ background: transparent none;}
-            .ui-header .ui-btn {
-                display: none;
-            }
-            
-            
-            .ui-dialog-contain {
-                width: 92.5%;
-                max-width: 400px;
-                margin: 20% auto 15px auto;
-                padding: 0;
-            }
-            
-            .ui-body-c, .ui-overlay-c{ background: transparent none;}
-            input.ui-body-c, .ui-overlay-c{ background-color: white;}
-            
-            input.ui-input-text{ margin-bottom: 21px;}
-            .ui-btn-inline{ width: 130px;}
-            .ui-btn{ margin: 0;}
-            
-            .ui-btn-up-b{
-                background: #414d5b; /* Old browsers */
-                background: -moz-linear-gradient(top,  #414d5b 0%, #3e4854 26%, #383d41 60%, #353537 90%, #343434 91%, #333134 100%); /* FF3.6+ */
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#414d5b), color-stop(26%,#3e4854), color-stop(60%,#383d41), color-stop(90%,#353537), color-stop(91%,#343434), color-stop(100%,#333134)); /* Chrome,Safari4+ */
-                background: -webkit-linear-gradient(top,  #414d5b 0%,#3e4854 26%,#383d41 60%,#353537 90%,#343434 91%,#333134 100%); /* Chrome10+,Safari5.1+ */
-                background: -o-linear-gradient(top,  #414d5b 0%,#3e4854 26%,#383d41 60%,#353537 90%,#343434 91%,#333134 100%); /* Opera 11.10+ */
-                background: -ms-linear-gradient(top,  #414d5b 0%,#3e4854 26%,#383d41 60%,#353537 90%,#343434 91%,#333134 100%); /* IE10+ */
-                background: linear-gradient(to bottom,  #414d5b 0%,#3e4854 26%,#383d41 60%,#353537 90%,#343434 91%,#333134 100%); /* W3C */
-            }
-            
-            .ui-btn-hover-b{
-                background: #5f6774; /* Old browsers */
-                background: -moz-linear-gradient(top,  #5f6774 0%, #5b636e 21%, #5b6370 24%, #4e555d 87%, #4c535d 100%); /* FF3.6+ */
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5f6774), color-stop(21%,#5b636e), color-stop(24%,#5b6370), color-stop(87%,#4e555d), color-stop(100%,#4c535d)); /* Chrome,Safari4+ */
-                background: -webkit-linear-gradient(top,  #5f6774 0%,#5b636e 21%,#5b6370 24%,#4e555d 87%,#4c535d 100%); /* Chrome10+,Safari5.1+ */
-                background: -o-linear-gradient(top,  #5f6774 0%,#5b636e 21%,#5b6370 24%,#4e555d 87%,#4c535d 100%); /* Opera 11.10+ */
-                background: -ms-linear-gradient(top,  #5f6774 0%,#5b636e 21%,#5b6370 24%,#4e555d 87%,#4c535d 100%); /* IE10+ */
-                background: linear-gradient(to bottom,  #5f6774 0%,#5b636e 21%,#5b6370 24%,#4e555d 87%,#4c535d 100%); /* W3C */
-            }
-            
-            .ui-btn-down-b{
-                background: #ffcf00; /* Old browsers */
-                background: -moz-linear-gradient(top,  #ffcf00 0%, #ffcf00 6%, #ffc800 9%, #ffc700 23%, #ffbe00 29%, #ffbe00 34%, #ffb600 40%, #ffb600 49%, #ffae00 54%, #ffae00 63%, #ffa600 69%, #ffa600 77%, #ff9e00 83%, #ff9e00 97%, #e99507 100%); /* FF3.6+ */
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffcf00), color-stop(6%,#ffcf00), color-stop(9%,#ffc800), color-stop(23%,#ffc700), color-stop(29%,#ffbe00), color-stop(34%,#ffbe00), color-stop(40%,#ffb600), color-stop(49%,#ffb600), color-stop(54%,#ffae00), color-stop(63%,#ffae00), color-stop(69%,#ffa600), color-stop(77%,#ffa600), color-stop(83%,#ff9e00), color-stop(97%,#ff9e00), color-stop(100%,#e99507)); /* Chrome,Safari4+ */
-                background: -webkit-linear-gradient(top,  #ffcf00 0%,#ffcf00 6%,#ffc800 9%,#ffc700 23%,#ffbe00 29%,#ffbe00 34%,#ffb600 40%,#ffb600 49%,#ffae00 54%,#ffae00 63%,#ffa600 69%,#ffa600 77%,#ff9e00 83%,#ff9e00 97%,#e99507 100%); /* Chrome10+,Safari5.1+ */
-                background: -o-linear-gradient(top,  #ffcf00 0%,#ffcf00 6%,#ffc800 9%,#ffc700 23%,#ffbe00 29%,#ffbe00 34%,#ffb600 40%,#ffb600 49%,#ffae00 54%,#ffae00 63%,#ffa600 69%,#ffa600 77%,#ff9e00 83%,#ff9e00 97%,#e99507 100%); /* Opera 11.10+ */
-                background: -ms-linear-gradient(top,  #ffcf00 0%,#ffcf00 6%,#ffc800 9%,#ffc700 23%,#ffbe00 29%,#ffbe00 34%,#ffb600 40%,#ffb600 49%,#ffae00 54%,#ffae00 63%,#ffa600 69%,#ffa600 77%,#ff9e00 83%,#ff9e00 97%,#e99507 100%); /* IE10+ */
-                background: linear-gradient(to bottom,  #ffcf00 0%,#ffcf00 6%,#ffc800 9%,#ffc700 23%,#ffbe00 29%,#ffbe00 34%,#ffb600 40%,#ffb600 49%,#ffae00 54%,#ffae00 63%,#ffa600 69%,#ffa600 77%,#ff9e00 83%,#ff9e00 97%,#e99507 100%); /* W3C */
-            }
-            
-            .logo{
-                position: absolute;
-                top: 520px;
-                right: 100px;}
-            
-            
-            .version{ color: #003265;padding-top: 50px;text-shadow: 0 0;float: left;}
-            .first{float: left;}
-            </style>
+        }
+        
+        .eventreceived {
+            visibility: hidden;
+        }
+        
+        .banderol {
+            position: fixed;
+            text-align: center;
+            top: 35%;
+            left: 0;
+            width: 100%;
+            height: 35%;
+            background-color: #dcf3f9;
+        }
+        
+        .banderol1 {
+            position: fixed;
+            text-align: center;
+            top: 35%;
+            left: 0;
+            width: 100%;
+            height: 30%;
+            background-color: #dcf3f9;
+        }
+        
+        .ui-body-a,
+        .ui-overlay-a {
+            background: transparent none;
+        }
+        
+        .ui-header .ui-btn {
+            display: none;
+        }
+        
+        .logo {
+            position: absolute;
+            top: 9%;
+            right: 45%;
+            width: 12%;
+        }
+        
+        .text {
+            width: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            color: #26336f;
+        }
+        
+        .ui-dialog-contain {
+            width: 92.5%;
+            max-width: 400px;
+            margin: 20% auto 15px auto;
+            padding: 0;
+        }
+        
+        .ui-body-c,
+        .ui-overlay-c {
+            background: transparent none;
+        }
+        
+        input.ui-body-c,
+        .ui-overlay-c {
+            background-color: white;
+        }
+        
+        input.ui-input-text {
+            margin-bottom: 21px;
+        }
+        
+        .ui-btn-inline {
+            width: 130px;
+        }
+        
+        .ui-btn {
+            margin: 0;
+        }
+        
+        .ui-btn-up-b {
+            background: #414d5b;
+            /* Old browsers */
+            background: -moz-linear-gradient(top, #414d5b 0%, #3e4854 26%, #383d41 60%, #353537 90%, #343434 91%, #333134 100%);
+            /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #414d5b), color-stop(26%, #3e4854), color-stop(60%, #383d41), color-stop(90%, #353537), color-stop(91%, #343434), color-stop(100%, #333134));
+            /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #414d5b 0%, #3e4854 26%, #383d41 60%, #353537 90%, #343434 91%, #333134 100%);
+            /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #414d5b 0%, #3e4854 26%, #383d41 60%, #353537 90%, #343434 91%, #333134 100%);
+            /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, #414d5b 0%, #3e4854 26%, #383d41 60%, #353537 90%, #343434 91%, #333134 100%);
+            /* IE10+ */
+            background: linear-gradient(to bottom, #414d5b 0%, #3e4854 26%, #383d41 60%, #353537 90%, #343434 91%, #333134 100%);
+            /* W3C */
+        }
+        
+        .ui-btn-hover-b {
+            background: #5f6774;
+            /* Old browsers */
+            background: -moz-linear-gradient(top, #5f6774 0%, #5b636e 21%, #5b6370 24%, #4e555d 87%, #4c535d 100%);
+            /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5f6774), color-stop(21%, #5b636e), color-stop(24%, #5b6370), color-stop(87%, #4e555d), color-stop(100%, #4c535d));
+            /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #5f6774 0%, #5b636e 21%, #5b6370 24%, #4e555d 87%, #4c535d 100%);
+            /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #5f6774 0%, #5b636e 21%, #5b6370 24%, #4e555d 87%, #4c535d 100%);
+            /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, #5f6774 0%, #5b636e 21%, #5b6370 24%, #4e555d 87%, #4c535d 100%);
+            /* IE10+ */
+            background: linear-gradient(to bottom, #5f6774 0%, #5b636e 21%, #5b6370 24%, #4e555d 87%, #4c535d 100%);
+            /* W3C */
+        }
+        
+        .ui-btn-down-b {
+            background: #ffcf00;
+            /* Old browsers */
+            background: -moz-linear-gradient(top, #ffcf00 0%, #ffcf00 6%, #ffc800 9%, #ffc700 23%, #ffbe00 29%, #ffbe00 34%, #ffb600 40%, #ffb600 49%, #ffae00 54%, #ffae00 63%, #ffa600 69%, #ffa600 77%, #ff9e00 83%, #ff9e00 97%, #e99507 100%);
+            /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffcf00), color-stop(6%, #ffcf00), color-stop(9%, #ffc800), color-stop(23%, #ffc700), color-stop(29%, #ffbe00), color-stop(34%, #ffbe00), color-stop(40%, #ffb600), color-stop(49%, #ffb600), color-stop(54%, #ffae00), color-stop(63%, #ffae00), color-stop(69%, #ffa600), color-stop(77%, #ffa600), color-stop(83%, #ff9e00), color-stop(97%, #ff9e00), color-stop(100%, #e99507));
+            /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #ffcf00 0%, #ffcf00 6%, #ffc800 9%, #ffc700 23%, #ffbe00 29%, #ffbe00 34%, #ffb600 40%, #ffb600 49%, #ffae00 54%, #ffae00 63%, #ffa600 69%, #ffa600 77%, #ff9e00 83%, #ff9e00 97%, #e99507 100%);
+            /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #ffcf00 0%, #ffcf00 6%, #ffc800 9%, #ffc700 23%, #ffbe00 29%, #ffbe00 34%, #ffb600 40%, #ffb600 49%, #ffae00 54%, #ffae00 63%, #ffa600 69%, #ffa600 77%, #ff9e00 83%, #ff9e00 97%, #e99507 100%);
+            /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, #ffcf00 0%, #ffcf00 6%, #ffc800 9%, #ffc700 23%, #ffbe00 29%, #ffbe00 34%, #ffb600 40%, #ffb600 49%, #ffae00 54%, #ffae00 63%, #ffa600 69%, #ffa600 77%, #ff9e00 83%, #ff9e00 97%, #e99507 100%);
+            /* IE10+ */
+            background: linear-gradient(to bottom, #ffcf00 0%, #ffcf00 6%, #ffc800 9%, #ffc700 23%, #ffbe00 29%, #ffbe00 34%, #ffb600 40%, #ffb600 49%, #ffae00 54%, #ffae00 63%, #ffa600 69%, #ffa600 77%, #ff9e00 83%, #ff9e00 97%, #e99507 100%);
+            /* W3C */
+        }
+        
+        .version {
+            color: #003265;
+            padding-top: 50px;
+            text-shadow: 0 0;
+            float: left;
+        }
+        
+        .first {
+            float: left;
+        }
+        </style>
     </head>
     
     <body class="ui-mobile-viewport ui-overlay-a">
         <!-- <div id="cordova-init"> -->
         <div data-role="dialog" id="LogOn">
-            
-            <div data-role="content" id="app">
+            <div id="deviceready">
+                <div class="banderol">
+                    <p class="event listening text"><font size="6" style="font-weight: bold;">Chargement</font></p>
+                </div>
                 
-                <div>
-                    <img class="first" src="img/first-logon.png"/><div class="version"></div>
+                <div class="event received">
+                    <!-- Banderole message de bienvenue ipad connecté -->
+                    <div class="banderol">
+                        <div class="text">
+                            <font size="20">Bienvenue sur First</font>
+                            <br><br>
+                            <font size="6" >iPad configuré</font>
+                        </div>
+                    </div>
+                    
+                    <!-- Banderole message avant logon First -->
+                    <div class="banderol" style="display: none;" >
+                        <div class="text">
+                            <font size="20">Bienvenue sur First</font>
+                            <p><font size="6" >Veuillez-vous connecter
+                                <br>depuis le menu POM en haut à droite
+                            </font>
+                        </div>
+                    </div>
                 </div>
-                <div id="deviceready" class="blink">
-                    <p class="event listening">Chargement</p>
-                    <p class="event received">iPad configuré</p>
-                    <span class="event message"><label id="message"></label></span>
-                </div>
+                
+               <span class="event message"><label id="message"></label></span>
             </div>
+            
             <script type="text/javascript" src="cordova.js"></script>
             <script type="text/javascript" src="cordova_plugins.js"></script>
-<!--            <script type="text/javascript" src="js/applicationPreferences.js"></script> -->
-            
+            <script type="text/javascript" src="js/applicationPreferences.js"></script>
             <script type="text/javascript" src="js/ADP.POM.managers.coreManager.js"></script>
             <script type="text/javascript" src="js/index.js"></script>
             <script type="text/javascript">
-
-app.initialize();
-
-            
-                </script>            </div>
+                
+                app.initialize();
+                
+                </script>
+        </div>
         
-
-        <img class="logo" src="img/adp-logo.png"/>
+        <img class="logo" src="img/logo.png" />
         <!--  <div>
          <div  class="scroll-container scroll-ios">
          <iframe id="first-frame" class="iframe-normal" style="display:inline-block;" src="">
          </iframe>
          </div>-->
     </body>
-    </html>
+    
+</html>

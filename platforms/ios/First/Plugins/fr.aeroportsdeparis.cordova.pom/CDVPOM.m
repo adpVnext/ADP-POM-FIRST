@@ -76,6 +76,14 @@
 
 #pragma API POM
 
+- (void)GetIpadName:(CDVInvokedUrlCommand*)command
+{
+    NSString *deviceName =  [[UIDevice currentDevice] name];
+    CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:deviceName];
+    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+}
+
+
 - (void)GetFrameworkVersion:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDouble:POMFrameworkVersionNumber];

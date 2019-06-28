@@ -12,19 +12,19 @@ source 'http://tfs2012pro-v1:8080/tfs/DSICW/A352K%20-%20POM%20GIT/_git/POMPrivat
 source 'https://github.com/CocoaPods/Specs.git'
 
 # PROD
-target ‘First’ do
+target ‘First-PROD’ do
     project ‘First.xcodeproj'
     pod 'POMFramework',:path => '~/Documents/PODS/POMFramework'
 end
 
 # VABF
-target ‘First-IntVal’ do
+target ‘First-INTE’ do
     project ‘First.xcodeproj'
     pod 'POMFramework',:path => '~/Documents/PODS/POMFramework'
 end
 
 # INTEGRATION
-target ‘First-Val’ do
+target ‘First-VAL’ do
     project ‘First.xcodeproj'
     pod 'POMFramework',:path => '~/Documents/PODS/POMFramework'
 end

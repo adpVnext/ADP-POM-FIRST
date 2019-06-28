@@ -1,8 +1,8 @@
 cordova.define("fr.aeroportsdeparis.cordova.pom.POM", function(require, exports, module) {
 /*
- Editor : Essam Dahab
- Last Modification : 15/06/2015
- Version : 1.7.0
+ Editor : Jacques Pupponi
+ Last Modification : 20/05/2019
+ Version : 1.8.0
  */
 
 
@@ -15,7 +15,13 @@ cordova = require('cordova');
 function POMPlugin() {
     
 }
+               
+               
 
+POMPlugin.prototype.GetIpadName = function(successCallback, errorCallback) {
+exec(successCallback, errorCallback, "POM", "GetIpadName", []);
+};
+               
 POMPlugin.prototype.GetFrameworkVersion = function(successCallback, errorCallback) {
     exec(successCallback, errorCallback, "POM", "GetFrameworkVersion", []);
 };
@@ -114,7 +120,6 @@ POMPlugin.prototype.LaunchTicketScan = function(successCallback, errorCallback) 
     //argscheck.checkArgs('fF', 'POMPlugin.LaunchTicketScan', arguments);
     exec(successCallback, errorCallback, "POM", "LaunchTicketScan", []);
 };
-
 
 module.exports = new POMPlugin();
 });

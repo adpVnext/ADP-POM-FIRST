@@ -30,4 +30,10 @@
 #define DLog( s, ... )
 #endif
 
+/*
+#ifdef PROD
+    #define KAppGroup  @"group.fr.aeroportsdeparis"
+#endif
+*/
+
 #endif

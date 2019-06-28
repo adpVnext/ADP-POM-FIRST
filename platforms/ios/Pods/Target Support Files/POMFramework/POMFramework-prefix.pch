@@ -31,7 +31,11 @@
 #define DLog( s, ... )
 #endif
 
-
+#ifdef VAL
+#define kAdpAppGroup                @"group.fr.groupeADP.PomVal"
+#else
+#define kAdpAppGroup                @"group.fr.aeroportsdeparis"
+#endif
 
 
 #endif /* PomFramework_pch */

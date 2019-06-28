@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_First_ValVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_First_ValVersionString[];
+FOUNDATION_EXPORT double Pods_First_VALVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_First_VALVersionString[];
 

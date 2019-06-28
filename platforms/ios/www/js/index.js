@@ -17,7 +17,7 @@
  * under the License.
  */
 var vpnAlreadyCall = false;
-var configUrl ="https://first.prod.adp.fr/";
+var configUrl ="https://webform.prod.adp.fr/";
 var intervalId;
 
 
@@ -43,6 +43,9 @@ onDeviceReady: function() {
     
     app.receivedEvent('deviceready');
     ADP.POM.managers.coreManager.InitMenu();
+    ADP.POM.managers.coreManager.GetIpadName(function (result){
+                                             console.log('Ipad : ' + result);
+                                             });
     
     //When authenticationChange checkAuthenticated
     window.setTimeout(function(){
@@ -72,8 +75,7 @@ onDeviceReady: function() {
     
 },
 checkAuthenticated: function(){
-    ADP.POM.managers.coreManager.Level2SecurityInfo(
-                                                    function(result){
+    ADP.POM.managers.coreManager.Level2SecurityInfo(function(result){
                                                     var parentElement = document.getElementById('deviceready');
                                                     var receivedElement = parentElement.querySelector('.received');
                                                     console.log("success: ");
@@ -94,7 +96,9 @@ checkAuthenticated: function(){
                                                     var receivedElement = parentElement.querySelector('.received');
                                                     console.log(result);
                                                     if (result.toString().indexOf("authentication")>0){
-                                                    receivedElement.innerHTML  = "Veuillez vous authentifier à l'aide du menu ci-dessus";
+                                                    
+                                                    setTimeout(function(){receivedElement.innerHTML  = "<div class='banderol'> <div class='text'><font size='20'>Bienvenue sur First</font><p><font size='6'>Veuillez-vous connecter<br>depuis le menu POM en haut à droite</font></div></div>";},2000);
+                                                    
                                                     }
                                                     else{
                                                     receivedElement.innerHTML  = "Une erreur s'est produite: "+ result;
@@ -130,7 +134,7 @@ checkAuthenticated: function(){
                console.log('ping OK go to url');
                var parentElement = document.getElementById('deviceready');
                var receivedElement = parentElement.querySelector('.received');
-               receivedElement.innerHTML  = "VPN Ok, ouverture de l'url : " + configUrl;
+               receivedElement.innerHTML  = "<div class='banderol'><div class='text'><font size='20'>VPN Ok, ouverture de l'url : " + configUrl + "</font></div></div>";
                ADP.POM.managers.coreManager.PostClaims(configUrl+"/Account/PostClaims",configUrl);
                //window.setTimeout(function(){window.location = configUrl;},1000);
                }
@@ -184,10 +188,6 @@ testRelaunchAutomaticVpn: function(){
 }
     
 };
-
-
-
-
 
 setTimeout(function(){
            ADP.POM.managers.coreManager.OnLevel2PreSignOut(ADP.POM.managers.coreManager.RequestLevel2SignOut());

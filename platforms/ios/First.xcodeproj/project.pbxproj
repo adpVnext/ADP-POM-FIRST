@@ -7,48 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150E261A1C35233FA105CAC0 /* Pods_First_PROD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5581CE1DAEE1F00E6D46F7A /* Pods_First_PROD.framework */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1EF90E701A0A2ECA005818B5 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF90E6D1A0A2C9E005818B5 /* Default-Portrait@2x~ipad.png */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		2A344B8FA74D440275696EBC /* Pods_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CFBE340D43E39C1FD3CA52 /* Pods_First.framework */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
-		3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
-		3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
-		3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
-		3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
-		3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
 		308D05371370CCF300D202BF /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
 		308D05381370CCF300D202BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
 		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
-		4D8EAF8D03DF0EB8EDAADC88 /* Pods_First_Val.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A284BF2A204AA85A729745 /* Pods_First_Val.framework */; };
 		5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		8E023CB5B13CC6A3D7C05F93 /* Pods_First_VAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F3010B666FFCD3666748EC /* Pods_First_VAL.framework */; };
 		9242AC7B18103E3B00D93F4D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9242AC7918103E3B00D93F4D /* libsqlite3.0.dylib */; };
 		9242AC7C18103E3B00D93F4D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9242AC7A18103E3B00D93F4D /* libsqlite3.dylib */; };
 		A0F8570CF5564ACA92FF4FBA /* CDVPOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A875802FEAA440089AADE51 /* CDVPOM.m */; };
 		A233D25321CB431EB1CF7E95 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E347A0D68EE475BB5C5EB72 /* CDVStatusBar.m */; };
+		A516DB628D665FDEFF362A64 /* Pods_First_INTE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE4DE3DBEE807D7B36A86F0 /* Pods_First_INTE.framework */; };
 		CE07AF8C1E082E8200E2302D /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		CE1928FF1CE218B000348DF2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE1928FB1CE218B000348DF2 /* Settings.bundle */; };
 		CE19295D1CE21CE000348DF2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE1928F91CE218B000348DF2 /* Settings.bundle */; };
-		CE19295F1CE21CE000348DF2 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF90E6D1A0A2C9E005818B5 /* Default-Portrait@2x~ipad.png */; };
 		CE1929601CE21CE000348DF2 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 		CE1929611CE21CE000348DF2 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
 		CE1929621CE21CE000348DF2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
 		CE1929641CE21CE000348DF2 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
 		CE1929651CE21CE000348DF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
 		CE1929661CE21CE000348DF2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		CE1929671CE21CE000348DF2 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
-		CE1929681CE21CE000348DF2 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
-		CE1929691CE21CE000348DF2 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
-		CE19296A1CE21CE000348DF2 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
-		CE19296B1CE21CE000348DF2 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
-		CE19296C1CE21CE000348DF2 /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		CE19296D1CE21CE000348DF2 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
 		CE1929701CE21CE000348DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		CE1929711CE21CE000348DF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -63,19 +51,12 @@
 		CE19297F1CE21CE000348DF2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
 		CE1929801CE21CE000348DF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
 		CE19298D1CE21CE300348DF2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE1928FD1CE218B000348DF2 /* Settings.bundle */; };
-		CE19298E1CE21CE300348DF2 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF90E6D1A0A2C9E005818B5 /* Default-Portrait@2x~ipad.png */; };
 		CE19298F1CE21CE300348DF2 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 		CE1929901CE21CE300348DF2 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
 		CE1929911CE21CE300348DF2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
 		CE1929931CE21CE300348DF2 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
 		CE1929941CE21CE300348DF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
 		CE1929951CE21CE300348DF2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		CE1929961CE21CE300348DF2 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
-		CE1929971CE21CE300348DF2 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
-		CE1929981CE21CE300348DF2 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
-		CE1929991CE21CE300348DF2 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
-		CE19299A1CE21CE300348DF2 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
-		CE19299B1CE21CE300348DF2 /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		CE19299C1CE21CE300348DF2 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
 		CE19299F1CE21CE300348DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		CE1929A01CE21CE300348DF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -92,6 +73,15 @@
 		CE81F1BD210A0FCE001FF51F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
 		CE81F1BE210A0FCF001FF51F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
 		CE9DE8C61EF96AD20015704F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE9DE8C51EF96AD20015704F /* Podfile */; };
+		CEAD814522492E1A00A88DEF /* Connexion – 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814322492E1A00A88DEF /* Connexion – 10.png */; };
+		CEAD814622492E1A00A88DEF /* Connexion – 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814322492E1A00A88DEF /* Connexion – 10.png */; };
+		CEAD814722492E1A00A88DEF /* Connexion – 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814322492E1A00A88DEF /* Connexion – 10.png */; };
+		CEAD814822492E1A00A88DEF /* Connexion – 9.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814422492E1A00A88DEF /* Connexion – 9.png */; };
+		CEAD814922492E1A00A88DEF /* Connexion – 9.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814422492E1A00A88DEF /* Connexion – 9.png */; };
+		CEAD814A22492E1A00A88DEF /* Connexion – 9.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814422492E1A00A88DEF /* Connexion – 9.png */; };
+		CEAD814C22492F5200A88DEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814B22492F5200A88DEF /* Images.xcassets */; };
+		CEAD814D2249300800A88DEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814B22492F5200A88DEF /* Images.xcassets */; };
+		CEAD814E2249300900A88DEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814B22492F5200A88DEF /* Images.xcassets */; };
 		CED74BD61E0931A1000132B2 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BD51E0931A1000132B2 /* CDVLocation.m */; };
 		CED74BD71E0931A1000132B2 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BD51E0931A1000132B2 /* CDVLocation.m */; };
 		CED74BD81E0931A1000132B2 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BD51E0931A1000132B2 /* CDVLocation.m */; };
@@ -107,8 +97,6 @@
 		CED74BEA1E093F8C000132B2 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BE61E093F8C000132B2 /* SQLitePlugin.m */; };
 		CED74BEB1E093F8C000132B2 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BE61E093F8C000132B2 /* SQLitePlugin.m */; };
 		CED74BEC1E093F8C000132B2 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BE61E093F8C000132B2 /* SQLitePlugin.m */; };
-		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		E4352C49F72014E6FCC1150B /* Pods_First_IntVal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE043EFDDC3C9FDFF64BC87F /* Pods_First_IntVal.framework */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 /* End PBXBuildFile section */
 
@@ -177,14 +165,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0DE4DE3DBEE807D7B36A86F0 /* Pods_First_INTE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First_INTE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E48B2D9319E63A7B66B0934 /* Pods-First-IntVal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-IntVal.release.xcconfig"; path = "Target Support Files/Pods-First-IntVal/Pods-First-IntVal.release.xcconfig"; sourceTree = "<group>"; };
-		1EF90E6D1A0A2C9E005818B5 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
-		20CFBE340D43E39C1FD3CA52 /* Pods_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
@@ -193,11 +179,6 @@
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
-		3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
-		3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
-		3088BBBC154F3926009F9C59 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
 		308D052E1370CCF300D202BF /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 		308D052F1370CCF300D202BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		308D05301370CCF300D202BF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
@@ -205,28 +186,35 @@
 		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* First-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "First-Prefix.pch"; sourceTree = "<group>"; };
+		50207CAC30C6CB87F5DC13D6 /* Pods-First-INTE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-INTE.release.xcconfig"; path = "Target Support Files/Pods-First-INTE/Pods-First-INTE.release.xcconfig"; sourceTree = "<group>"; };
 		5AEE5B34173C68D80009041E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5CA0FF691627DEBE8683FEA8 /* Pods-First-INTE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-INTE.debug.xcconfig"; path = "Target Support Files/Pods-First-INTE/Pods-First-INTE.debug.xcconfig"; sourceTree = "<group>"; };
+		6539247BF69421EA733A0A77 /* Pods-First-VAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-VAL.debug.xcconfig"; path = "Target Support Files/Pods-First-VAL/Pods-First-VAL.debug.xcconfig"; sourceTree = "<group>"; };
+		65A490C379D9F98B99CBAC45 /* Pods-First-VAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-VAL.release.xcconfig"; path = "Target Support Files/Pods-First-VAL/Pods-First-VAL.release.xcconfig"; sourceTree = "<group>"; };
 		6A875802FEAA440089AADE51 /* CDVPOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = CDVPOM.m; path = fr.aeroportsdeparis.cordova.pom/CDVPOM.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6E347A0D68EE475BB5C5EB72 /* CDVStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = org.apache.cordova.statusbar/CDVStatusBar.m; sourceTree = "<group>"; };
-		713142DD4DE17F1BD2E05DBA /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.release.xcconfig"; path = "Target Support Files/Pods-First/Pods-First.release.xcconfig"; sourceTree = "<group>"; };
-		7BFEACDB75B6A9CDFC50C78D /* Pods-First-Val.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-Val.release.xcconfig"; path = "Target Support Files/Pods-First-Val/Pods-First-Val.release.xcconfig"; sourceTree = "<group>"; };
+		74F3010B666FFCD3666748EC /* Pods_First_VAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First_VAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C6BAAA440DDD688C35D374 /* Pods-First-PROD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-PROD.release.xcconfig"; path = "Target Support Files/Pods-First-PROD/Pods-First-PROD.release.xcconfig"; sourceTree = "<group>"; };
 		8C3E26F821DC4018931ADB5D /* CDVPOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = CDVPOM.h; path = fr.aeroportsdeparis.cordova.pom/CDVPOM.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		8D1107310486CEB800E47090 /* First-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "First-Info.plist"; path = "First/First-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9242AC7918103E3B00D93F4D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		9242AC7A18103E3B00D93F4D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		981BC65F96164410BDC9F5F4 /* CDVStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = org.apache.cordova.statusbar/CDVStatusBar.h; sourceTree = "<group>"; };
-		A5A284BF2A204AA85A729745 /* Pods_First_Val.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First_Val.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5581CE1DAEE1F00E6D46F7A /* Pods_First_PROD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First_PROD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A694DCDCCE9CB3E18B427E9F /* Pods-First-PROD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-PROD.debug.xcconfig"; path = "Target Support Files/Pods-First-PROD/Pods-First-PROD.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1928F91CE218B000348DF2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CE1928FB1CE218B000348DF2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CE1928FD1CE218B000348DF2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		CE1929851CE21CE000348DF2 /* First-IntVal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-IntVal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1929B41CE21CE300348DF2 /* First-Val.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-Val.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE38923EA935A91E3D77467A /* Pods-First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.debug.xcconfig"; path = "Target Support Files/Pods-First/Pods-First.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1929851CE21CE000348DF2 /* First-INTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-INTE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1929B41CE21CE300348DF2 /* First-VAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-VAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9CD0BF214BF04A005CF0A0 /* First.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = First.entitlements; path = First/First.entitlements; sourceTree = "<group>"; };
 		CE9CD0C0214BF051005CF0A0 /* First-IntVal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "First-IntVal.entitlements"; sourceTree = "<group>"; };
-		CE9CD0C1214BF059005CF0A0 /* First-Val.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "First-Val.entitlements"; sourceTree = "<group>"; };
 		CE9DE8C51EF96AD20015704F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CEAD814322492E1A00A88DEF /* Connexion – 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connexion – 10.png"; sourceTree = "<group>"; };
+		CEAD814422492E1A00A88DEF /* Connexion – 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connexion – 9.png"; sourceTree = "<group>"; };
+		CEAD814B22492F5200A88DEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = First/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		CEC4B86C225B974F009D6B48 /* First-Val.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "First-Val.entitlements"; sourceTree = "<group>"; };
 		CED74BD41E0931A1000132B2 /* CDVLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLocation.h; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; };
 		CED74BD51E0931A1000132B2 /* CDVLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLocation.m; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; };
 		CED74BD91E09330D000132B2 /* AppPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppPreferences.h; path = "cordova-plugin-app-preferences/AppPreferences.h"; sourceTree = "<group>"; };
@@ -238,11 +226,7 @@
 		CED74BE51E093F8C000132B2 /* SQLitePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLitePlugin.h; path = "cordova-plugin-sqlite/SQLitePlugin.h"; sourceTree = "<group>"; };
 		CED74BE61E093F8C000132B2 /* SQLitePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLitePlugin.m; path = "cordova-plugin-sqlite/SQLitePlugin.m"; sourceTree = "<group>"; };
 		CEDFFDCF1E097BD100E02CBA /* buildipas.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = buildipas.sh; path = ../../../buildipas.sh; sourceTree = "<group>"; };
-		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		F4D35F0FC28509758AB8A8F3 /* Pods-First-IntVal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-IntVal.debug.xcconfig"; path = "Target Support Files/Pods-First-IntVal/Pods-First-IntVal.debug.xcconfig"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = First/config.xml; sourceTree = "<group>"; };
-		FCB9974827BC00D69A51F52E /* Pods-First-Val.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First-Val.debug.xcconfig"; path = "Target Support Files/Pods-First-Val/Pods-First-Val.debug.xcconfig"; sourceTree = "<group>"; };
-		FE043EFDDC3C9FDFF64BC87F /* Pods_First_IntVal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First_IntVal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,7 +241,7 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
-				2A344B8FA74D440275696EBC /* Pods_First.framework in Frameworks */,
+				150E261A1C35233FA105CAC0 /* Pods_First_PROD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +256,7 @@
 				CE19297E1CE21CE000348DF2 /* CoreGraphics.framework in Frameworks */,
 				CE19297F1CE21CE000348DF2 /* MobileCoreServices.framework in Frameworks */,
 				CE1929801CE21CE000348DF2 /* CoreLocation.framework in Frameworks */,
-				E4352C49F72014E6FCC1150B /* Pods_First_IntVal.framework in Frameworks */,
+				A516DB628D665FDEFF362A64 /* Pods_First_INTE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +271,7 @@
 				CE1929AD1CE21CE300348DF2 /* CoreGraphics.framework in Frameworks */,
 				CE1929AE1CE21CE300348DF2 /* MobileCoreServices.framework in Frameworks */,
 				CE1929AF1CE21CE300348DF2 /* CoreLocation.framework in Frameworks */,
-				4D8EAF8D03DF0EB8EDAADC88 /* Pods_First_Val.framework in Frameworks */,
+				8E023CB5B13CC6A3D7C05F93 /* Pods_First_VAL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,8 +295,8 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* First.app */,
-				CE1929851CE21CE000348DF2 /* First-IntVal.app */,
-				CE1929B41CE21CE300348DF2 /* First-Val.app */,
+				CE1929851CE21CE000348DF2 /* First-INTE.app */,
+				CE1929B41CE21CE300348DF2 /* First-VAL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -333,10 +317,10 @@
 			path = es.lproj;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA = {
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				CE9CD0C1214BF059005CF0A0 /* First-Val.entitlements */,
+				CEC4B86C225B974F009D6B48 /* First-Val.entitlements */,
 				CE9CD0C0214BF051005CF0A0 /* First-IntVal.entitlements */,
 				CE9CD0BF214BF04A005CF0A0 /* First.entitlements */,
 				CE9DE8C51EF96AD20015704F /* Podfile */,
@@ -372,6 +356,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CEAD814B22492F5200A88DEF /* Images.xcassets */,
 				30A0434214DC770100060A13 /* de.lproj */,
 				30A0434514DC770100060A13 /* se.lproj */,
 				1F766FDB13BBADB100FB74C0 /* en.lproj */,
@@ -390,9 +375,9 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				20CFBE340D43E39C1FD3CA52 /* Pods_First.framework */,
-				FE043EFDDC3C9FDFF64BC87F /* Pods_First_IntVal.framework */,
-				A5A284BF2A204AA85A729745 /* Pods_First_Val.framework */,
+				0DE4DE3DBEE807D7B36A86F0 /* Pods_First_INTE.framework */,
+				A5581CE1DAEE1F00E6D46F7A /* Pods_First_PROD.framework */,
+				74F3010B666FFCD3666748EC /* Pods_First_VAL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -441,13 +426,8 @@
 		308D05311370CCF300D202BF /* splash */ = {
 			isa = PBXGroup;
 			children = (
-				1EF90E6D1A0A2C9E005818B5 /* Default-Portrait@2x~ipad.png */,
-				D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */,
-				3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */,
-				3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */,
-				3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */,
-				3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */,
-				3088BBBC154F3926009F9C59 /* Default~iphone.png */,
+				CEAD814422492E1A00A88DEF /* Connexion – 9.png */,
+				CEAD814322492E1A00A88DEF /* Connexion – 10.png */,
 			);
 			path = splash;
 			sourceTree = "<group>";
@@ -471,14 +451,13 @@
 		5E262032D88E7136F8DE00D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE38923EA935A91E3D77467A /* Pods-First.debug.xcconfig */,
-				713142DD4DE17F1BD2E05DBA /* Pods-First.release.xcconfig */,
-				F4D35F0FC28509758AB8A8F3 /* Pods-First-IntVal.debug.xcconfig */,
-				1E48B2D9319E63A7B66B0934 /* Pods-First-IntVal.release.xcconfig */,
-				FCB9974827BC00D69A51F52E /* Pods-First-Val.debug.xcconfig */,
-				7BFEACDB75B6A9CDFC50C78D /* Pods-First-Val.release.xcconfig */,
+				5CA0FF691627DEBE8683FEA8 /* Pods-First-INTE.debug.xcconfig */,
+				50207CAC30C6CB87F5DC13D6 /* Pods-First-INTE.release.xcconfig */,
+				A694DCDCCE9CB3E18B427E9F /* Pods-First-PROD.debug.xcconfig */,
+				79C6BAAA440DDD688C35D374 /* Pods-First-PROD.release.xcconfig */,
+				6539247BF69421EA733A0A77 /* Pods-First-VAL.debug.xcconfig */,
+				65A490C379D9F98B99CBAC45 /* Pods-First-VAL.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -519,70 +498,70 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* First */ = {
+		1D6058900D05DD3D006BFB54 /* First-PROD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "First" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "First-PROD" */;
 			buildPhases = (
-				A016BC4BBF9C76494481F2B5 /* [CP] Check Pods Manifest.lock */,
+				151D258AEC9FC25D9F34C9F7 /* [CP] Check Pods Manifest.lock */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				D3BE584C1AEA99A000BD7876 /* Embed Frameworks */,
-				4EFF6606ABBC6EFE2B59D1C0 /* [CP] Embed Pods Frameworks */,
+				AA4418370C2ED80037242687 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = First;
+			name = "First-PROD";
 			productName = First;
 			productReference = 1D6058910D05DD3D006BFB54 /* First.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE1929581CE21CE000348DF2 /* First-IntVal */ = {
+		CE1929581CE21CE000348DF2 /* First-INTE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE1929821CE21CE000348DF2 /* Build configuration list for PBXNativeTarget "First-IntVal" */;
+			buildConfigurationList = CE1929821CE21CE000348DF2 /* Build configuration list for PBXNativeTarget "First-INTE" */;
 			buildPhases = (
-				7F59A1124290A97560F23031 /* [CP] Check Pods Manifest.lock */,
+				EA7A29EC683DF1B7BA22BA74 /* [CP] Check Pods Manifest.lock */,
 				CE19295B1CE21CE000348DF2 /* Copy www directory */,
 				CE19295C1CE21CE000348DF2 /* Resources */,
 				CE19296F1CE21CE000348DF2 /* Sources */,
 				CE1929781CE21CE000348DF2 /* Frameworks */,
 				CE1929811CE21CE000348DF2 /* Embed Frameworks */,
-				3B952D31ABF0D0477DD6BB13 /* [CP] Embed Pods Frameworks */,
+				B84F3DA0B313CE7481F394EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				CE1929591CE21CE000348DF2 /* PBXTargetDependency */,
 			);
-			name = "First-IntVal";
+			name = "First-INTE";
 			productName = First;
-			productReference = CE1929851CE21CE000348DF2 /* First-IntVal.app */;
+			productReference = CE1929851CE21CE000348DF2 /* First-INTE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE1929871CE21CE300348DF2 /* First-Val */ = {
+		CE1929871CE21CE300348DF2 /* First-VAL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE1929B11CE21CE300348DF2 /* Build configuration list for PBXNativeTarget "First-Val" */;
+			buildConfigurationList = CE1929B11CE21CE300348DF2 /* Build configuration list for PBXNativeTarget "First-VAL" */;
 			buildPhases = (
-				C4396677447F7E0EBD9D1F1C /* [CP] Check Pods Manifest.lock */,
+				3A7F32D69FA42AEDC9A4F2BD /* [CP] Check Pods Manifest.lock */,
 				CE19298A1CE21CE300348DF2 /* Copy www directory */,
 				CE19298B1CE21CE300348DF2 /* Resources */,
 				CE19299E1CE21CE300348DF2 /* Sources */,
 				CE1929A71CE21CE300348DF2 /* Frameworks */,
 				CE1929B01CE21CE300348DF2 /* Embed Frameworks */,
-				B0908AC09DB194407352F0C5 /* [CP] Embed Pods Frameworks */,
+				44E772433A33AB57D20D42F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				CE1929881CE21CE300348DF2 /* PBXTargetDependency */,
 			);
-			name = "First-Val";
+			name = "First-VAL";
 			productName = First;
-			productReference = CE1929B41CE21CE300348DF2 /* First-Val.app */;
+			productReference = CE1929B41CE21CE300348DF2 /* First-VAL.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -598,7 +577,7 @@
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -607,7 +586,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -619,6 +598,9 @@
 								enabled = 1;
 							};
 							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
 								enabled = 0;
 							};
 						};
@@ -639,7 +621,7 @@
 				de,
 				se,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -650,9 +632,9 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* First */,
-				CE1929581CE21CE000348DF2 /* First-IntVal */,
-				CE1929871CE21CE300348DF2 /* First-Val */,
+				1D6058900D05DD3D006BFB54 /* First-PROD */,
+				CE1929581CE21CE000348DF2 /* First-INTE */,
+				CE1929871CE21CE300348DF2 /* First-VAL */,
 			);
 		};
 /* End PBXProject section */
@@ -672,21 +654,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF90E701A0A2ECA005818B5 /* Default-Portrait@2x~ipad.png in Resources */,
+				CEAD814C22492F5200A88DEF /* Images.xcassets in Resources */,
 				F840E1F1165FE0F500CFE078 /* config.xml in Resources */,
 				308D05371370CCF300D202BF /* icon-72.png in Resources */,
 				308D05381370CCF300D202BF /* icon.png in Resources */,
+				CEAD814822492E1A00A88DEF /* Connexion – 9.png in Resources */,
 				308D05391370CCF300D202BF /* icon@2x.png in Resources */,
 				1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
-				3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */,
-				3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */,
-				3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */,
+				CEAD814522492E1A00A88DEF /* Connexion – 10.png in Resources */,
 				CE9DE8C61EF96AD20015704F /* Podfile in Resources */,
-				3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */,
 				CE81F1BC210A0FCE001FF51F /* www in Resources */,
-				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
-				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
 				CE1928FF1CE218B000348DF2 /* Settings.bundle in Resources */,
 			);
@@ -697,7 +675,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE19295D1CE21CE000348DF2 /* Settings.bundle in Resources */,
-				CE19295F1CE21CE000348DF2 /* Default-Portrait@2x~ipad.png in Resources */,
 				CE1929601CE21CE000348DF2 /* config.xml in Resources */,
 				CE1929611CE21CE000348DF2 /* icon-72.png in Resources */,
 				CE1929621CE21CE000348DF2 /* icon.png in Resources */,
@@ -705,12 +682,9 @@
 				CE1929651CE21CE000348DF2 /* Localizable.strings in Resources */,
 				CE1929661CE21CE000348DF2 /* MainViewController.xib in Resources */,
 				CE81F1BD210A0FCE001FF51F /* www in Resources */,
-				CE1929671CE21CE000348DF2 /* Default-Landscape@2x~ipad.png in Resources */,
-				CE1929681CE21CE000348DF2 /* Default-Landscape~ipad.png in Resources */,
-				CE1929691CE21CE000348DF2 /* Default-Portrait~ipad.png in Resources */,
-				CE19296A1CE21CE000348DF2 /* Default@2x~iphone.png in Resources */,
-				CE19296B1CE21CE000348DF2 /* Default~iphone.png in Resources */,
-				CE19296C1CE21CE000348DF2 /* Default-568h@2x~iphone.png in Resources */,
+				CEAD814922492E1A00A88DEF /* Connexion – 9.png in Resources */,
+				CEAD814D2249300800A88DEF /* Images.xcassets in Resources */,
+				CEAD814622492E1A00A88DEF /* Connexion – 10.png in Resources */,
 				CE19296D1CE21CE000348DF2 /* icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -720,7 +694,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE19298D1CE21CE300348DF2 /* Settings.bundle in Resources */,
-				CE19298E1CE21CE300348DF2 /* Default-Portrait@2x~ipad.png in Resources */,
 				CE19298F1CE21CE300348DF2 /* config.xml in Resources */,
 				CE1929901CE21CE300348DF2 /* icon-72.png in Resources */,
 				CE1929911CE21CE300348DF2 /* icon.png in Resources */,
@@ -728,12 +701,9 @@
 				CE1929941CE21CE300348DF2 /* Localizable.strings in Resources */,
 				CE1929951CE21CE300348DF2 /* MainViewController.xib in Resources */,
 				CE81F1BE210A0FCF001FF51F /* www in Resources */,
-				CE1929961CE21CE300348DF2 /* Default-Landscape@2x~ipad.png in Resources */,
-				CE1929971CE21CE300348DF2 /* Default-Landscape~ipad.png in Resources */,
-				CE1929981CE21CE300348DF2 /* Default-Portrait~ipad.png in Resources */,
-				CE1929991CE21CE300348DF2 /* Default@2x~iphone.png in Resources */,
-				CE19299A1CE21CE300348DF2 /* Default~iphone.png in Resources */,
-				CE19299B1CE21CE300348DF2 /* Default-568h@2x~iphone.png in Resources */,
+				CEAD814A22492E1A00A88DEF /* Connexion – 9.png in Resources */,
+				CEAD814E2249300900A88DEF /* Images.xcassets in Resources */,
+				CEAD814722492E1A00A88DEF /* Connexion – 10.png in Resources */,
 				CE19299C1CE21CE300348DF2 /* icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -741,6 +711,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		151D258AEC9FC25D9F34C9F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-PROD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		304B58A110DAC018002A0835 /* Copy www directory */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -755,7 +747,7 @@
 			shellPath = /bin/sh;
 			shellScript = "cordova/lib/copy-www-build-step.sh";
 		};
-		3B952D31ABF0D0477DD6BB13 /* [CP] Embed Pods Frameworks */ = {
+		3A7F32D69FA42AEDC9A4F2BD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -763,7 +755,29 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-First-IntVal/Pods-First-IntVal-frameworks.sh",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-VAL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44E772433A33AB57D20D42F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-First-VAL/Pods-First-VAL-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONStore/JSONStore.framework",
 				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
@@ -780,10 +794,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First-IntVal/Pods-First-IntVal-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First-VAL/Pods-First-VAL-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4EFF6606ABBC6EFE2B59D1C0 /* [CP] Embed Pods Frameworks */ = {
+		AA4418370C2ED80037242687 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -791,7 +805,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-First/Pods-First-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-First-PROD/Pods-First-PROD-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONStore/JSONStore.framework",
 				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
@@ -808,10 +822,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First/Pods-First-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First-PROD/Pods-First-PROD-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7F59A1124290A97560F23031 /* [CP] Check Pods Manifest.lock */ = {
+		B84F3DA0B313CE7481F394EB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -819,51 +833,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-First-IntVal-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A016BC4BBF9C76494481F2B5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-First-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B0908AC09DB194407352F0C5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-First-Val/Pods-First-Val-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-First-INTE/Pods-First-INTE-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONStore/JSONStore.framework",
 				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
@@ -880,29 +850,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First-Val/Pods-First-Val-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4396677447F7E0EBD9D1F1C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-First-Val-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First-INTE/Pods-First-INTE-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CE19295B1CE21CE000348DF2 /* Copy www directory */ = {
@@ -932,6 +880,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "cordova/lib/copy-www-build-step.sh";
+		};
+		EA7A29EC683DF1B7BA22BA74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-INTE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1045,13 +1015,16 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE38923EA935A91E3D77467A /* Pods-First.debug.xcconfig */;
+			baseConfigurationReference = A694DCDCCE9CB3E18B427E9F /* Pods-First-PROD.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = First/First.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Eric Craeymeersch (44H79V2R4T)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
@@ -1061,6 +1034,12 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEBUG=1",
+					"PROD=1",
+				);
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
@@ -1075,6 +1054,17 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONStore/JSONStore.framework/Headers\"",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KSCrash/KSCrash.framework/Headers\"",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/POMFramework/POMFramework.framework/Headers\"",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -1090,10 +1080,11 @@
 					"-ObjC",
 					"$(inherited)",
 				);
+				PROD = "PROD=1";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.aeroportsdeparis.first;
 				PRODUCT_NAME = First;
 				PROVISIONING_PROFILE = "f7c4dac0-7158-4917-a0df-24fd538e5342";
-				PROVISIONING_PROFILE_SPECIFIER = FirstDistrib12062019;
+				PROVISIONING_PROFILE_SPECIFIER = FirstDEV;
 				SDKROOT = iphoneos;
 				STRIP_STYLE = debugging;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1103,12 +1094,15 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 713142DD4DE17F1BD2E05DBA /* Pods-First.release.xcconfig */;
+			baseConfigurationReference = 79C6BAAA440DDD688C35D374 /* Pods-First-PROD.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = First/First.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
@@ -1117,6 +1111,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"PROD=1",
+				);
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
@@ -1131,6 +1130,17 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONStore/JSONStore.framework/Headers\"",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KSCrash/KSCrash.framework/Headers\"",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/POMFramework/POMFramework.framework/Headers\"",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -1146,10 +1156,11 @@
 					"-ObjC",
 					"$(inherited)",
 				);
+				PROD = "PROD=1";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.aeroportsdeparis.first;
 				PRODUCT_NAME = First;
 				PROVISIONING_PROFILE = "f7c4dac0-7158-4917-a0df-24fd538e5342";
-				PROVISIONING_PROFILE_SPECIFIER = FirstDistrib12062019;
+				PROVISIONING_PROFILE_SPECIFIER = FirstPROD;
 				SDKROOT = iphoneos;
 				STRIP_STYLE = debugging;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1288,11 +1299,14 @@
 		};
 		CE1929831CE21CE000348DF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4D35F0FC28509758AB8A8F3 /* Pods-First-IntVal.debug.xcconfig */;
+			baseConfigurationReference = 5CA0FF691627DEBE8683FEA8 /* Pods-First-INTE.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVal;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "First-IntVal.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1304,6 +1318,12 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEBUG=1",
+					"INTE=1",
+				);
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -1327,7 +1347,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.aeroportsdeparis.first;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1340,20 +1360,28 @@
 		};
 		CE1929841CE21CE000348DF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E48B2D9319E63A7B66B0934 /* Pods-First-IntVal.release.xcconfig */;
+			baseConfigurationReference = 50207CAC30C6CB87F5DC13D6 /* Pods-First-INTE.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVal;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "First-IntVal.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"INTE=1",
+				);
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -1377,10 +1405,10 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.aeroportsdeparis.first;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = PP_First_VAL;
 				SDKROOT = iphoneos;
 				STRIP_STYLE = debugging;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1390,10 +1418,12 @@
 		};
 		CE1929B21CE21CE300348DF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCB9974827BC00D69A51F52E /* Pods-First-Val.debug.xcconfig */;
+			baseConfigurationReference = 6539247BF69421EA733A0A77 /* Pods-First-VAL.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVal;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "First-Val.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1410,6 +1440,12 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"VAL=1",
+					"DEBUG=1",
+				);
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
@@ -1439,7 +1475,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.aeroportsdeparis.first;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1452,15 +1488,17 @@
 		};
 		CE1929B31CE21CE300348DF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BFEACDB75B6A9CDFC50C78D /* Pods-First-Val.release.xcconfig */;
+			baseConfigurationReference = 65A490C379D9F98B99CBAC45 /* Pods-First-VAL.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVal;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "First-Val.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				ENABLE_BITCODE = NO;
@@ -1470,6 +1508,11 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"VAL=1",
+				);
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
@@ -1499,10 +1542,10 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.aeroportsdeparis.first;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = PP_First_VAL;
 				SDKROOT = iphoneos;
 				STRIP_STYLE = debugging;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1513,7 +1556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "First" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "First-PROD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -1531,7 +1574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE1929821CE21CE000348DF2 /* Build configuration list for PBXNativeTarget "First-IntVal" */ = {
+		CE1929821CE21CE000348DF2 /* Build configuration list for PBXNativeTarget "First-INTE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE1929831CE21CE000348DF2 /* Debug */,
@@ -1540,7 +1583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE1929B11CE21CE300348DF2 /* Build configuration list for PBXNativeTarget "First-Val" */ = {
+		CE1929B11CE21CE300348DF2 /* Build configuration list for PBXNativeTarget "First-VAL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE1929B21CE21CE300348DF2 /* Debug */,
