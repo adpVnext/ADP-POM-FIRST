@@ -59,6 +59,8 @@
 				<true/>
 			</dict>
 		</dict>
+        <key>NSAllowsArbitraryLoadsInWebContent</key>
+        <true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>Utiliser la caméra</string>
