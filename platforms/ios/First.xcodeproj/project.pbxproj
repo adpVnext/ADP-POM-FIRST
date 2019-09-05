@@ -69,6 +69,36 @@
 		CE1929AD1CE21CE300348DF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		CE1929AE1CE21CE300348DF2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
 		CE1929AF1CE21CE300348DF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
+		CE1AFD2D231D4EA70018293C /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
+		CE1AFD2E231D4EA70018293C /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
+		CE1AFD2F231D4EA70018293C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
+		CE1AFD30231D4EA70018293C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
+		CE1AFD31231D4EA70018293C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
+		CE1AFD32231D4EA70018293C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		CE1AFD33231D4EA70018293C /* www in Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
+		CE1AFD34231D4EA70018293C /* Connexion – 9.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814422492E1A00A88DEF /* Connexion – 9.png */; };
+		CE1AFD35231D4EA70018293C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814B22492F5200A88DEF /* Images.xcassets */; };
+		CE1AFD36231D4EA70018293C /* Connexion – 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD814322492E1A00A88DEF /* Connexion – 10.png */; };
+		CE1AFD37231D4EA70018293C /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		CE1AFD39231D4EA70018293C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		CE1AFD3A231D4EA70018293C /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = CED74BE31E093F8C000132B2 /* sqlite3.c */; };
+		CE1AFD3B231D4EA70018293C /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BDF1E093CFF000132B2 /* CDVLogger.m */; };
+		CE1AFD3C231D4EA70018293C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		CE1AFD3D231D4EA70018293C /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BE61E093F8C000132B2 /* SQLitePlugin.m */; };
+		CE1AFD3E231D4EA70018293C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		CE1AFD3F231D4EA70018293C /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E347A0D68EE475BB5C5EB72 /* CDVStatusBar.m */; };
+		CE1AFD40231D4EA70018293C /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BDA1E09330D000132B2 /* AppPreferences.m */; };
+		CE1AFD41231D4EA70018293C /* CDVPOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A875802FEAA440089AADE51 /* CDVPOM.m */; };
+		CE1AFD42231D4EA70018293C /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74BD51E0931A1000132B2 /* CDVLocation.m */; };
+		CE1AFD44231D4EA70018293C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9242AC7918103E3B00D93F4D /* libsqlite3.0.dylib */; };
+		CE1AFD45231D4EA70018293C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9242AC7A18103E3B00D93F4D /* libsqlite3.dylib */; };
+		CE1AFD46231D4EA70018293C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		CE1AFD47231D4EA70018293C /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		CE1AFD48231D4EA70018293C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		CE1AFD49231D4EA70018293C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		CE1AFD4A231D4EA70018293C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
+		CE1AFD4B231D4EA70018293C /* Pods_First_INTE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE4DE3DBEE807D7B36A86F0 /* Pods_First_INTE.framework */; };
+		CE1AFD53231D4EFE0018293C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFD25231D4E910018293C /* Settings.bundle */; };
 		CE81F1BC210A0FCE001FF51F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
 		CE81F1BD210A0FCE001FF51F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
 		CE81F1BE210A0FCF001FF51F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
@@ -129,6 +159,13 @@
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = CordovaLib;
 		};
+		CE1AFD28231D4EA70018293C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -143,6 +180,16 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CE1929B01CE21CE300348DF2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1AFD4C231D4EA70018293C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -208,9 +255,11 @@
 		CE1928FD1CE218B000348DF2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CE1929851CE21CE000348DF2 /* First-INTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-INTE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1929B41CE21CE300348DF2 /* First-VAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-VAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1AFD25231D4E910018293C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CE1AFD51231D4EA70018293C /* First-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9CD0BF214BF04A005CF0A0 /* First.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = First.entitlements; path = First/First.entitlements; sourceTree = "<group>"; };
 		CE9CD0C0214BF051005CF0A0 /* First-IntVal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "First-IntVal.entitlements"; sourceTree = "<group>"; };
-		CE9DE8C51EF96AD20015704F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CE9DE8C51EF96AD20015704F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CEAD814322492E1A00A88DEF /* Connexion – 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connexion – 10.png"; sourceTree = "<group>"; };
 		CEAD814422492E1A00A88DEF /* Connexion – 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connexion – 9.png"; sourceTree = "<group>"; };
 		CEAD814B22492F5200A88DEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = First/Images.xcassets; sourceTree = SOURCE_ROOT; };
@@ -275,6 +324,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE1AFD43231D4EA70018293C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1AFD44231D4EA70018293C /* libsqlite3.0.dylib in Frameworks */,
+				CE1AFD45231D4EA70018293C /* libsqlite3.dylib in Frameworks */,
+				CE1AFD46231D4EA70018293C /* AssetsLibrary.framework in Frameworks */,
+				CE1AFD47231D4EA70018293C /* libCordova.a in Frameworks */,
+				CE1AFD48231D4EA70018293C /* CoreGraphics.framework in Frameworks */,
+				CE1AFD49231D4EA70018293C /* MobileCoreServices.framework in Frameworks */,
+				CE1AFD4A231D4EA70018293C /* CoreLocation.framework in Frameworks */,
+				CE1AFD4B231D4EA70018293C /* Pods_First_INTE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -297,6 +361,7 @@
 				1D6058910D05DD3D006BFB54 /* First.app */,
 				CE1929851CE21CE000348DF2 /* First-INTE.app */,
 				CE1929B41CE21CE300348DF2 /* First-VAL.app */,
+				CE1AFD51231D4EA70018293C /* First-DEV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -485,9 +550,18 @@
 			path = "Settings-Val";
 			sourceTree = "<group>";
 		};
+		CE1AFD24231D4E910018293C /* Settings-Dev */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFD25231D4E910018293C /* Settings.bundle */,
+			);
+			path = "Settings-Dev";
+			sourceTree = "<group>";
+		};
 		CE8C53A61D1033CD0023EB5E /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				CE1AFD24231D4E910018293C /* Settings-Dev */,
 				CE1928F81CE218B000348DF2 /* Settings-IntVal */,
 				CE1928FA1CE218B000348DF2 /* Settings-Prod */,
 				CE1928FC1CE218B000348DF2 /* Settings-Val */,
@@ -564,6 +638,28 @@
 			productReference = CE1929B41CE21CE300348DF2 /* First-VAL.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CE1AFD26231D4EA70018293C /* First-DEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1AFD4E231D4EA70018293C /* Build configuration list for PBXNativeTarget "First-DEV" */;
+			buildPhases = (
+				CE1AFD29231D4EA70018293C /* [CP] Check Pods Manifest.lock */,
+				CE1AFD2A231D4EA70018293C /* Copy www directory */,
+				CE1AFD2B231D4EA70018293C /* Resources */,
+				CE1AFD38231D4EA70018293C /* Sources */,
+				CE1AFD43231D4EA70018293C /* Frameworks */,
+				CE1AFD4C231D4EA70018293C /* Embed Frameworks */,
+				CE1AFD4D231D4EA70018293C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1AFD27231D4EA70018293C /* PBXTargetDependency */,
+			);
+			name = "First-DEV";
+			productName = First;
+			productReference = CE1AFD51231D4EA70018293C /* First-DEV.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -574,7 +670,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 2ZP448W2WZ;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -604,6 +700,10 @@
 								enabled = 0;
 							};
 						};
+					};
+					CE1AFD26231D4EA70018293C = {
+						DevelopmentTeam = 2ZP448W2WZ;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -635,6 +735,7 @@
 				1D6058900D05DD3D006BFB54 /* First-PROD */,
 				CE1929581CE21CE000348DF2 /* First-INTE */,
 				CE1929871CE21CE300348DF2 /* First-VAL */,
+				CE1AFD26231D4EA70018293C /* First-DEV */,
 			);
 		};
 /* End PBXProject section */
@@ -705,6 +806,25 @@
 				CEAD814E2249300900A88DEF /* Images.xcassets in Resources */,
 				CEAD814722492E1A00A88DEF /* Connexion – 10.png in Resources */,
 				CE19299C1CE21CE300348DF2 /* icon-72@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1AFD2B231D4EA70018293C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1AFD2D231D4EA70018293C /* config.xml in Resources */,
+				CE1AFD2E231D4EA70018293C /* icon-72.png in Resources */,
+				CE1AFD2F231D4EA70018293C /* icon.png in Resources */,
+				CE1AFD30231D4EA70018293C /* icon@2x.png in Resources */,
+				CE1AFD53231D4EFE0018293C /* Settings.bundle in Resources */,
+				CE1AFD31231D4EA70018293C /* Localizable.strings in Resources */,
+				CE1AFD32231D4EA70018293C /* MainViewController.xib in Resources */,
+				CE1AFD33231D4EA70018293C /* www in Resources */,
+				CE1AFD34231D4EA70018293C /* Connexion – 9.png in Resources */,
+				CE1AFD35231D4EA70018293C /* Images.xcassets in Resources */,
+				CE1AFD36231D4EA70018293C /* Connexion – 10.png in Resources */,
+				CE1AFD37231D4EA70018293C /* icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,6 +1001,70 @@
 			shellPath = /bin/sh;
 			shellScript = "cordova/lib/copy-www-build-step.sh";
 		};
+		CE1AFD29231D4EA70018293C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-INTE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1AFD2A231D4EA70018293C /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cordova/lib/copy-www-build-step.sh";
+		};
+		CE1AFD4D231D4EA70018293C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-First-INTE/Pods-First-INTE-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONStore/JSONStore.framework",
+				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
+				"${BUILT_PRODUCTS_DIR}/POMFramework/POMFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSCrash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/POMFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First-INTE/Pods-First-INTE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EA7A29EC683DF1B7BA22BA74 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -957,6 +1141,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE1AFD38231D4EA70018293C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1AFD39231D4EA70018293C /* main.m in Sources */,
+				CE1AFD3A231D4EA70018293C /* sqlite3.c in Sources */,
+				CE1AFD3B231D4EA70018293C /* CDVLogger.m in Sources */,
+				CE1AFD3C231D4EA70018293C /* AppDelegate.m in Sources */,
+				CE1AFD3D231D4EA70018293C /* SQLitePlugin.m in Sources */,
+				CE1AFD3E231D4EA70018293C /* MainViewController.m in Sources */,
+				CE1AFD3F231D4EA70018293C /* CDVStatusBar.m in Sources */,
+				CE1AFD40231D4EA70018293C /* AppPreferences.m in Sources */,
+				CE1AFD41231D4EA70018293C /* CDVPOM.m in Sources */,
+				CE1AFD42231D4EA70018293C /* CDVLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -974,6 +1175,11 @@
 			isa = PBXTargetDependency;
 			name = CordovaLib;
 			targetProxy = CE1929891CE21CE300348DF2 /* PBXContainerItemProxy */;
+		};
+		CE1AFD27231D4EA70018293C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = CE1AFD28231D4EA70018293C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1024,8 +1230,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = First/First.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Eric Craeymeersch (44H79V2R4T)";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				ENABLE_BITCODE = NO;
@@ -1084,7 +1290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fr.aeroportsdeparis.first;
 				PRODUCT_NAME = First;
 				PROVISIONING_PROFILE = "f7c4dac0-7158-4917-a0df-24fd538e5342";
-				PROVISIONING_PROFILE_SPECIFIER = FirstDEV;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				STRIP_STYLE = debugging;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1208,7 +1414,7 @@
 					"\"$(OBJROOT)/UninstalledProducts/include\"",
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -1272,7 +1478,7 @@
 					"\"$(OBJROOT)/UninstalledProducts/include\"",
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -1456,7 +1662,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
 				INFOPLIST_FILE = "First/First-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
@@ -1523,6 +1729,125 @@
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
 				INFOPLIST_FILE = "First/First-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = PP_First_VAL;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = debugging;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
+			};
+			name = Release;
+		};
+		CE1AFD4F231D4EA70018293C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA0FF691627DEBE8683FEA8 /* Pods-First-INTE.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVal;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "First-IntVal.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 2ZP448W2WZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEBUG=1",
+					"INTE=1",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "First-INTE copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRIP_STYLE = debugging;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
+			};
+			name = Debug;
+		};
+		CE1AFD50231D4EA70018293C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50207CAC30C6CB87F5DC13D6 /* Pods-First-INTE.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVal;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "First-IntVal.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 2ZP448W2WZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"INTE=1",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "First-INTE copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
@@ -1588,6 +1913,15 @@
 			buildConfigurations = (
 				CE1929B21CE21CE300348DF2 /* Debug */,
 				CE1929B31CE21CE300348DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1AFD4E231D4EA70018293C /* Build configuration list for PBXNativeTarget "First-DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1AFD4F231D4EA70018293C /* Debug */,
+				CE1AFD50231D4EA70018293C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
