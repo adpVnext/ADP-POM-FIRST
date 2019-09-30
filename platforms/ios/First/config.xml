@@ -32,6 +32,10 @@
     <param name="ios-package" value="AppPreferences" />
 </feature>
 
+<feature name="BarcodeScanner">
+    <param name="ios-package" value="CDVBarcodeScanner" />
+    <param name="onload" value="true" />
+</feature>
 
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
     <preference name="SuppressesIncrementalRendering" value="false" />

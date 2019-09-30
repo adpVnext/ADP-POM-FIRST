@@ -134,7 +134,7 @@ checkAuthenticated: function(){
                console.log('ping OK go to url');
                var parentElement = document.getElementById('deviceready');
                var receivedElement = parentElement.querySelector('.received');
-               receivedElement.innerHTML  = "<div class='banderol'><div class='text'><font size='20'>VPN Ok, ouverture de l'url : " + configUrl + "</font></div></div>";
+               receivedElement.innerHTML  = "<div class='banderol'><div class='text'><font size='5'>Ouverture de l'url : " + configUrl + "</font></div></div>";
                ADP.POM.managers.coreManager.PostClaims(configUrl+"/Account/PostClaims",configUrl);
                //window.setTimeout(function(){window.location = configUrl;},1000);
                }

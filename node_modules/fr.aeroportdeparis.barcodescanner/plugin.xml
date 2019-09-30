@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="fr.aeroportdeparis.Barcodescanner"
+    version="1.8.3">
+    <name>Barcod</name>
+    <description>POM Barcod Cordova plugin</description>
+    <license>AeroportsdeParis</license>
+    <keywords>cordova,pom</keywords>
+    <repo>https://todo</repo>
+    <issue></issue>
+
+    <js-module src="www/barcodescanner.js" name="BARCOD">
+        <clobbers target="BarcodeScanner" />
+    </js-module>
+
+       <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="BarcodeScanner">
+                <param name="ios-package" value="CDVBarcodeScanner" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVBarcodeScanner.h" />
+        <source-file src="src/ios/CDVBarcodeScanner.mm" />
+    </platform>
+
+</plugin>
