@@ -84,7 +84,7 @@ h1 {
     color:#FFFFFF;
     font-size:12px;
     margin:0px 30px;
-    padding:2px 0px;
+    /*padding:2px 0px;*/
 }
 
 .event.listening {
@@ -99,6 +99,11 @@ h1 {
 
 .event.message {
     background-color:red;
+    margin-top: 7%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    right: -6%;"
 }
 
 @keyframes fade {

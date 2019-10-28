@@ -24,7 +24,7 @@
 #pragma POM Menu
 
 -(void)InitMenu:(CDVInvokedUrlCommand*)command{
-
+    
     float pomMenuWidth = kPomMenuWidth;
     float pomMenuHeight = kPomMenuHeight;
     float margin = kPomMenuMarginTop;
@@ -48,113 +48,136 @@
 
 -(void) onLevel1SecurityInfoChange:(NSNotification *)notice
 {
-    DeviceAuthInfo *device = notice.object;
-    [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onLevel1SecurityInfoChanged", [device JSONString]]];
+    [self.commandDelegate runInBackground:^{
+        
+        DeviceAuthInfo *device = notice.object;
+        [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onLevel1SecurityInfoChanged", [device JSONString]]];
+    }];
 }
 
 -(void) onLevel2SecurityInfoChange:(NSNotification *)notice
 {
-    UserAuthInfo *user = notice.object;
-    NSString *commandeJs = [NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onLevel2SecurityInfoChanged", [user JSONString]];
-    [self.commandDelegate evalJs:commandeJs];
+    [self.commandDelegate runInBackground:^{
+        
+        UserAuthInfo *user = notice.object;
+        NSString *commandeJs = [NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onLevel2SecurityInfoChanged", [user JSONString]];
+        [self.commandDelegate evalJs:commandeJs];
+    }];
 }
 
 -(void) OnLevel2PreSignOut:(NSNotification *)notice
 {
-    [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onLevel2PreSignOut", @"{}"]];
+    [self.commandDelegate runInBackground:^{
+        
+        [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onLevel2PreSignOut", @"{}"]];
+    }];
 }
 
 -(void) onMessageRaised:(NSNotification *)notice
 {
-    [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onMessageRaised", [notice.object JSONString]]];
-    
-    // TechLog
-    POMMessage *pomMessage = notice.object;
-    [[POMService sharedManager] pomTechLog:@"pom message" withMessage:pomMessage.Message];
-
+    [self.commandDelegate runInBackground:^{
+        [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onMessageRaised", [notice.object JSONString]]];
+        
+        // TechLog
+        POMMessage *pomMessage = notice.object;
+        [[POMService sharedManager] pomTechLog:@"pom message" withMessage:pomMessage.Message];
+    }];
 }
 
 #pragma API POM
 
 - (void)GetIpadName:(CDVInvokedUrlCommand*)command
 {
-    NSString *deviceName =  [[UIDevice currentDevice] name];
-    CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:deviceName];
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    [self.commandDelegate runInBackground:^{
+        NSString *deviceName =  [[UIDevice currentDevice] name];
+        CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:deviceName];
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 
 - (void)GetFrameworkVersion:(CDVInvokedUrlCommand*)command
 {
-    CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDouble:POMFrameworkVersionNumber];
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    [self.commandDelegate runInBackground:^{
+        
+        CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDouble:POMFrameworkVersionNumber];
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 - (void)CallApplication:(CDVInvokedUrlCommand*)command{
-    CDVPluginResult* result;
-    NSString *url = [command.arguments objectAtIndex:0];
-    if (!url || [url isEqual:@""])
-    {
-        result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
-                                   messageAsString:@"Invalid argument : Url is null or empty"
-                  ];
-    }
-    else
-    {
-        [[POMAPI sharedInstance] CallApplication:url];
-        result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Application launched"];
-    }
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    [self.commandDelegate runInBackground:^{
+        
+        CDVPluginResult* result;
+        NSString *url = [command.arguments objectAtIndex:0];
+        if (!url || [url isEqual:@""])
+        {
+            result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
+                                       messageAsString:@"Invalid argument : Url is null or empty"
+                      ];
+        }
+        else
+        {
+            [[POMAPI sharedInstance] CallApplication:url];
+            result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Application launched"];
+        }
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 - (void)Level1SecurityInfo:(CDVInvokedUrlCommand*)command{
-    DeviceAuthInfo *device = [[POMAPI sharedInstance] Level1SecurityInfo];
-    CDVPluginResult* result;
-    if (!device)
-    {
-        result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
-                                   messageAsString:@"No authentication for level 1"
-                  ];
-    }
-    else
-    {
-        NSError *error;
-        NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:[device JSONData] options:kNilOptions error:&error];
-        if (error)
+    [self.commandDelegate runInBackground:^{
+        DeviceAuthInfo *device = [[POMAPI sharedInstance] Level1SecurityInfo];
+        CDVPluginResult* result;
+        if (!device)
         {
             result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
-                                       messageAsString:[NSString stringWithFormat:@"Serialization Level 1 : Code erreur: %ld - %@ %@", (long)error.code, error.localizedDescription, [error.userInfo objectForKey:NSURLErrorFailingURLStringErrorKey]]
+                                       messageAsString:@"No authentication for level 1"
                       ];
         }
         else
-            result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dictionary];
-    }
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+        {
+            NSError *error;
+            NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:[device JSONData] options:kNilOptions error:&error];
+            if (error)
+            {
+                result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
+                                           messageAsString:[NSString stringWithFormat:@"Serialization Level 1 : Code erreur: %ld - %@ %@", (long)error.code, error.localizedDescription, [error.userInfo objectForKey:NSURLErrorFailingURLStringErrorKey]]
+                          ];
+            }
+            else
+                result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dictionary];
+        }
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 - (void)Level2SecurityInfo:(CDVInvokedUrlCommand*)command{
-    UserAuthInfo *user =  [[POMAPI sharedInstance] Level2SecurityInfo];
-    CDVPluginResult* result;
-    if (!user)
-    {
-        result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
-                                   messageAsString:@"No authentication for level 2"
-                  ];
-    }
-    else
-    {
-        NSError *error;
-        NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:[user JSONData] options:kNilOptions error:&error];
-        if (error)
+    [self.commandDelegate runInBackground:^{
+        
+        UserAuthInfo *user =  [[POMAPI sharedInstance] Level2SecurityInfo];
+        CDVPluginResult* result;
+        if (!user)
         {
             result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
-                                       messageAsString:[NSString stringWithFormat:@"Serialization Level 2 : Code erreur: %ld - %@ %@", (long)error.code, error.localizedDescription, [error.userInfo objectForKey:NSURLErrorFailingURLStringErrorKey]]
+                                       messageAsString:@"No authentication for level 2"
                       ];
         }
         else
-            result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dictionary];
-    }
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+        {
+            NSError *error;
+            NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:[user JSONData] options:kNilOptions error:&error];
+            if (error)
+            {
+                result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
+                                           messageAsString:[NSString stringWithFormat:@"Serialization Level 2 : Code erreur: %ld - %@ %@", (long)error.code, error.localizedDescription, [error.userInfo objectForKey:NSURLErrorFailingURLStringErrorKey]]
+                          ];
+            }
+            else
+                result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dictionary];
+        }
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 -(void)RequestLevel2SignIn:(CDVInvokedUrlCommand*)command{
@@ -175,73 +198,89 @@
 }
 
 - (void)GetRawClaims:(CDVInvokedUrlCommand*)command{
-    TokenContainer *tokens = [[POMAPI sharedInstance] GetRawClaims];
-    NSError *error;
-    CDVPluginResult* result;
-    NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:[tokens JSONData] options:kNilOptions error:&error];
-    if (error)
-    {
-        result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
-                                   messageAsString:[NSString stringWithFormat:@"Serialization Claims : Code erreur: %ld - %@ %@", (long)error.code, error.localizedDescription, [error.userInfo objectForKey:NSURLErrorFailingURLStringErrorKey]]
-                  ];
-    }
-    else
-        result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dictionary];
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    [self.commandDelegate runInBackground:^{
+        
+        TokenContainer *tokens = [[POMAPI sharedInstance] GetRawClaims];
+        NSError *error;
+        CDVPluginResult* result;
+        NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:[tokens JSONData] options:kNilOptions error:&error];
+        if (error)
+        {
+            result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
+                                       messageAsString:[NSString stringWithFormat:@"Serialization Claims : Code erreur: %ld - %@ %@", (long)error.code, error.localizedDescription, [error.userInfo objectForKey:NSURLErrorFailingURLStringErrorKey]]
+                      ];
+        }
+        else
+            result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dictionary];
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 - (void)GetApplicationList:(CDVInvokedUrlCommand*)command{
-    POMAPI *service = [POMAPI sharedInstance];
-    NSArray *apps = [service GetApplicationList];
     
-    NSError *error;
-    CDVPluginResult* result;
-    
-    NSMutableArray *array = [[NSMutableArray alloc] init];
-    for (POMApplication *app in apps) {
-        [array addObject:[NSJSONSerialization JSONObjectWithData:[app JSONData] options:kNilOptions error:&error]];
-    }
-    result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsArray:array];
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    [self.commandDelegate runInBackground:^{
+        
+        POMAPI *service = [POMAPI sharedInstance];
+        NSArray *apps = [service GetApplicationList];
+        
+        NSError *error;
+        CDVPluginResult* result;
+        
+        NSMutableArray *array = [[NSMutableArray alloc] init];
+        for (POMApplication *app in apps) {
+            [array addObject:[NSJSONSerialization JSONObjectWithData:[app JSONData] options:kNilOptions error:&error]];
+        }
+        result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsArray:array];
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 - (void)GetUserThumbnailURL:(CDVInvokedUrlCommand*)command{
-    NSString *url = [[POMAPI sharedInstance] GetUserThumbnailURL];
-    CDVPluginResult* result;
-    if (!url)
-    {
-        result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
-                                   messageAsString:[NSString stringWithFormat:@"No user thumbnail"]
-                  ];
-    }
-    else
-        result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:url];
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    // Command en background !!!!!!
+    [self.commandDelegate runInBackground:^{
+        NSString *url = [[POMAPI sharedInstance] GetUserThumbnailURL];
+        CDVPluginResult* result;
+        if (!url)
+        {
+            result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
+                                       messageAsString:[NSString stringWithFormat:@"No user thumbnail"]
+                      ];
+        }
+        else
+            result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:url];
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 - (void)GetUserThumbnailPicture:(CDVInvokedUrlCommand*)command{
-    NSData *picture = [[POMAPI sharedInstance] GetUserThumbnailPicture];
-    
-    CDVPluginResult* result;
-    if (!picture)
-    {
-        result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
-                                   messageAsString:[NSString stringWithFormat:@"No user thumbnail"]
-                  ];
-    }
-    else
-        result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsArrayBuffer:picture];
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    [self.commandDelegate runInBackground:^{
+        
+        NSData *picture = [[POMAPI sharedInstance] GetUserThumbnailPicture];
+        
+        CDVPluginResult* result;
+        if (!picture)
+        {
+            result = [CDVPluginResult resultWithStatus: CDVCommandStatus_ERROR
+                                       messageAsString:[NSString stringWithFormat:@"No user thumbnail"]
+                      ];
+        }
+        else
+            result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsArrayBuffer:picture];
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 - (void)IsTokenBlacklisted:(CDVInvokedUrlCommand*)command
 {
-    NSString* token = [command.arguments objectAtIndex:0];
-    BOOL isBlacklisted = [[POMAPI sharedInstance] IsTokenBlackListed:token];
-    
-    CDVPluginResult* result;
-    result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:isBlacklisted];
-    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    [self.commandDelegate runInBackground:^{
+        
+        NSString* token = [command.arguments objectAtIndex:0];
+        BOOL isBlacklisted = [[POMAPI sharedInstance] IsTokenBlackListed:token];
+        
+        CDVPluginResult* result;
+        result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:isBlacklisted];
+        [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    }];
 }
 
 - (BOOL)DisplayStandardMenu {
