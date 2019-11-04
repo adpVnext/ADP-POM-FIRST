@@ -181,20 +181,26 @@
 }
 
 -(void)RequestLevel2SignIn:(CDVInvokedUrlCommand*)command{
-    [[POMAPI sharedInstance] RequestLevel2SignIn];
+    [self.commandDelegate runInBackground:^{
+        [[POMAPI sharedInstance] RequestLevel2SignIn];
+    }];
 }
 
 -(void)DisplayMenu:(CDVInvokedUrlCommand*)command{
-    BOOL display = [[command.arguments objectAtIndex:0] boolValue];
-    self.DisplayStandardMenu = display;
+        BOOL display = [[command.arguments objectAtIndex:0] boolValue];
+        self.DisplayStandardMenu = display;
 }
 
 -(void)RequestLevel2SignOut:(CDVInvokedUrlCommand*)command{
-    [[POMAPI sharedInstance] RequestLevel2SignOut];
+    [self.commandDelegate runInBackground:^{
+        [[POMAPI sharedInstance] RequestLevel2SignOut];
+    }];
 }
 
 -(void)ForceRefreshSecurity:(CDVInvokedUrlCommand*)command{
-    [[POMAPI sharedInstance] ForceRefreshSecurity];
+    [self.commandDelegate runInBackground:^{
+        [[POMAPI sharedInstance] ForceRefreshSecurity];
+    }];
 }
 
 - (void)GetRawClaims:(CDVInvokedUrlCommand*)command{
