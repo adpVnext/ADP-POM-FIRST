@@ -19,8 +19,65 @@
 		6EE60E4E8538443EAFD794B4 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF87EDA459A407C8F5E08B6 /* CDVStatusBar.m */; };
 		9033B652B6844E8687768810 /* CDVPOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5EBA57F33A427887DF099A /* CDVPOM.m */; };
 		A21AC622792C4A498B2C95D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C250F88367ED46F587500FA6 /* CoreLocation.framework */; };
-		BC9C579827B91285BE374224 /* Pods_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3C98DA4CD505259372430C /* Pods_First.framework */; };
-		CE63235F23709357004BE34B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE63235E23709357004BE34B /* Settings.bundle */; };
+		A365ABC89D611352548161AF /* Pods_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15546F72D0234E5456F46333 /* Pods_First.framework */; };
+		CE79D890237312F4004C0F44 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE79D88A237312F4004C0F44 /* Settings.bundle */; };
+		CE79D89A2373133D004C0F44 /* Connexion – 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ED423706EE40018D39C /* Connexion – 10.png */; };
+		CE79D89B2373133D004C0F44 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		CE79D89C2373133D004C0F44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		CE79D89D2373133D004C0F44 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ECB23706E510018D39C /* CDVLaunchScreen.storyboard */; };
+		CE79D89E2373133D004C0F44 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE63235E23709357004BE34B /* Settings.bundle */; };
+		CE79D89F2373133D004C0F44 /* Connexion – 9.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ED523706EE40018D39C /* Connexion – 9.png */; };
+		CE79D8A32373133D004C0F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		CE79D8A42373133D004C0F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		CE79D8A52373133D004C0F44 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		CE79D8A62373133D004C0F44 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F66EBF74A1CB4C858871760E /* SQLitePlugin.m */; };
+		CE79D8A72373133D004C0F44 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = CCDD7C80A4B04738AE2B0FD4 /* sqlite3.c */; };
+		CE79D8A82373133D004C0F44 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF87EDA459A407C8F5E08B6 /* CDVStatusBar.m */; };
+		CE79D8A92373133D004C0F44 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B13E1558AE546C190D2F059 /* AppPreferences.m */; };
+		CE79D8AA2373133D004C0F44 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 191D939536D94FF385ECDDB7 /* CDVLocation.m */; };
+		CE79D8AB2373133D004C0F44 /* CDVPOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5EBA57F33A427887DF099A /* CDVPOM.m */; };
+		CE79D8AC2373133D004C0F44 /* CDVBarcodeScanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAE7C1391D2C4F15823C2A46 /* CDVBarcodeScanner.mm */; };
+		CE79D8AE2373133D004C0F44 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		CE79D8AF2373133D004C0F44 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C250F88367ED46F587500FA6 /* CoreLocation.framework */; };
+		CE79D8B02373133D004C0F44 /* Pods_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15546F72D0234E5456F46333 /* Pods_First.framework */; };
+		CE79D8BE2373147E004C0F44 /* Connexion – 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ED423706EE40018D39C /* Connexion – 10.png */; };
+		CE79D8BF2373147E004C0F44 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		CE79D8C02373147E004C0F44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		CE79D8C12373147E004C0F44 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ECB23706E510018D39C /* CDVLaunchScreen.storyboard */; };
+		CE79D8C32373147E004C0F44 /* Connexion – 9.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ED523706EE40018D39C /* Connexion – 9.png */; };
+		CE79D8C42373147E004C0F44 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE79D88F237312F4004C0F44 /* Settings.bundle */; };
+		CE79D8C62373147E004C0F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		CE79D8C72373147E004C0F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		CE79D8C82373147E004C0F44 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		CE79D8C92373147E004C0F44 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F66EBF74A1CB4C858871760E /* SQLitePlugin.m */; };
+		CE79D8CA2373147E004C0F44 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = CCDD7C80A4B04738AE2B0FD4 /* sqlite3.c */; };
+		CE79D8CB2373147E004C0F44 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF87EDA459A407C8F5E08B6 /* CDVStatusBar.m */; };
+		CE79D8CC2373147E004C0F44 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B13E1558AE546C190D2F059 /* AppPreferences.m */; };
+		CE79D8CD2373147E004C0F44 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 191D939536D94FF385ECDDB7 /* CDVLocation.m */; };
+		CE79D8CE2373147E004C0F44 /* CDVPOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5EBA57F33A427887DF099A /* CDVPOM.m */; };
+		CE79D8CF2373147E004C0F44 /* CDVBarcodeScanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAE7C1391D2C4F15823C2A46 /* CDVBarcodeScanner.mm */; };
+		CE79D8D12373147E004C0F44 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		CE79D8D22373147E004C0F44 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C250F88367ED46F587500FA6 /* CoreLocation.framework */; };
+		CE79D8D32373147E004C0F44 /* Pods_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15546F72D0234E5456F46333 /* Pods_First.framework */; };
+		CE79D8E0237314AE004C0F44 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE79D88D237312F4004C0F44 /* Settings.bundle */; };
+		CE79D8E1237314AE004C0F44 /* Connexion – 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ED423706EE40018D39C /* Connexion – 10.png */; };
+		CE79D8E2237314AE004C0F44 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		CE79D8E3237314AE004C0F44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		CE79D8E4237314AE004C0F44 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ECB23706E510018D39C /* CDVLaunchScreen.storyboard */; };
+		CE79D8E6237314AE004C0F44 /* Connexion – 9.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ED523706EE40018D39C /* Connexion – 9.png */; };
+		CE79D8E9237314AE004C0F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		CE79D8EA237314AE004C0F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		CE79D8EB237314AE004C0F44 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		CE79D8EC237314AE004C0F44 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F66EBF74A1CB4C858871760E /* SQLitePlugin.m */; };
+		CE79D8ED237314AE004C0F44 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = CCDD7C80A4B04738AE2B0FD4 /* sqlite3.c */; };
+		CE79D8EE237314AE004C0F44 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF87EDA459A407C8F5E08B6 /* CDVStatusBar.m */; };
+		CE79D8EF237314AE004C0F44 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B13E1558AE546C190D2F059 /* AppPreferences.m */; };
+		CE79D8F0237314AE004C0F44 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 191D939536D94FF385ECDDB7 /* CDVLocation.m */; };
+		CE79D8F1237314AE004C0F44 /* CDVPOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5EBA57F33A427887DF099A /* CDVPOM.m */; };
+		CE79D8F2237314AE004C0F44 /* CDVBarcodeScanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAE7C1391D2C4F15823C2A46 /* CDVBarcodeScanner.mm */; };
+		CE79D8F4237314AE004C0F44 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		CE79D8F5237314AE004C0F44 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C250F88367ED46F587500FA6 /* CoreLocation.framework */; };
+		CE79D8F6237314AE004C0F44 /* Pods_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15546F72D0234E5456F46333 /* Pods_First.framework */; };
 		CEE18ECC23706E510018D39C /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ECB23706E510018D39C /* CDVLaunchScreen.storyboard */; };
 		CEE18EDD23706EE40018D39C /* Connexion – 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ED423706EE40018D39C /* Connexion – 10.png */; };
 		CEE18EDE23706EE40018D39C /* Connexion – 9.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE18ED523706EE40018D39C /* Connexion – 9.png */; };
@@ -50,15 +107,37 @@
 			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
 			remoteInfo = Cordova;
 		};
+		CE79D8952373133D004C0F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		CE79D8B92373147E004C0F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		CE79D8DC237314AE004C0F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = First/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		15546F72D0234E5456F46333 /* Pods_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		191D939536D94FF385ECDDB7 /* CDVLocation.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocation.m; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26DB7CE7D7409DCA510620D4 /* Pods-First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.debug.xcconfig"; path = "Target Support Files/Pods-First/Pods-First.debug.xcconfig"; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* First-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293028EE6A68A6B7C91CC516 /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.release.xcconfig"; path = "Target Support Files/Pods-First/Pods-First.release.xcconfig"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -69,11 +148,10 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* First-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "First-Prefix.pch"; sourceTree = "<group>"; };
+		35978CFF723CAE76077456EF /* Pods-First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.debug.xcconfig"; path = "Target Support Files/Pods-First/Pods-First.debug.xcconfig"; sourceTree = "<group>"; };
 		44032344909B4E2FB5718260 /* sqlite3.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "cordova-plugin-sqlite/sqlite3.h"; sourceTree = "<group>"; };
 		48033B78DED14DC8877BC322 /* CDVPOM.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVPOM.h; path = fr.aeroportsdeparis.cordova.pom/CDVPOM.h; sourceTree = "<group>"; };
-		4B3C98DA4CD505259372430C /* Pods_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5EBA57F33A427887DF099A /* CDVPOM.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVPOM.m; path = fr.aeroportsdeparis.cordova.pom/CDVPOM.m; sourceTree = "<group>"; };
-		57E8ECAA3E330CB87277BCC5 /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.release.xcconfig"; path = "Target Support Files/Pods-First/Pods-First.release.xcconfig"; sourceTree = "<group>"; };
 		5F982B868A2E42CC82967FAD /* SQLitePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SQLitePlugin.h; path = "cordova-plugin-sqlite/SQLitePlugin.h"; sourceTree = "<group>"; };
 		6DDBA458EE764E9CBF969FCE /* CDVBarcodeScanner.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVBarcodeScanner.h; path = fr.aeroportdeparis.Barcodescanner/CDVBarcodeScanner.h; sourceTree = "<group>"; };
 		8AF87EDA459A407C8F5E08B6 /* CDVStatusBar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
@@ -85,6 +163,12 @@
 		C250F88367ED46F587500FA6 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CCDD7C80A4B04738AE2B0FD4 /* sqlite3.c */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sqlite3.c; path = "cordova-plugin-sqlite/sqlite3.c"; sourceTree = "<group>"; };
 		CE63235E23709357004BE34B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CE79D88A237312F4004C0F44 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CE79D88D237312F4004C0F44 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CE79D88F237312F4004C0F44 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CE79D8B52373133D004C0F44 /* First-VABF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-VABF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE79D8D82373147E004C0F44 /* First-INTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-INTE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE79D8FB237314AE004C0F44 /* First-PROD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-PROD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE18ECB23706E510018D39C /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CDVLaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE18ED423706EE40018D39C /* Connexion – 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connexion – 10.png"; sourceTree = "<group>"; };
 		CEE18ED523706EE40018D39C /* Connexion – 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connexion – 9.png"; sourceTree = "<group>"; };
@@ -101,7 +185,37 @@
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				A21AC622792C4A498B2C95D7 /* CoreLocation.framework in Frameworks */,
-				BC9C579827B91285BE374224 /* Pods_First.framework in Frameworks */,
+				A365ABC89D611352548161AF /* Pods_First.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE79D8AD2373133D004C0F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79D8AE2373133D004C0F44 /* libCordova.a in Frameworks */,
+				CE79D8AF2373133D004C0F44 /* CoreLocation.framework in Frameworks */,
+				CE79D8B02373133D004C0F44 /* Pods_First.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE79D8D02373147E004C0F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79D8D12373147E004C0F44 /* libCordova.a in Frameworks */,
+				CE79D8D22373147E004C0F44 /* CoreLocation.framework in Frameworks */,
+				CE79D8D32373147E004C0F44 /* Pods_First.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE79D8F3237314AE004C0F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79D8F4237314AE004C0F44 /* libCordova.a in Frameworks */,
+				CE79D8F5237314AE004C0F44 /* CoreLocation.framework in Frameworks */,
+				CE79D8F6237314AE004C0F44 /* Pods_First.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +238,10 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* First.app */,
+				1D6058910D05DD3D006BFB54 /* First-DEV.app */,
+				CE79D8B52373133D004C0F44 /* First-VABF.app */,
+				CE79D8D82373147E004C0F44 /* First-INTE.app */,
+				CE79D8FB237314AE004C0F44 /* First-PROD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +249,10 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				CE63235D23709357004BE34B /* Settings-Val */,
+				CE79D889237312F4004C0F44 /* Settings-DEV */,
+				CE63235D23709357004BE34B /* Settings-VABF */,
+				CE79D88E237312F4004C0F44 /* Settings-INTE */,
+				CE79D88C237312F4004C0F44 /* Settings-PROD */,
 				EB87FDF11871DA420020F90C /* Staging */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -174,7 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				C250F88367ED46F587500FA6 /* CoreLocation.framework */,
-				4B3C98DA4CD505259372430C /* Pods_First.framework */,
+				15546F72D0234E5456F46333 /* Pods_First.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,12 +340,36 @@
 			path = First/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
-		CE63235D23709357004BE34B /* Settings-Val */ = {
+		CE63235D23709357004BE34B /* Settings-VABF */ = {
 			isa = PBXGroup;
 			children = (
 				CE63235E23709357004BE34B /* Settings.bundle */,
 			);
-			path = "Settings-Val";
+			path = "Settings-VABF";
+			sourceTree = "<group>";
+		};
+		CE79D889237312F4004C0F44 /* Settings-DEV */ = {
+			isa = PBXGroup;
+			children = (
+				CE79D88A237312F4004C0F44 /* Settings.bundle */,
+			);
+			path = "Settings-DEV";
+			sourceTree = "<group>";
+		};
+		CE79D88C237312F4004C0F44 /* Settings-PROD */ = {
+			isa = PBXGroup;
+			children = (
+				CE79D88D237312F4004C0F44 /* Settings.bundle */,
+			);
+			path = "Settings-PROD";
+			sourceTree = "<group>";
+		};
+		CE79D88E237312F4004C0F44 /* Settings-INTE */ = {
+			isa = PBXGroup;
+			children = (
+				CE79D88F237312F4004C0F44 /* Settings.bundle */,
+			);
+			path = "Settings-INTE";
 			sourceTree = "<group>";
 		};
 		CEE18ECD23706EE40018D39C /* splash */ = {
@@ -240,8 +384,8 @@
 		D240EF2ED2A75C8109A0AD89 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				26DB7CE7D7409DCA510620D4 /* Pods-First.debug.xcconfig */,
-				57E8ECAA3E330CB87277BCC5 /* Pods-First.release.xcconfig */,
+				35978CFF723CAE76077456EF /* Pods-First.debug.xcconfig */,
+				293028EE6A68A6B7C91CC516 /* Pods-First.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -258,25 +402,88 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* First */ = {
+		1D6058900D05DD3D006BFB54 /* First-DEV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "First" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "First-DEV" */;
 			buildPhases = (
-				5BB14CFBDDF061BBB1DB19B1 /* [CP] Check Pods Manifest.lock */,
+				F8A9BD3BA40634ACE826E6DC /* [CP] Check Pods Manifest.lock */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				996B5A9142AE7458267F3958 /* [CP] Embed Pods Frameworks */,
+				8EF3503D943D2276CA86CB04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = First;
+			name = "First-DEV";
 			productName = First;
-			productReference = 1D6058910D05DD3D006BFB54 /* First.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* First-DEV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE79D8932373133D004C0F44 /* First-VABF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE79D8B22373133D004C0F44 /* Build configuration list for PBXNativeTarget "First-VABF" */;
+			buildPhases = (
+				CE79D8962373133D004C0F44 /* [CP] Check Pods Manifest.lock */,
+				CE79D8972373133D004C0F44 /* Copy www directory */,
+				CE79D8982373133D004C0F44 /* Resources */,
+				CE79D8A22373133D004C0F44 /* Sources */,
+				CE79D8AD2373133D004C0F44 /* Frameworks */,
+				CE79D8B12373133D004C0F44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE79D8942373133D004C0F44 /* PBXTargetDependency */,
+			);
+			name = "First-VABF";
+			productName = First;
+			productReference = CE79D8B52373133D004C0F44 /* First-VABF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE79D8B72373147E004C0F44 /* First-INTE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE79D8D52373147E004C0F44 /* Build configuration list for PBXNativeTarget "First-INTE" */;
+			buildPhases = (
+				CE79D8BA2373147E004C0F44 /* [CP] Check Pods Manifest.lock */,
+				CE79D8BB2373147E004C0F44 /* Copy www directory */,
+				CE79D8BC2373147E004C0F44 /* Resources */,
+				CE79D8C52373147E004C0F44 /* Sources */,
+				CE79D8D02373147E004C0F44 /* Frameworks */,
+				CE79D8D42373147E004C0F44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE79D8B82373147E004C0F44 /* PBXTargetDependency */,
+			);
+			name = "First-INTE";
+			productName = First;
+			productReference = CE79D8D82373147E004C0F44 /* First-INTE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE79D8DA237314AE004C0F44 /* First-PROD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE79D8F8237314AE004C0F44 /* Build configuration list for PBXNativeTarget "First-PROD" */;
+			buildPhases = (
+				CE79D8DD237314AE004C0F44 /* [CP] Check Pods Manifest.lock */,
+				CE79D8DE237314AE004C0F44 /* Copy www directory */,
+				CE79D8DF237314AE004C0F44 /* Resources */,
+				CE79D8E8237314AE004C0F44 /* Sources */,
+				CE79D8F3237314AE004C0F44 /* Frameworks */,
+				CE79D8F7237314AE004C0F44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE79D8DB237314AE004C0F44 /* PBXTargetDependency */,
+			);
+			name = "First-PROD";
+			productName = First;
+			productReference = CE79D8FB237314AE004C0F44 /* First-PROD.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -288,6 +495,18 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 2ZP448W2WZ;
+						ProvisioningStyle = Automatic;
+					};
+					CE79D8932373133D004C0F44 = {
+						DevelopmentTeam = 2ZP448W2WZ;
+						ProvisioningStyle = Automatic;
+					};
+					CE79D8B72373147E004C0F44 = {
+						DevelopmentTeam = 2ZP448W2WZ;
+						ProvisioningStyle = Automatic;
+					};
+					CE79D8DA237314AE004C0F44 = {
 						DevelopmentTeam = 2ZP448W2WZ;
 						ProvisioningStyle = Automatic;
 					};
@@ -313,7 +532,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* First */,
+				1D6058900D05DD3D006BFB54 /* First-DEV */,
+				CE79D8932373133D004C0F44 /* First-VABF */,
+				CE79D8B72373147E004C0F44 /* First-INTE */,
+				CE79D8DA237314AE004C0F44 /* First-PROD */,
 			);
 		};
 /* End PBXProject section */
@@ -344,8 +566,47 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				CEE18ECC23706E510018D39C /* CDVLaunchScreen.storyboard in Resources */,
-				CE63235F23709357004BE34B /* Settings.bundle in Resources */,
 				CEE18EDE23706EE40018D39C /* Connexion – 9.png in Resources */,
+				CE79D890237312F4004C0F44 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE79D8982373133D004C0F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79D89A2373133D004C0F44 /* Connexion – 10.png in Resources */,
+				CE79D89B2373133D004C0F44 /* MainViewController.xib in Resources */,
+				CE79D89C2373133D004C0F44 /* Images.xcassets in Resources */,
+				CE79D89D2373133D004C0F44 /* CDVLaunchScreen.storyboard in Resources */,
+				CE79D89E2373133D004C0F44 /* Settings.bundle in Resources */,
+				CE79D89F2373133D004C0F44 /* Connexion – 9.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE79D8BC2373147E004C0F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79D8BE2373147E004C0F44 /* Connexion – 10.png in Resources */,
+				CE79D8BF2373147E004C0F44 /* MainViewController.xib in Resources */,
+				CE79D8C02373147E004C0F44 /* Images.xcassets in Resources */,
+				CE79D8C12373147E004C0F44 /* CDVLaunchScreen.storyboard in Resources */,
+				CE79D8C32373147E004C0F44 /* Connexion – 9.png in Resources */,
+				CE79D8C42373147E004C0F44 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE79D8DF237314AE004C0F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79D8E0237314AE004C0F44 /* Settings.bundle in Resources */,
+				CE79D8E1237314AE004C0F44 /* Connexion – 10.png in Resources */,
+				CE79D8E2237314AE004C0F44 /* MainViewController.xib in Resources */,
+				CE79D8E3237314AE004C0F44 /* Images.xcassets in Resources */,
+				CE79D8E4237314AE004C0F44 /* CDVLaunchScreen.storyboard in Resources */,
+				CE79D8E6237314AE004C0F44 /* Connexion – 9.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,29 +628,7 @@
 			shellScript = "\"$SRCROOT/First/Scripts/copy-www-build-step.sh\"";
 			showEnvVarsInLog = 0;
 		};
-		5BB14CFBDDF061BBB1DB19B1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-First-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		996B5A9142AE7458267F3958 /* [CP] Embed Pods Frameworks */ = {
+		8EF3503D943D2276CA86CB04 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -417,6 +656,223 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First/Pods-First-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CE79D8962373133D004C0F44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE79D8972373133D004C0F44 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/First/Scripts/copy-www-build-step.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		CE79D8B12373133D004C0F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-First/Pods-First-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONStore/JSONStore.framework",
+				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
+				"${BUILT_PRODUCTS_DIR}/POMFramework/POMFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSCrash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/POMFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First/Pods-First-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE79D8BA2373147E004C0F44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE79D8BB2373147E004C0F44 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/First/Scripts/copy-www-build-step.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		CE79D8D42373147E004C0F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-First/Pods-First-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONStore/JSONStore.framework",
+				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
+				"${BUILT_PRODUCTS_DIR}/POMFramework/POMFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSCrash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/POMFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First/Pods-First-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE79D8DD237314AE004C0F44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE79D8DE237314AE004C0F44 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/First/Scripts/copy-www-build-step.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		CE79D8F7237314AE004C0F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-First/Pods-First-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONStore/JSONStore.framework",
+				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
+				"${BUILT_PRODUCTS_DIR}/POMFramework/POMFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSCrash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/POMFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First/Pods-First-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A9BD3BA40634ACE826E6DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -437,6 +893,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE79D8A22373133D004C0F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79D8A32373133D004C0F44 /* main.m in Sources */,
+				CE79D8A42373133D004C0F44 /* AppDelegate.m in Sources */,
+				CE79D8A52373133D004C0F44 /* MainViewController.m in Sources */,
+				CE79D8A62373133D004C0F44 /* SQLitePlugin.m in Sources */,
+				CE79D8A72373133D004C0F44 /* sqlite3.c in Sources */,
+				CE79D8A82373133D004C0F44 /* CDVStatusBar.m in Sources */,
+				CE79D8A92373133D004C0F44 /* AppPreferences.m in Sources */,
+				CE79D8AA2373133D004C0F44 /* CDVLocation.m in Sources */,
+				CE79D8AB2373133D004C0F44 /* CDVPOM.m in Sources */,
+				CE79D8AC2373133D004C0F44 /* CDVBarcodeScanner.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE79D8C52373147E004C0F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79D8C62373147E004C0F44 /* main.m in Sources */,
+				CE79D8C72373147E004C0F44 /* AppDelegate.m in Sources */,
+				CE79D8C82373147E004C0F44 /* MainViewController.m in Sources */,
+				CE79D8C92373147E004C0F44 /* SQLitePlugin.m in Sources */,
+				CE79D8CA2373147E004C0F44 /* sqlite3.c in Sources */,
+				CE79D8CB2373147E004C0F44 /* CDVStatusBar.m in Sources */,
+				CE79D8CC2373147E004C0F44 /* AppPreferences.m in Sources */,
+				CE79D8CD2373147E004C0F44 /* CDVLocation.m in Sources */,
+				CE79D8CE2373147E004C0F44 /* CDVPOM.m in Sources */,
+				CE79D8CF2373147E004C0F44 /* CDVBarcodeScanner.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE79D8E8237314AE004C0F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79D8E9237314AE004C0F44 /* main.m in Sources */,
+				CE79D8EA237314AE004C0F44 /* AppDelegate.m in Sources */,
+				CE79D8EB237314AE004C0F44 /* MainViewController.m in Sources */,
+				CE79D8EC237314AE004C0F44 /* SQLitePlugin.m in Sources */,
+				CE79D8ED237314AE004C0F44 /* sqlite3.c in Sources */,
+				CE79D8EE237314AE004C0F44 /* CDVStatusBar.m in Sources */,
+				CE79D8EF237314AE004C0F44 /* AppPreferences.m in Sources */,
+				CE79D8F0237314AE004C0F44 /* CDVLocation.m in Sources */,
+				CE79D8F1237314AE004C0F44 /* CDVPOM.m in Sources */,
+				CE79D8F2237314AE004C0F44 /* CDVBarcodeScanner.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -444,6 +951,21 @@
 			isa = PBXTargetDependency;
 			name = CordovaLib;
 			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+		CE79D8942373133D004C0F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = CE79D8952373133D004C0F44 /* PBXContainerItemProxy */;
+		};
+		CE79D8B82373147E004C0F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = CE79D8B92373147E004C0F44 /* PBXContainerItemProxy */;
+		};
+		CE79D8DB237314AE004C0F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = CE79D8DC237314AE004C0F44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -622,10 +1144,292 @@
 			};
 			name = Release;
 		};
+		CE79D8B32373133D004C0F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 2ZP448W2WZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KSCrash\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/POMFramework\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "First/First-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
+				PODS_BUILD_DIR = $BUILD_DIR;
+				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
+			};
+			name = Debug;
+		};
+		CE79D8B42373133D004C0F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 2ZP448W2WZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KSCrash\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/POMFramework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "First/First-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
+				PODS_BUILD_DIR = $BUILD_DIR;
+				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
+			};
+			name = Release;
+		};
+		CE79D8D62373147E004C0F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 2ZP448W2WZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KSCrash\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/POMFramework\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "First/First-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
+				PODS_BUILD_DIR = $BUILD_DIR;
+				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
+			};
+			name = Debug;
+		};
+		CE79D8D72373147E004C0F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 2ZP448W2WZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KSCrash\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/POMFramework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "First/First-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
+				PODS_BUILD_DIR = $BUILD_DIR;
+				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
+			};
+			name = Release;
+		};
+		CE79D8F9237314AE004C0F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 2ZP448W2WZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KSCrash\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/POMFramework\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "First/First-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
+				PODS_BUILD_DIR = $BUILD_DIR;
+				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.first;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
+			};
+			name = Debug;
+		};
+		CE79D8FA237314AE004C0F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 2ZP448W2WZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KSCrash\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/POMFramework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "First/First-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "First/First-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
+				PODS_BUILD_DIR = $BUILD_DIR;
+				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.first;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "First" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "First-DEV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -639,6 +1443,33 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE79D8B22373133D004C0F44 /* Build configuration list for PBXNativeTarget "First-VABF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE79D8B32373133D004C0F44 /* Debug */,
+				CE79D8B42373133D004C0F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE79D8D52373147E004C0F44 /* Build configuration list for PBXNativeTarget "First-INTE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE79D8D62373147E004C0F44 /* Debug */,
+				CE79D8D72373147E004C0F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE79D8F8237314AE004C0F44 /* Build configuration list for PBXNativeTarget "First-PROD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE79D8F9237314AE004C0F44 /* Debug */,
+				CE79D8FA237314AE004C0F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
