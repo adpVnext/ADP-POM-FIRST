@@ -169,6 +169,10 @@
 		CE79D8B52373133D004C0F44 /* First-VABF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-VABF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE79D8D82373147E004C0F44 /* First-INTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-INTE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE79D8FB237314AE004C0F44 /* First-PROD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-PROD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE79D9012373233F004C0F44 /* Entitlements-Release.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Entitlements-Release.plist"; sourceTree = "<group>"; };
+		CE79D9022373233F004C0F44 /* Entitlements-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Entitlements-Debug.plist"; sourceTree = "<group>"; };
+		CE79D909237323F4004C0F44 /* Entitlements-Release PROD.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Entitlements-Release PROD.plist"; sourceTree = "<group>"; };
+		CE79D90A237323F5004C0F44 /* Entitlements-Debug PROD.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Entitlements-Debug PROD.plist"; sourceTree = "<group>"; };
 		CEE18ECB23706E510018D39C /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CDVLaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE18ED423706EE40018D39C /* Connexion – 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connexion – 10.png"; sourceTree = "<group>"; };
 		CEE18ED523706EE40018D39C /* Connexion – 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connexion – 9.png"; sourceTree = "<group>"; };
@@ -249,10 +253,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				CE79D889237312F4004C0F44 /* Settings-DEV */,
-				CE63235D23709357004BE34B /* Settings-VABF */,
-				CE79D88E237312F4004C0F44 /* Settings-INTE */,
-				CE79D88C237312F4004C0F44 /* Settings-PROD */,
+				CE79D91123732519004C0F44 /* Settings */,
+				CE79D910237324DC004C0F44 /* Entitlements */,
 				EB87FDF11871DA420020F90C /* Staging */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -370,6 +372,28 @@
 				CE79D88F237312F4004C0F44 /* Settings.bundle */,
 			);
 			path = "Settings-INTE";
+			sourceTree = "<group>";
+		};
+		CE79D910237324DC004C0F44 /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				CE79D90A237323F5004C0F44 /* Entitlements-Debug PROD.plist */,
+				CE79D909237323F4004C0F44 /* Entitlements-Release PROD.plist */,
+				CE79D9022373233F004C0F44 /* Entitlements-Debug.plist */,
+				CE79D9012373233F004C0F44 /* Entitlements-Release.plist */,
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		CE79D91123732519004C0F44 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CE79D889237312F4004C0F44 /* Settings-DEV */,
+				CE63235D23709357004BE34B /* Settings-VABF */,
+				CE79D88E237312F4004C0F44 /* Settings-INTE */,
+				CE79D88C237312F4004C0F44 /* Settings-PROD */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		CEE18ECD23706EE40018D39C /* splash */ = {
@@ -979,6 +1003,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)/Entitlements/Entitlements-$(CONFIGURATION).plist";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
@@ -1027,6 +1052,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)/Entitlements/Entitlements-$(CONFIGURATION).plist";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
@@ -1153,7 +1179,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)/Entitlements/Entitlements-$(CONFIGURATION).plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
@@ -1201,8 +1228,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)/Entitlements/Entitlements-$(CONFIGURATION).plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1232,7 +1260,7 @@
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.firstVal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = PP_First_VAL;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
 			};
@@ -1247,6 +1275,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)/Entitlements/Entitlements-$(CONFIGURATION).plist";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
@@ -1295,6 +1324,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)/Entitlements/Entitlements-$(CONFIGURATION).plist";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
@@ -1341,6 +1371,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)//Entitlements/Entitlements-$(CONFIGURATION) PROD.plist";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
@@ -1372,7 +1403,7 @@
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.first;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.aeroportsdeparis.first;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1389,8 +1420,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)/Entitlements/Entitlements-$(CONFIGURATION) PROD.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1418,9 +1451,9 @@
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.groupeADP.first;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.aeroportsdeparis.first;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = FirstPROD;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "$(ARCHS_STANDARD) i386";
 			};
