@@ -1,0 +1,34 @@
+{
+  "cordova-plugin-sqlite": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-sqlite"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-app-preferences": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-app-preferences"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-geolocation": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-geolocation"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

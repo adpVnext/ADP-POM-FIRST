@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="fr.aeroportsdeparis.cordova.pom"
+    version="1.8.3">
+    <name>POM</name>
+    <description>POM Cordova plugin</description>
+    <license>AeroportsdeParis</license>
+    <keywords>cordova,pom</keywords>
+    <repo>https://todo</repo>
+    <issue></issue>
+    <js-module src="www/pom.js" name="POM">
+        <clobbers target="pomPlugin" />
+    </js-module>
+       <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="POM">
+                <param name="ios-package" value="CDVPOM"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVPOM.h" />
+        <source-file src="src/ios/CDVPOM.m" />
+    </platform>
+</plugin>

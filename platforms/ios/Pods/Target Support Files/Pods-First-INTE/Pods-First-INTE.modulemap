@@ -1,6 +1,0 @@
-framework module Pods_First_INTE {
-  umbrella header "Pods-First-INTE-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,11 @@
+{
+  "name": "fr.aeroportsdeparis.cordova.pom",
+  "version": "1.6.5",
+  "description": "POM Cordova plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
