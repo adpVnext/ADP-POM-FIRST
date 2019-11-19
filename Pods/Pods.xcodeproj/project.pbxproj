@@ -613,15 +613,15 @@
 		0C4834A3F7DC36E21909271D3C0D99CC /* KSCrashReportSinkConsole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportSinkConsole.h; path = Source/KSCrash/Reporting/Sinks/KSCrashReportSinkConsole.h; sourceTree = "<group>"; };
 		0CB67C0C05107962AEB4D8B87EA5F29B /* NSStringExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSStringExtension.m; sourceTree = "<group>"; };
 		0D2E705B38D91D0D809904DBE6CCCBCC /* KSCrashReportFilterStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashReportFilterStringify.m; path = Source/KSCrash/Reporting/Filters/KSCrashReportFilterStringify.m; sourceTree = "<group>"; };
-		0D37CE36AFD79856E9643A5A23757645 /* Demangle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Demangle.cpp; path = Source/KSCrash/swift/Basic/Demangle.cpp; sourceTree = "<group>"; };
+		0D37CE36AFD79856E9643A5A23757645 /* Demangle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Demangle.cpp; path = Source/KSCrash/swift/Basic/Demangle.cpp; sourceTree = "<group>"; };
 		0D806B0935982A46DC92FEB1ECB79520 /* DocAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DocAPI.h; sourceTree = "<group>"; };
 		0E43ACE596580F1D8AB9F2352ED7433A /* CaptureBarcodeResultDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CaptureBarcodeResultDelegate.h; sourceTree = "<group>"; };
 		0E46DAD8A3DACD951DA45030D8955C7F /* JSONStoreCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStoreCollection.m; path = JSONStore/JSONStoreCollection.m; sourceTree = "<group>"; };
-		0E8BDEA0880A5F1136653EB9C68A3810 /* KSCrashReport.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashReport.c; path = Source/KSCrash/Recording/KSCrashReport.c; sourceTree = "<group>"; };
+		0E8BDEA0880A5F1136653EB9C68A3810 /* KSCrashReport.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashReport.c; path = Source/KSCrash/Recording/KSCrashReport.c; sourceTree = "<group>"; };
 		0F430546892BDA8A880E0A4A1071F657 /* POMMesParametresViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMMesParametresViewController.h; sourceTree = "<group>"; };
 		10801ED9804AA84B2963AF321C48E41A /* POMMonEspaceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMMonEspaceViewController.m; sourceTree = "<group>"; };
 		108D14DDA3630B9583AFE5BBA32DC684 /* POMLibraryFileSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMLibraryFileSessionDelegate.h; sourceTree = "<group>"; };
-		10FF0FA5EF3A2E8E46ECC0DEE83E50AB /* KSJSONCodec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSJSONCodec.c; path = Source/KSCrash/Recording/Tools/KSJSONCodec.c; sourceTree = "<group>"; };
+		10FF0FA5EF3A2E8E46ECC0DEE83E50AB /* KSJSONCodec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSJSONCodec.c; path = Source/KSCrash/Recording/Tools/KSJSONCodec.c; sourceTree = "<group>"; };
 		1142829D0A25B0C72E78B486BE7B767C /* KSHTTPRequestSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSHTTPRequestSender.h; path = Source/KSCrash/Reporting/Tools/KSHTTPRequestSender.h; sourceTree = "<group>"; };
 		114ED3D2B1F5BC67114969870E03E408 /* EncodeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EncodeHelper.m; sourceTree = "<group>"; };
 		115C1BAD31632706803CE6DC0AA47D23 /* cadena-connection_iPhone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cadena-connection_iPhone.png"; path = "POMFramework/Assets/cadena-connection_iPhone.png"; sourceTree = "<group>"; };
@@ -629,7 +629,7 @@
 		11D80E70442C9BE6630CFAF6C8D33780 /* KSCrashDoctor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashDoctor.h; path = Source/KSCrash/Recording/KSCrashDoctor.h; sourceTree = "<group>"; };
 		1240D629EB7C23F7D5274EF60BD56207 /* FlightLeg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FlightLeg.h; sourceTree = "<group>"; };
 		12D0FACFEDD965DD5BBAEA9041C7CB65 /* KSCrashReportFilterBasic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportFilterBasic.h; path = Source/KSCrash/Reporting/Filters/KSCrashReportFilterBasic.h; sourceTree = "<group>"; };
-		1313DAA47A3A892460CDBE8EE0B84D8D /* KSSymbolicator.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSSymbolicator.c; path = Source/KSCrash/Recording/Tools/KSSymbolicator.c; sourceTree = "<group>"; };
+		1313DAA47A3A892460CDBE8EE0B84D8D /* KSSymbolicator.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSSymbolicator.c; path = Source/KSCrash/Recording/Tools/KSSymbolicator.c; sourceTree = "<group>"; };
 		1391E42271BABEF45B49F8C2FD15FA89 /* JSONStoreAddOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreAddOptions.h; path = JSONStore/JSONStoreAddOptions.h; sourceTree = "<group>"; };
 		13B7A7A155D07842A8D6E7ABF49EA9C6 /* appli_iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = appli_iPad.png; path = POMFramework/Assets/appli_iPad.png; sourceTree = "<group>"; };
 		13CA21E1EA94D32CD70353662D310C22 /* KSCrashMonitor_System.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashMonitor_System.m; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_System.m; sourceTree = "<group>"; };
@@ -647,7 +647,7 @@
 		1A7D159B9683BFCD221F88DD5B307543 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		1B7750254FB199A5FC976EC52D5B3C75 /* UserAuthInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UserAuthInfo.m; sourceTree = "<group>"; };
 		1BB9E1880369B2121D252B65607F1E39 /* Pods-First-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-First-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BF0BBC82F1BB2ACB71130B16E0294B6 /* KSCPU_x86_64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCPU_x86_64.c; path = Source/KSCrash/Recording/Tools/KSCPU_x86_64.c; sourceTree = "<group>"; };
+		1BF0BBC82F1BB2ACB71130B16E0294B6 /* KSCPU_x86_64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCPU_x86_64.c; path = Source/KSCrash/Recording/Tools/KSCPU_x86_64.c; sourceTree = "<group>"; };
 		1BFDE588E4D892DD05177CF7FD7C53BF /* Pods-First-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-First-dummy.m"; sourceTree = "<group>"; };
 		1C2A0056489EA5658044493B2571AF6E /* NSMutableData+AppendUTF8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableData+AppendUTF8.h"; path = "Source/KSCrash/Reporting/Tools/NSMutableData+AppendUTF8.h"; sourceTree = "<group>"; };
 		1C332C57F9B761242BC1A3ABD70E537A /* ClaimModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ClaimModel.m; sourceTree = "<group>"; };
@@ -668,7 +668,7 @@
 		211D4725246B0A5B2AC9014E02B27584 /* POMLogViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = POMLogViewController.xib; path = POMFramework/Assets/POMLogViewController.xib; sourceTree = "<group>"; };
 		21451D45E5D32D072EBF223919E009B9 /* POMFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POMFramework-prefix.pch"; sourceTree = "<group>"; };
 		21F624C817E595C79F0166AFCFA2CB15 /* UIImage+POMResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+POMResources.m"; sourceTree = "<group>"; };
-		2226C326EEA638DD871B4103A671891F /* KSMach.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSMach.c; path = Source/KSCrash/Recording/Tools/KSMach.c; sourceTree = "<group>"; };
+		2226C326EEA638DD871B4103A671891F /* KSMach.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSMach.c; path = Source/KSCrash/Recording/Tools/KSMach.c; sourceTree = "<group>"; };
 		238188C32426A3A2EA76E75368F3A0D7 /* KSCrash-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KSCrash-Info.plist"; sourceTree = "<group>"; };
 		243DEC523229310F9D435B7FBEADD8F9 /* deconnercter-ouvert-pc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "deconnercter-ouvert-pc.png"; path = "POMFramework/Assets/deconnercter-ouvert-pc.png"; sourceTree = "<group>"; };
 		247730B7E60D260A65C3C0C3CA58BAAE /* CaptureOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CaptureOverlayView.m; sourceTree = "<group>"; };
@@ -687,7 +687,7 @@
 		2941CD1CB75C23F8092E9A8E7E6F2D53 /* Level2ConnectionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Level2ConnectionDelegate.m; sourceTree = "<group>"; };
 		29DBDC1CF026EEF661DAC3A5DD667088 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		29E17681728682070D7C987E7C9FFC19 /* Fallthrough.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fallthrough.h; path = Source/KSCrash/swift/Basic/Fallthrough.h; sourceTree = "<group>"; };
-		2A2C2DD1D67AAA1FE1B9A15661D3546F /* KSCrashC.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashC.c; path = Source/KSCrash/Recording/KSCrashC.c; sourceTree = "<group>"; };
+		2A2C2DD1D67AAA1FE1B9A15661D3546F /* KSCrashC.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashC.c; path = Source/KSCrash/Recording/KSCrashC.c; sourceTree = "<group>"; };
 		2A35A6FA990B3B7368869730E1A6E1CD /* JSONStoreSchema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStoreSchema.m; path = JSONStore/JSONStoreSchema.m; sourceTree = "<group>"; };
 		2A772B977ED147D11414F657575DB530 /* POMAuthentificationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMAuthentificationService.h; sourceTree = "<group>"; };
 		2CB266DA938475800CB36A927FFF745C /* connecter-fermer_pc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "connecter-fermer_pc.png"; path = "POMFramework/Assets/connecter-fermer_pc.png"; sourceTree = "<group>"; };
@@ -697,8 +697,8 @@
 		2D0E005B25EEDA4E873FB44037B7AE9C /* JSONStoreSecurityUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStoreSecurityUtils.m; path = JSONStore/JSONStoreSecurityUtils.m; sourceTree = "<group>"; };
 		2D48503680CD347A187C3D3E564C6DC3 /* CaptureBarcodesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CaptureBarcodesViewController.h; sourceTree = "<group>"; };
 		2E4B5A1570C8017C34A58CC63FBC0CDC /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		2F5B71A0790CE7052775DD9282E7FA15 /* Pods_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_First.framework; path = "Pods-First.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FB2D78A56770D78D115216DCC845D27 /* JSONStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONStore.framework; path = JSONStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5B71A0790CE7052775DD9282E7FA15 /* Pods_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB2D78A56770D78D115216DCC845D27 /* JSONStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		301BA7B39DFE110CE784358646D55E4E /* ScanAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ScanAPI.h; sourceTree = "<group>"; };
 		30C1A19F7D4D3AF5809BF80873CC8D0F /* GEDDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GEDDocument.h; sourceTree = "<group>"; };
 		31F20A983955B84BF306591F8526FD8D /* JSONStoreMigrationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStoreMigrationManager.m; path = JSONStore/JSONStoreMigrationManager.m; sourceTree = "<group>"; };
@@ -708,14 +708,14 @@
 		3468A5C6206B46056B51F4750B97A535 /* POMFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "POMFramework-Info.plist"; sourceTree = "<group>"; };
 		35A250800EDFB323F1AE4A71D4116B38 /* KSCrashReportFilterAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportFilterAlert.h; path = Source/KSCrash/Reporting/Filters/KSCrashReportFilterAlert.h; sourceTree = "<group>"; };
 		3613AB2F2F5207C49C9F0113D85C937D /* POMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMMessage.h; sourceTree = "<group>"; };
-		3634443ABA40A496C8DBD4A2AD294482 /* KSString.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSString.c; path = Source/KSCrash/Recording/Tools/KSString.c; sourceTree = "<group>"; };
+		3634443ABA40A496C8DBD4A2AD294482 /* KSString.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSString.c; path = Source/KSCrash/Recording/Tools/KSString.c; sourceTree = "<group>"; };
 		36454A50375841FE79258386D884CA4A /* KSCrashInstallationPomLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KSCrashInstallationPomLog.m; sourceTree = "<group>"; };
 		36C8CB7ECDA7F017CA96F68C05A2A609 /* KSObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSObjC.h; path = Source/KSCrash/Recording/Tools/KSObjC.h; sourceTree = "<group>"; };
 		3731442476609351A2B82605C5422D11 /* NSDictionary+LinqExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LinqExtensions.m"; sourceTree = "<group>"; };
 		37AB20FB3F405036AC99F2BBA270C3E9 /* KSCrashReportStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportStore.h; path = Source/KSCrash/Recording/KSCrashReportStore.h; sourceTree = "<group>"; };
 		37C5FF9AB9BA2C56BFE16E1A81CCDCB3 /* ErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ErrorHelper.h; sourceTree = "<group>"; };
 		386A480B0D56FCA352E59E1BE260A356 /* connecter-fermer_iPhone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "connecter-fermer_iPhone.png"; path = "POMFramework/Assets/connecter-fermer_iPhone.png"; sourceTree = "<group>"; };
-		398B4F58C658FD507B3573A2720400B4 /* POMFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = POMFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		398B4F58C658FD507B3573A2720400B4 /* POMFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = POMFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		39FC456F58BBD4FA8CFBA57535210CD6 /* POMUoMetiersViewControler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMUoMetiersViewControler.m; sourceTree = "<group>"; };
 		3CD6DB3ACC7176CF3AEFADC95F07710E /* NSError+SimpleConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+SimpleConstructor.h"; path = "Source/KSCrash/Recording/Tools/NSError+SimpleConstructor.h"; sourceTree = "<group>"; };
 		3DDF1355F5E4C95CC467BD31E3752D4C /* deconnecter-ouvert_iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "deconnecter-ouvert_iPad.png"; path = "POMFramework/Assets/deconnecter-ouvert_iPad.png"; sourceTree = "<group>"; };
@@ -723,7 +723,7 @@
 		3EC1A316B8C34EB8EB1BBB0421757C38 /* JSONStoreSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreSchema.h; path = JSONStore/JSONStoreSchema.h; sourceTree = "<group>"; };
 		3FBBCEE7182708E85433FCE2A33B955C /* ResourceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ResourceHelper.h; sourceTree = "<group>"; };
 		40094EE93F7927D5139153F4F6FFC258 /* FOND-TABLETTE-20.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "FOND-TABLETTE-20.png"; path = "POMFramework/Assets/FOND-TABLETTE-20.png"; sourceTree = "<group>"; };
-		403FD10C2746138796072A6B6FAB01FD /* KSCrashMonitor_Zombie.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashMonitor_Zombie.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_Zombie.c; sourceTree = "<group>"; };
+		403FD10C2746138796072A6B6FAB01FD /* KSCrashMonitor_Zombie.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashMonitor_Zombie.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_Zombie.c; sourceTree = "<group>"; };
 		40B5E950B5AC6B0CA2D50A05A985DBCF /* JSONStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStore.h; path = JSONStore/JSONStore.h; sourceTree = "<group>"; };
 		40E643369658EF8F5D631F1FF327261D /* KSSymbolicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSSymbolicator.h; path = Source/KSCrash/Recording/Tools/KSSymbolicator.h; sourceTree = "<group>"; };
 		40EC138FEF405DF9AFD81C90114E4BE7 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -732,8 +732,8 @@
 		451D85AF7E39F7FCB6D76CFF52BE5438 /* KSCrashMonitor_Deadlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashMonitor_Deadlock.h; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_Deadlock.h; sourceTree = "<group>"; };
 		46D55B686DD05DEDB8F8CB0888D1BC83 /* fond_actif.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fond_actif.png; path = POMFramework/Assets/fond_actif.png; sourceTree = "<group>"; };
 		470F44CFA519D95E0F45E7F02FE36A20 /* KSJSONCodecObjC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSJSONCodecObjC.m; path = Source/KSCrash/Recording/Tools/KSJSONCodecObjC.m; sourceTree = "<group>"; };
-		4715011A198139A9B02F0FF13647F3AA /* Punycode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Punycode.cpp; path = Source/KSCrash/swift/Basic/Punycode.cpp; sourceTree = "<group>"; };
-		475D5FF52E58E2FFFDDC46C25788587C /* KSCrashMonitorType.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashMonitorType.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitorType.c; sourceTree = "<group>"; };
+		4715011A198139A9B02F0FF13647F3AA /* Punycode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Punycode.cpp; path = Source/KSCrash/swift/Basic/Punycode.cpp; sourceTree = "<group>"; };
+		475D5FF52E58E2FFFDDC46C25788587C /* KSCrashMonitorType.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashMonitorType.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitorType.c; sourceTree = "<group>"; };
 		4798028854BAD0FD577992929FF88809 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		47F6B0E405F699386D365E2C5D6EFF46 /* enrolement_iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = enrolement_iPad.png; path = POMFramework/Assets/enrolement_iPad.png; sourceTree = "<group>"; };
 		487E31EE2E7B2F23E6397D72EFBFC418 /* Pods-First-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-First-Info.plist"; sourceTree = "<group>"; };
@@ -752,13 +752,13 @@
 		4EF70B109B5228E570C2C5DD4B2AF129 /* KSMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSMemory.h; path = Source/KSCrash/Recording/Tools/KSMemory.h; sourceTree = "<group>"; };
 		4F12050A70EFB42A66B2A4215FDBA31F /* NSData+GZip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GZip.h"; path = "Source/KSCrash/Reporting/Filters/Tools/NSData+GZip.h"; sourceTree = "<group>"; };
 		4F938FD4D4DA566BBA9620B8AF6162D2 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		4FE5B670B4AEC778ADA06BD5A1C7AFAB /* KSThread.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSThread.c; path = Source/KSCrash/Recording/Tools/KSThread.c; sourceTree = "<group>"; };
+		4FE5B670B4AEC778ADA06BD5A1C7AFAB /* KSThread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSThread.c; path = Source/KSCrash/Recording/Tools/KSThread.c; sourceTree = "<group>"; };
 		50C032FD88899740CECEA780E95EF508 /* info-active_iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info-active_iPad.png"; path = "POMFramework/Assets/info-active_iPad.png"; sourceTree = "<group>"; };
 		5160C55E6295C527CB581948CCF176C3 /* deconnecter-fermer_iPhone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "deconnecter-fermer_iPhone.png"; path = "POMFramework/Assets/deconnecter-fermer_iPhone.png"; sourceTree = "<group>"; };
 		5199FE8D228ACB9B6D484965E958A8A8 /* appli_iPhone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = appli_iPhone.png; path = POMFramework/Assets/appli_iPhone.png; sourceTree = "<group>"; };
 		5369E8192B0DCC97B70A5E8D48A0EC80 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		538FF54A7EB72B550BBFB0DE5AF6F3E5 /* KSCrash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSCrash-dummy.m"; sourceTree = "<group>"; };
-		53DAB403711335A4CBD6268440A9C497 /* Gothici.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Gothici.ttf; path = POMFramework/Assets/Gothici.ttf; sourceTree = "<group>"; };
+		53DAB403711335A4CBD6268440A9C497 /* Gothici.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Gothici.ttf; path = POMFramework/Assets/Gothici.ttf; sourceTree = "<group>"; };
 		54E4EEA1983330583EBB3F5EA48CA366 /* POMAuthInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMAuthInfoViewController.m; sourceTree = "<group>"; };
 		56737CDC39251331202B13949986BDEA /* NSData+GZip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+GZip.m"; path = "Source/KSCrash/Reporting/Filters/Tools/NSData+GZip.m"; sourceTree = "<group>"; };
 		56A0309C1D4D1EDCFE3111E28FD4AC62 /* POMIsTokenBlacklistedParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMIsTokenBlacklistedParser.h; sourceTree = "<group>"; };
@@ -771,13 +771,13 @@
 		583C49B97BA4FC0C66F691D23F713961 /* KSHTTPMultipartPostBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSHTTPMultipartPostBody.m; path = Source/KSCrash/Reporting/Tools/KSHTTPMultipartPostBody.m; sourceTree = "<group>"; };
 		587370D165116D663C4EB821FCE167DC /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		596C9F721E1251AACF271ED3374312F8 /* NSObject+ObjectMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMap.h"; sourceTree = "<group>"; };
-		5A72E603495BFF017D3E6A69E7239EC9 /* KSStackCursor_Backtrace.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSStackCursor_Backtrace.c; path = Source/KSCrash/Recording/Tools/KSStackCursor_Backtrace.c; sourceTree = "<group>"; };
+		5A72E603495BFF017D3E6A69E7239EC9 /* KSStackCursor_Backtrace.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSStackCursor_Backtrace.c; path = Source/KSCrash/Recording/Tools/KSStackCursor_Backtrace.c; sourceTree = "<group>"; };
 		5B0C94B2068996CBBBAA9A8EDD5FC736 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		5B5F576E84E0014EDF11E91E716A7528 /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-First.release.xcconfig"; sourceTree = "<group>"; };
 		5BD080ABA5B836686B871870417AC4A7 /* POMAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMAPI.m; sourceTree = "<group>"; };
-		5C13927B9D3A9A039CCC772D314F3260 /* KSCrashReportFixer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashReportFixer.c; path = Source/KSCrash/Recording/KSCrashReportFixer.c; sourceTree = "<group>"; };
+		5C13927B9D3A9A039CCC772D314F3260 /* KSCrashReportFixer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashReportFixer.c; path = Source/KSCrash/Recording/KSCrashReportFixer.c; sourceTree = "<group>"; };
 		5C59339A5C24A34861D06F2C30FAD0EC /* LibraryFileResponseDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LibraryFileResponseDelegate.m; sourceTree = "<group>"; };
-		5CD77352CB18A99AE3EBB81A1D807AC0 /* KSCrashMonitor.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashMonitor.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor.c; sourceTree = "<group>"; };
+		5CD77352CB18A99AE3EBB81A1D807AC0 /* KSCrashMonitor.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashMonitor.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor.c; sourceTree = "<group>"; };
 		5CF6E1C9CEE71245CC779F121946F479 /* POMUoMetier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMUoMetier.h; sourceTree = "<group>"; };
 		5DB778983A715C26130B40D14C686FE7 /* JSONStoreQueryOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStoreQueryOptions.m; path = JSONStore/JSONStoreQueryOptions.m; sourceTree = "<group>"; };
 		5E31D3EB8D41F7DB4678064AE96D46DF /* POMClaimsParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMClaimsParser.h; sourceTree = "<group>"; };
@@ -787,16 +787,16 @@
 		62FA0BF8B803B98C5EDB8CCA649BCF73 /* NSDateHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSDateHelper.m; sourceTree = "<group>"; };
 		6342018EB41C3EDEED83F5404315FDFF /* KSCrashInstallationEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashInstallationEmail.h; path = Source/KSCrash/Installations/KSCrashInstallationEmail.h; sourceTree = "<group>"; };
 		63C8E3076F2C7010D346672BBA39088A /* POMLogTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = POMLogTableViewCell.xib; path = POMFramework/Assets/POMLogTableViewCell.xib; sourceTree = "<group>"; };
-		6468FAA2AD15FD9ACDC94D7EBEAFA5DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6468FAA2AD15FD9ACDC94D7EBEAFA5DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6503FB175FD6B3B7B40AC35CA2C19C9C /* JSONStoreAddOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStoreAddOptions.m; path = JSONStore/JSONStoreAddOptions.m; sourceTree = "<group>"; };
 		651BB93DFF61BC57A960B447BE6470B1 /* JSONStoreQueryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreQueryOptions.h; path = JSONStore/JSONStoreQueryOptions.h; sourceTree = "<group>"; };
 		65EE9B31812B92B50F17D7587959AFEB /* connecter-ouvert_iPhone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "connecter-ouvert_iPhone.png"; path = "POMFramework/Assets/connecter-ouvert_iPhone.png"; sourceTree = "<group>"; };
-		66005394201CFC6DD2A9DB69878A32CC /* KSDemangle_CPP.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = KSDemangle_CPP.cpp; path = Source/KSCrash/Recording/Tools/KSDemangle_CPP.cpp; sourceTree = "<group>"; };
+		66005394201CFC6DD2A9DB69878A32CC /* KSDemangle_CPP.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = KSDemangle_CPP.cpp; path = Source/KSCrash/Recording/Tools/KSDemangle_CPP.cpp; sourceTree = "<group>"; };
 		66D99422AE8183D54A2C4FCCE65855B4 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		6761EA15B6EE28F1FDA7B3B70FC80B58 /* KSStackCursor_MachineContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSStackCursor_MachineContext.h; path = Source/KSCrash/Recording/Tools/KSStackCursor_MachineContext.h; sourceTree = "<group>"; };
 		67FE4C8CC86130CB5181EF0F4DF328EA /* JSONStore+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONStore+Private.h"; path = "JSONStore/JSONStore+Private.h"; sourceTree = "<group>"; };
 		6883E53DCBBBBEFF38348394103D289C /* POMConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = POMConfig.plist; path = POMFramework/Assets/POMConfig.plist; sourceTree = "<group>"; };
-		68A23593345C4C6B4FFB2A7A9B98EC41 /* Gothicbi.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Gothicbi.ttf; path = POMFramework/Assets/Gothicbi.ttf; sourceTree = "<group>"; };
+		68A23593345C4C6B4FFB2A7A9B98EC41 /* Gothicbi.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Gothicbi.ttf; path = POMFramework/Assets/Gothicbi.ttf; sourceTree = "<group>"; };
 		68C9833215DF59752D98B9152A02AA5E /* CVCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CVCell.m; sourceTree = "<group>"; };
 		695C6A49C91F3B817536CE9F2D74F980 /* leftarrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = leftarrow.png; path = POMFramework/Assets/leftarrow.png; sourceTree = "<group>"; };
 		6A15D516713B3060E95830C757129C9D /* JSONStoreQueryPart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreQueryPart.h; path = JSONStore/JSONStoreQueryPart.h; sourceTree = "<group>"; };
@@ -820,9 +820,9 @@
 		722982CE1AB0D335D05E75DD3E1871F7 /* StringRef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringRef.h; path = Source/KSCrash/llvm/ADT/StringRef.h; sourceTree = "<group>"; };
 		72E3220DC05083EBC0911CF1411FE1B2 /* NSStringExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSStringExtension.h; sourceTree = "<group>"; };
 		73285D96CDAF58FE06324D3741099500 /* NSError+SimpleConstructor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+SimpleConstructor.m"; path = "Source/KSCrash/Recording/Tools/NSError+SimpleConstructor.m"; sourceTree = "<group>"; };
-		7395E480729B5F059B2C78033E15797F /* POMRessources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = POMRessources.bundle; path = "POMFramework-POMRessources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7395E480729B5F059B2C78033E15797F /* POMRessources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POMRessources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AFF6C398A6BA9EFAE473CDDDC0B3F7 /* NSDictionaryExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryExtension.m; sourceTree = "<group>"; };
-		73BA9BE381B6536F63A0EE56C8366F19 /* Gothicb.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Gothicb.ttf; path = POMFramework/Assets/Gothicb.ttf; sourceTree = "<group>"; };
+		73BA9BE381B6536F63A0EE56C8366F19 /* Gothicb.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Gothicb.ttf; path = POMFramework/Assets/Gothicb.ttf; sourceTree = "<group>"; };
 		73ED4D6E6AAC8B1F3C8E7F710162497E /* KSCrashReportFilterGZip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportFilterGZip.h; path = Source/KSCrash/Reporting/Filters/KSCrashReportFilterGZip.h; sourceTree = "<group>"; };
 		743CDF482AA31E71BB4FDC5D2B453A55 /* POMUoMetier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMUoMetier.m; sourceTree = "<group>"; };
 		749060557D4B986824E4294D10AB8276 /* Malloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Malloc.h; path = Source/KSCrash/swift/Basic/Malloc.h; sourceTree = "<group>"; };
@@ -840,7 +840,7 @@
 		79A2780EDAAA276CA314B928DBAF0173 /* NSDictionary+LinqExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LinqExtensions.h"; sourceTree = "<group>"; };
 		79AE2CBB33BD7449ABBBBA400A72C3AD /* JSONStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStore.m; path = JSONStore/JSONStore.m; sourceTree = "<group>"; };
 		79D104A7E9A76DD2BA09B2C7AA46D119 /* KSCrashReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReport.h; path = Source/KSCrash/Recording/KSCrashReport.h; sourceTree = "<group>"; };
-		79DCEF658479B572DC2C87E6520AF932 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DCEF658479B572DC2C87E6520AF932 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF1083213ADD2AC5239EB161DDCD7B3 /* AlignOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlignOf.h; path = Source/KSCrash/llvm/Support/AlignOf.h; sourceTree = "<group>"; };
 		7B7F826FFDE1BA887FA1D38FBDCB7A80 /* enrolement-active_iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "enrolement-active_iPad.png"; path = "POMFramework/Assets/enrolement-active_iPad.png"; sourceTree = "<group>"; };
 		7BD02690F69509829BA0E36B4F15ECD8 /* KSCrash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSCrash-umbrella.h"; sourceTree = "<group>"; };
@@ -857,10 +857,10 @@
 		8099EC0CBA4DB7591030C22A2A354C59 /* KSCrashInstallationVictory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashInstallationVictory.h; path = Source/KSCrash/Installations/KSCrashInstallationVictory.h; sourceTree = "<group>"; };
 		80BF47981011A3F7406FB123AD08A142 /* POMAuthInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMAuthInfoViewController.h; sourceTree = "<group>"; };
 		80D73462BAF8102BA2164FB66F3830F4 /* Punycode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Punycode.h; path = Source/KSCrash/swift/Basic/Punycode.h; sourceTree = "<group>"; };
-		81300A479D74EBEF9F47DC1577834793 /* KSStackCursor.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSStackCursor.c; path = Source/KSCrash/Recording/Tools/KSStackCursor.c; sourceTree = "<group>"; };
+		81300A479D74EBEF9F47DC1577834793 /* KSStackCursor.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSStackCursor.c; path = Source/KSCrash/Recording/Tools/KSStackCursor.c; sourceTree = "<group>"; };
 		816C59F2305067C819E1AA0449B82335 /* SQLiteDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteDatabase.h; path = JSONStore/SQLiteDatabase.h; sourceTree = "<group>"; };
 		81D9E5F4B5958794408A14D7C3FB422E /* POMApplicationListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMApplicationListViewController.m; sourceTree = "<group>"; };
-		825E0C2096E8D6A08ED89EAF3C6A96B2 /* KSDate.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSDate.c; path = Source/KSCrash/Recording/Tools/KSDate.c; sourceTree = "<group>"; };
+		825E0C2096E8D6A08ED89EAF3C6A96B2 /* KSDate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSDate.c; path = Source/KSCrash/Recording/Tools/KSDate.c; sourceTree = "<group>"; };
 		82A08DFEE7BF6420420360EE0A534551 /* POMAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMAPI.h; sourceTree = "<group>"; };
 		83A7305A3CE2004CF0AA8A11642AE9FC /* KSCrashReportFilterGZip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashReportFilterGZip.m; path = Source/KSCrash/Reporting/Filters/KSCrashReportFilterGZip.m; sourceTree = "<group>"; };
 		83CCD83DCCEF38DC674BA314D7BAE17D /* POMApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMApplication.h; sourceTree = "<group>"; };
@@ -869,7 +869,7 @@
 		84941EF23F58C07298185B4349268D13 /* KSCrashMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashMonitor.h; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor.h; sourceTree = "<group>"; };
 		8564BBBB0DE09E6D09B10E8CA70DD2D1 /* LibraryFileResponseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LibraryFileResponseDelegate.h; sourceTree = "<group>"; };
 		856772D8E0A079185EDCE9EB45C5DC3D /* KSCrashReportSinkVictory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportSinkVictory.h; path = Source/KSCrash/Reporting/Sinks/KSCrashReportSinkVictory.h; sourceTree = "<group>"; };
-		860FA6F789A57742BFF1980787CB2DAB /* KSDebug.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSDebug.c; path = Source/KSCrash/Recording/Tools/KSDebug.c; sourceTree = "<group>"; };
+		860FA6F789A57742BFF1980787CB2DAB /* KSDebug.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSDebug.c; path = Source/KSCrash/Recording/Tools/KSDebug.c; sourceTree = "<group>"; };
 		870A8FE999AA809DFCD143CB5C5FF1BE /* KSCrashReportSinkEMail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashReportSinkEMail.m; path = Source/KSCrash/Reporting/Sinks/KSCrashReportSinkEMail.m; sourceTree = "<group>"; };
 		870E28AC6BF72F9708F65E3F0A0DB88F /* key.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = key.png; path = POMFramework/Assets/key.png; sourceTree = "<group>"; };
 		871194FF1E634E307E333C904BB7C539 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
@@ -877,8 +877,8 @@
 		87D8ED282607504B0C612E67850CEE0E /* NSArray+LinqExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LinqExtensions.m"; sourceTree = "<group>"; };
 		87DFB7EE410CAC30F6030BA6AB1B981A /* KSCrashInstallationQuincyHockey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashInstallationQuincyHockey.m; path = Source/KSCrash/Installations/KSCrashInstallationQuincyHockey.m; sourceTree = "<group>"; };
 		884F0E0223A0B9477BD8EA792796AC82 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		889C844A514EAA8B9562E1B8B5D83F7A /* KSCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KSCrash.framework; path = KSCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88D30F713DCD6137CAD5C6EEA97A27B7 /* KSStackCursor_MachineContext.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSStackCursor_MachineContext.c; path = Source/KSCrash/Recording/Tools/KSStackCursor_MachineContext.c; sourceTree = "<group>"; };
+		889C844A514EAA8B9562E1B8B5D83F7A /* KSCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D30F713DCD6137CAD5C6EEA97A27B7 /* KSStackCursor_MachineContext.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSStackCursor_MachineContext.c; path = Source/KSCrash/Recording/Tools/KSStackCursor_MachineContext.c; sourceTree = "<group>"; };
 		8996D8F7B4FE60985DE776EB73BCC9DC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		8A4D5EA300CA758C9CEB259F04C4C3D5 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B40B6F49E63D405B1F97BCEBA1AA174 /* KSCrashReportFilterAppleFmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportFilterAppleFmt.h; path = Source/KSCrash/Reporting/Filters/KSCrashReportFilterAppleFmt.h; sourceTree = "<group>"; };
@@ -886,7 +886,7 @@
 		8D3D579CF70B6C624BF703E859EB0BAD /* KSMachineContext_Apple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSMachineContext_Apple.h; path = Source/KSCrash/Recording/Tools/KSMachineContext_Apple.h; sourceTree = "<group>"; };
 		8E61050EEF22309E717967179F13E1F3 /* KSCrashInstallationEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashInstallationEmail.m; path = Source/KSCrash/Installations/KSCrashInstallationEmail.m; sourceTree = "<group>"; };
 		8F1AF128CE1773755BE7E903394EDA7A /* MonEspaceView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MonEspaceView.xib; path = POMFramework/Assets/MonEspaceView.xib; sourceTree = "<group>"; };
-		8FDDA6481FE001434E6C249A26BB6915 /* KSMemory.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSMemory.c; path = Source/KSCrash/Recording/Tools/KSMemory.c; sourceTree = "<group>"; };
+		8FDDA6481FE001434E6C249A26BB6915 /* KSMemory.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSMemory.c; path = Source/KSCrash/Recording/Tools/KSMemory.c; sourceTree = "<group>"; };
 		90DDCDE70092C668D97CFC763F835156 /* JSONStoreConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreConstants.h; path = JSONStore/JSONStoreConstants.h; sourceTree = "<group>"; };
 		918675EFBD8B26E053ED127AE35AE977 /* NSDictionaryExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSDictionaryExtension.h; sourceTree = "<group>"; };
 		91880AA5A3276FA3C18D3D4647744DB1 /* POMApplicationListResponseParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMApplicationListResponseParser.m; sourceTree = "<group>"; };
@@ -895,10 +895,10 @@
 		93043F448A2AAFDD8E6A1ED87383426E /* ResourceMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ResourceMatcher.m; sourceTree = "<group>"; };
 		931D8D4F06295909CCEF3AEAB2CEA97D /* POMRessource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMRessource.h; sourceTree = "<group>"; };
 		93439F5E05DC5E4382CA403A0293E7A8 /* POMViewFileSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMViewFileSessionDelegate.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B153C1FD5BE2BAAB4EFDD975AB205B /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		94CB6784CB7306A207D96FA2F1F5538F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		95148AB849C5C1D774158563382C26D7 /* KSID.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSID.c; path = Source/KSCrash/Recording/Tools/KSID.c; sourceTree = "<group>"; };
+		95148AB849C5C1D774158563382C26D7 /* KSID.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSID.c; path = Source/KSCrash/Recording/Tools/KSID.c; sourceTree = "<group>"; };
 		953A035AB2E10A678D29FCB7DDDD2B10 /* POMThumbnailURLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMThumbnailURLParser.m; sourceTree = "<group>"; };
 		965D62E91E4B77231D3BF180E3D2BDA1 /* KSDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSDate.h; path = Source/KSCrash/Recording/Tools/KSDate.h; sourceTree = "<group>"; };
 		96EBEE33F795EF6943599BF9059CB11E /* WSPomHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WSPomHelper.h; sourceTree = "<group>"; };
@@ -907,9 +907,9 @@
 		979FA3076FAA68422E798C3648BB5C5C /* KSCrashMonitor_MachException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashMonitor_MachException.h; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_MachException.h; sourceTree = "<group>"; };
 		97C87E6A0B7CBF255D4F0BB81EFF1D5B /* KSCrashReportFilterSets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportFilterSets.h; path = Source/KSCrash/Reporting/Filters/KSCrashReportFilterSets.h; sourceTree = "<group>"; };
 		98A9C4F6586C76E133E06EF5D7635B7D /* arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = arrow.png; path = POMFramework/Assets/arrow.png; sourceTree = "<group>"; };
-		98CC8673490153D7E55A1BF115140C45 /* KSLogger.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSLogger.c; path = Source/KSCrash/Recording/Tools/KSLogger.c; sourceTree = "<group>"; };
+		98CC8673490153D7E55A1BF115140C45 /* KSLogger.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSLogger.c; path = Source/KSCrash/Recording/Tools/KSLogger.c; sourceTree = "<group>"; };
 		98D6145FBE9A9843E5EBA2DC5B2BB891 /* NSUserDefaults+AdpAppGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+AdpAppGroup.m"; sourceTree = "<group>"; };
-		9A3DFD9F0F4097E7DD77ACEC1E02EFFF /* KSCPU_x86_32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCPU_x86_32.c; path = Source/KSCrash/Recording/Tools/KSCPU_x86_32.c; sourceTree = "<group>"; };
+		9A3DFD9F0F4097E7DD77ACEC1E02EFFF /* KSCPU_x86_32.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCPU_x86_32.c; path = Source/KSCrash/Recording/Tools/KSCPU_x86_32.c; sourceTree = "<group>"; };
 		9A844D2D52F81E83B8185626005DCA80 /* POMAuthentificationService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMAuthentificationService.m; sourceTree = "<group>"; };
 		9B9200BFBC300A729A044CFCAB72A697 /* DemangleNodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DemangleNodes.h; path = Source/KSCrash/swift/Basic/DemangleNodes.h; sourceTree = "<group>"; };
 		9BBBBE55B64F9EED2355B007090E5823 /* POMMenuV2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMMenuV2.m; sourceTree = "<group>"; };
@@ -918,7 +918,7 @@
 		9C5048EF2757850E1E028A656422E4D5 /* JSONStoreMigrationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreMigrationManager.h; path = JSONStore/JSONStoreMigrationManager.h; sourceTree = "<group>"; };
 		9C6F7792554CBA88850B60E1180D9650 /* POMLoginUserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMLoginUserViewController.h; sourceTree = "<group>"; };
 		9CCFED746AF503F21A9D8A5F7BB8C92B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		9D4AE194A0887DD62DB6952ACDA08D0D /* KSSignalInfo.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSSignalInfo.c; path = Source/KSCrash/Recording/Tools/KSSignalInfo.c; sourceTree = "<group>"; };
+		9D4AE194A0887DD62DB6952ACDA08D0D /* KSSignalInfo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSSignalInfo.c; path = Source/KSCrash/Recording/Tools/KSSignalInfo.c; sourceTree = "<group>"; };
 		9D7EFA86B2C618FAF6AE31CEC15C7BA3 /* KSCrashReportFilterJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportFilterJSON.h; path = Source/KSCrash/Reporting/Filters/KSCrashReportFilterJSON.h; sourceTree = "<group>"; };
 		9E34ED65BAC01CBF7554308C59F0C4A7 /* JSONStoreCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreCollection.h; path = JSONStore/JSONStoreCollection.h; sourceTree = "<group>"; };
 		9E6DCFF0A1028275F5A82A4A8890EA8B /* KSCrashMonitor_Deadlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashMonitor_Deadlock.m; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_Deadlock.m; sourceTree = "<group>"; };
@@ -931,7 +931,7 @@
 		A0CCB51EA5808EA5C1475338880C93F8 /* StorageHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = StorageHelper.m; sourceTree = "<group>"; };
 		A15C320042F11407BE81601AA9572EDD /* user-default.old.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "user-default.old.png"; path = "POMFramework/Assets/user-default.old.png"; sourceTree = "<group>"; };
 		A17B2A89FBFBF3F11733EBDD11C35A5E /* JSONStoreQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStoreQueue.m; path = JSONStore/JSONStoreQueue.m; sourceTree = "<group>"; };
-		A1D46CEE7069402E20319D565E9A341F /* KSCrashMonitor_Signal.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashMonitor_Signal.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_Signal.c; sourceTree = "<group>"; };
+		A1D46CEE7069402E20319D565E9A341F /* KSCrashMonitor_Signal.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashMonitor_Signal.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_Signal.c; sourceTree = "<group>"; };
 		A209E96B78A68F9469A68C8B00A07CC3 /* POMThumbnailDataParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMThumbnailDataParser.h; sourceTree = "<group>"; };
 		A2435D07782A84F5A9F72B675F54387C /* POMMesParametresViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMMesParametresViewController.m; sourceTree = "<group>"; };
 		A265ADCE0BDB0A8560426B66625AD747 /* NSArray+LinqExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+LinqExtensions.h"; sourceTree = "<group>"; };
@@ -945,7 +945,7 @@
 		A50A68B1E47192BB7CB1E8FD6EA9A06E /* EncodeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EncodeHelper.h; sourceTree = "<group>"; };
 		A59859E14D589B0281D2063C249AF27B /* JSONHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSONHelper.h; sourceTree = "<group>"; };
 		A6248C6D9C5610EA25AF63569492DA24 /* KSCPU.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCPU.h; path = Source/KSCrash/Recording/Tools/KSCPU.h; sourceTree = "<group>"; };
-		A68168E9E002C9A18462AEC0FAACFA9A /* KSCPU_arm64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCPU_arm64.c; path = Source/KSCrash/Recording/Tools/KSCPU_arm64.c; sourceTree = "<group>"; };
+		A68168E9E002C9A18462AEC0FAACFA9A /* KSCPU_arm64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCPU_arm64.c; path = Source/KSCrash/Recording/Tools/KSCPU_arm64.c; sourceTree = "<group>"; };
 		A6817E762745630BA8C2844ADEEA38A8 /* GEDLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GEDLibrary.h; sourceTree = "<group>"; };
 		A733823149A7DA3F688453886493E539 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		A7B318D2FA76255411FE35186E961609 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -957,8 +957,8 @@
 		AA0A376173FDC439BDB261C1142B6690 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		AA239C09E1E805E0F816785F1C253ABB /* JSONStoreValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreValidator.h; path = JSONStore/JSONStoreValidator.h; sourceTree = "<group>"; };
 		AAFAB16C3EFEC36C65845A3B01F76F40 /* info_iPhone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = info_iPhone.png; path = POMFramework/Assets/info_iPhone.png; sourceTree = "<group>"; };
-		AB25B017E047E527D236B0FC8CFA4C10 /* KSCrashCachedData.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashCachedData.c; path = Source/KSCrash/Recording/KSCrashCachedData.c; sourceTree = "<group>"; };
-		AB5F1B792BC5147DFDA216D3095E017B /* KSSysCtl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSSysCtl.c; path = Source/KSCrash/Recording/Tools/KSSysCtl.c; sourceTree = "<group>"; };
+		AB25B017E047E527D236B0FC8CFA4C10 /* KSCrashCachedData.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashCachedData.c; path = Source/KSCrash/Recording/KSCrashCachedData.c; sourceTree = "<group>"; };
+		AB5F1B792BC5147DFDA216D3095E017B /* KSSysCtl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSSysCtl.c; path = Source/KSCrash/Recording/Tools/KSSysCtl.c; sourceTree = "<group>"; };
 		ABB4AD5D36884C097EF50C1D40E4100A /* NSObject+WLJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+WLJSON.m"; path = "JSONStore/NSObject+WLJSON.m"; sourceTree = "<group>"; };
 		ABD64778EB55C32475956C32F39CFCF2 /* KSCrashReportFilterBasic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashReportFilterBasic.m; path = Source/KSCrash/Reporting/Filters/KSCrashReportFilterBasic.m; sourceTree = "<group>"; };
 		ABEDD296DAE553AD9893A9B2ED846C79 /* JSONStore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONStore.xcconfig; sourceTree = "<group>"; };
@@ -968,12 +968,12 @@
 		ADFD80D8B1C5285C9EAA63D42C3C83E1 /* KSCrashMonitor_System.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashMonitor_System.h; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_System.h; sourceTree = "<group>"; };
 		AE09D926E7DEDD55B247576C17521950 /* cadena-appli_iPhone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cadena-appli_iPhone.png"; path = "POMFramework/Assets/cadena-appli_iPhone.png"; sourceTree = "<group>"; };
 		AE22D88FB8433FF06A13871E82C3EED6 /* CVCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CVCell.xib; path = POMFramework/Assets/CVCell.xib; sourceTree = "<group>"; };
-		AE4120689CD0F4A917CDD3D13A781E45 /* KSCrashMonitor_MachException.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashMonitor_MachException.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_MachException.c; sourceTree = "<group>"; };
+		AE4120689CD0F4A917CDD3D13A781E45 /* KSCrashMonitor_MachException.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashMonitor_MachException.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_MachException.c; sourceTree = "<group>"; };
 		AEF5AB547433E4A9A71AFBD7BD14ED4A /* enrolement-active_iPhone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "enrolement-active_iPhone.png"; path = "POMFramework/Assets/enrolement-active_iPhone.png"; sourceTree = "<group>"; };
 		AF6BB7ECAEE3FDCE0165FF44B4ED96F7 /* BaseAuthInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseAuthInfo.m; sourceTree = "<group>"; };
 		AFCF9CDFA5D99A4B3CC037FDCBC7B117 /* KSCrashReportSinkQuincyHockey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashReportSinkQuincyHockey.m; path = Source/KSCrash/Reporting/Sinks/KSCrashReportSinkQuincyHockey.m; sourceTree = "<group>"; };
 		B04723288BC7A1E12B8EE203D7051DAA /* POMMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMMessage.m; sourceTree = "<group>"; };
-		B0A5573A4CDCAEC4F4D79E1E1558096B /* KSDynamicLinker.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSDynamicLinker.c; path = Source/KSCrash/Recording/Tools/KSDynamicLinker.c; sourceTree = "<group>"; };
+		B0A5573A4CDCAEC4F4D79E1E1558096B /* KSDynamicLinker.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSDynamicLinker.c; path = Source/KSCrash/Recording/Tools/KSDynamicLinker.c; sourceTree = "<group>"; };
 		B0A89DBC23A576FA070EA03D1C3578B0 /* POMPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMPreviewController.m; sourceTree = "<group>"; };
 		B0E22DDD0B0647D3ACA241C95ED362A5 /* POMClaimsParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMClaimsParser.m; sourceTree = "<group>"; };
 		B0E428328CB974432876CA7329233C47 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
@@ -994,12 +994,12 @@
 		B5D67C4D16775E58220EE05239C42B16 /* NSObject+ObjectMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectMap.m"; sourceTree = "<group>"; };
 		B5DA86BD87CC46D7460C0E647301FDFF /* NSUserDefaults+AdpAppGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+AdpAppGroup.h"; sourceTree = "<group>"; };
 		B6564373B68F901F7598E6340BCFAB26 /* KSCString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCString.h; path = Source/KSCrash/Reporting/Tools/KSCString.h; sourceTree = "<group>"; };
-		B6633D75DA426257FBA14621F10409D1 /* KSCrashMonitor_AppState.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashMonitor_AppState.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_AppState.c; sourceTree = "<group>"; };
+		B6633D75DA426257FBA14621F10409D1 /* KSCrashMonitor_AppState.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashMonitor_AppState.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_AppState.c; sourceTree = "<group>"; };
 		B739AA3BA5D2D061007D83AC9ECB6758 /* POMMenuViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMMenuViewController.h; sourceTree = "<group>"; };
 		B7534508BA8BFC0B64054E6C644FF760 /* TokenContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TokenContainer.m; sourceTree = "<group>"; };
 		B796982F394C7B9D6F44FD8167E2BC4C /* Demangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Demangle.h; path = Source/KSCrash/swift/Basic/Demangle.h; sourceTree = "<group>"; };
 		B7ADDEC89A04E9B23B2679FD1502D05E /* lignerouge.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = lignerouge.png; path = POMFramework/Assets/lignerouge.png; sourceTree = "<group>"; };
-		B7C265DBFBDA3967D31E8C62185AE5DE /* KSCrashReportStore.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashReportStore.c; path = Source/KSCrash/Recording/KSCrashReportStore.c; sourceTree = "<group>"; };
+		B7C265DBFBDA3967D31E8C62185AE5DE /* KSCrashReportStore.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashReportStore.c; path = Source/KSCrash/Recording/KSCrashReportStore.c; sourceTree = "<group>"; };
 		B7DA25CA124ECAA3F977834D9274D4C4 /* JSONStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DBA38BD08552AE79C4F1A03BD1B89C /* POMLogTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMLogTableViewCell.h; sourceTree = "<group>"; };
 		B7EE538519AD2DC465E57D186EEA6135 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
@@ -1021,7 +1021,7 @@
 		C4AB03877D49A34120DD95A32BE0F735 /* POMRessource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMRessource.m; sourceTree = "<group>"; };
 		C4CCF19B4FBD274CAC5E1D601F572315 /* POMUoMetierListParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMUoMetierListParser.h; sourceTree = "<group>"; };
 		C58FD731E361662D134C80A36DCD6412 /* KSCrashReportFixer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportFixer.h; path = Source/KSCrash/Recording/KSCrashReportFixer.h; sourceTree = "<group>"; };
-		C5AE7D2606A4D312AB41E993D5929443 /* KSFileUtils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSFileUtils.c; path = Source/KSCrash/Recording/Tools/KSFileUtils.c; sourceTree = "<group>"; };
+		C5AE7D2606A4D312AB41E993D5929443 /* KSFileUtils.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSFileUtils.c; path = Source/KSCrash/Recording/Tools/KSFileUtils.c; sourceTree = "<group>"; };
 		C637398BB358BAE947DC3B77C4E6C643 /* noimage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = noimage.png; path = POMFramework/Assets/noimage.png; sourceTree = "<group>"; };
 		C6F8924072A89F478BCE544C1F8CCF27 /* JSONStoreQueryPart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStoreQueryPart.m; path = JSONStore/JSONStoreQueryPart.m; sourceTree = "<group>"; };
 		C7D499BE13C24A6E652C9028C3467A31 /* KSCrashReportSinkVictory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashReportSinkVictory.m; path = Source/KSCrash/Reporting/Sinks/KSCrashReportSinkVictory.m; sourceTree = "<group>"; };
@@ -1037,7 +1037,7 @@
 		CC5C766B3B51E7C3FC814E3654848636 /* KSCrashReportSinkPomLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KSCrashReportSinkPomLog.m; sourceTree = "<group>"; };
 		CC81404F5C3A0F7B9703C70F8BB6FB5C /* UIAlertController+Window.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Window.m"; sourceTree = "<group>"; };
 		CCDD8A3013668134EA2276AF5C19F2D9 /* KSVarArgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSVarArgs.h; path = Source/KSCrash/Reporting/Filters/Tools/KSVarArgs.h; sourceTree = "<group>"; };
-		CD2CF7C474BA453482DEF69B2212CC04 /* KSDemangle_Swift.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = KSDemangle_Swift.cpp; path = Source/KSCrash/Recording/Tools/KSDemangle_Swift.cpp; sourceTree = "<group>"; };
+		CD2CF7C474BA453482DEF69B2212CC04 /* KSDemangle_Swift.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = KSDemangle_Swift.cpp; path = Source/KSCrash/Recording/Tools/KSDemangle_Swift.cpp; sourceTree = "<group>"; };
 		CE0D815CCE0DB9A0BEA5B6685C7D9B11 /* POMLogDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMLogDetailViewController.h; sourceTree = "<group>"; };
 		CEE220FC8CDBBDAE1FA9B388794A553D /* appli-active_iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "appli-active_iPad.png"; path = "POMFramework/Assets/appli-active_iPad.png"; sourceTree = "<group>"; };
 		CF0B0CC56BBF1C88582EFF74B960FC33 /* KSReachabilityKSCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSReachabilityKSCrash.h; path = Source/KSCrash/Reporting/Tools/KSReachabilityKSCrash.h; sourceTree = "<group>"; };
@@ -1051,14 +1051,14 @@
 		D5CFF883F36EDDF3AF7DF8FFE88FFF6D /* private.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = private.png; path = POMFramework/Assets/private.png; sourceTree = "<group>"; };
 		D5E93C7E8B158D7280A79E8EE8DEA3DA /* ScanAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ScanAPI.m; sourceTree = "<group>"; };
 		D66B598357E717262EC732BCC69CCE20 /* KSCrashMonitorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashMonitorType.h; path = Source/KSCrash/Recording/Monitors/KSCrashMonitorType.h; sourceTree = "<group>"; };
-		D7D19E4FF3F83B4956D9129BB9FF64B4 /* KSStackCursor_SelfThread.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSStackCursor_SelfThread.c; path = Source/KSCrash/Recording/Tools/KSStackCursor_SelfThread.c; sourceTree = "<group>"; };
+		D7D19E4FF3F83B4956D9129BB9FF64B4 /* KSStackCursor_SelfThread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSStackCursor_SelfThread.c; path = Source/KSCrash/Recording/Tools/KSStackCursor_SelfThread.c; sourceTree = "<group>"; };
 		D803D61DB8EFDF09D87667C31517D8D5 /* NSString+URLEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncode.m"; path = "Source/KSCrash/Reporting/Tools/NSString+URLEncode.m"; sourceTree = "<group>"; };
 		D81CB5A1E4A337E0202993850A51F0C5 /* KSCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B775CA4932D7B603568B5A2FAF65D5 /* KSCrashInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCrashInstallation.m; path = Source/KSCrash/Installations/KSCrashInstallation.m; sourceTree = "<group>"; };
 		D8C1AB75CEDF3DBBDA5619B2DDB1F5B6 /* POMLogTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMLogTableViewController.h; sourceTree = "<group>"; };
 		D941D1989CBB92C5E35B6A6AE2D04BF4 /* JSONStoreSQLLite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONStoreSQLLite.m; path = JSONStore/JSONStoreSQLLite.m; sourceTree = "<group>"; };
 		D949EA18F14D6A50B0184D8C59CDA3F1 /* KSDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSDebug.h; path = Source/KSCrash/Recording/Tools/KSDebug.h; sourceTree = "<group>"; };
-		D9C41D1C3F2F753F8DE588C958FD62FE /* KSMachineContext.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSMachineContext.c; path = Source/KSCrash/Recording/Tools/KSMachineContext.c; sourceTree = "<group>"; };
+		D9C41D1C3F2F753F8DE588C958FD62FE /* KSMachineContext.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSMachineContext.c; path = Source/KSCrash/Recording/Tools/KSMachineContext.c; sourceTree = "<group>"; };
 		DA970FBD41650A6A7E7831A885B11B50 /* KSSignalInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSSignalInfo.h; path = Source/KSCrash/Recording/Tools/KSSignalInfo.h; sourceTree = "<group>"; };
 		DB75FBD5D29B0BA0BD760A5AFC1B7753 /* deconnecter-ouvert_iPhone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "deconnecter-ouvert_iPhone.png"; path = "POMFramework/Assets/deconnecter-ouvert_iPhone.png"; sourceTree = "<group>"; };
 		DB9F8ABC609D154ADB5A9DD60252E4E7 /* NSString+URLEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncode.h"; path = "Source/KSCrash/Reporting/Tools/NSString+URLEncode.h"; sourceTree = "<group>"; };
@@ -1071,10 +1071,10 @@
 		DEA3ABA5A9D983710760A45E87E6ADB2 /* CustomCellForMetierUO.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CustomCellForMetierUO.xib; path = POMFramework/Assets/CustomCellForMetierUO.xib; sourceTree = "<group>"; };
 		E0BFB82010AC69EA5392503973C93D0B /* UserAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserAuthInfo.h; sourceTree = "<group>"; };
 		E0D6A5D3BBC41A4F655CD1EB57ABDB25 /* JSONStoreSQLLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreSQLLite.h; path = JSONStore/JSONStoreSQLLite.h; sourceTree = "<group>"; };
-		E128137CD87E0332B7A1AC109FB354F9 /* POMFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = POMFramework.framework; path = POMFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E128137CD87E0332B7A1AC109FB354F9 /* POMFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POMFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E164B08284B5AF2617BFA70A780304B1 /* Container+DeepSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Container+DeepSearch.h"; path = "Source/KSCrash/Reporting/Filters/Tools/Container+DeepSearch.h"; sourceTree = "<group>"; };
 		E181CF289FD978482CAE389DDFEC91C0 /* POMMenuViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMMenuViewController.m; sourceTree = "<group>"; };
-		E1D6EA0381609C75BD7BE3B49CB088CA /* Gothic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Gothic.ttf; path = POMFramework/Assets/Gothic.ttf; sourceTree = "<group>"; };
+		E1D6EA0381609C75BD7BE3B49CB088CA /* Gothic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Gothic.ttf; path = POMFramework/Assets/Gothic.ttf; sourceTree = "<group>"; };
 		E22C2FDAC86266D6602ED923F5108E33 /* JSONStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONStore-dummy.m"; sourceTree = "<group>"; };
 		E246FA566844FB0493534695EFA1EBF5 /* NSBundle+POMResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+POMResources.h"; sourceTree = "<group>"; };
 		E380E2FF2C6D2F4BA86CB8741BA8AA75 /* JSONStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONStore.modulemap; sourceTree = "<group>"; };
@@ -1084,12 +1084,12 @@
 		E4C040929639F3EC34167D8FAB53A0A9 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		E68AF451A6DFE49AA4170A81EFE9C07B /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		E769B934AA9527C576A72860699FBA95 /* JSONStoreSecurityConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreSecurityConstants.h; path = JSONStore/JSONStoreSecurityConstants.h; sourceTree = "<group>"; };
-		E7EF978507D76290575217BDBB98CDC9 /* KSCrashMonitor_CPPException.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashMonitor_CPPException.cpp; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_CPPException.cpp; sourceTree = "<group>"; };
+		E7EF978507D76290575217BDBB98CDC9 /* KSCrashMonitor_CPPException.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = KSCrashMonitor_CPPException.cpp; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_CPPException.cpp; sourceTree = "<group>"; };
 		E7F4A0731ED6C4F0B14A1B465A61F67A /* JSONStoreSecurityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONStoreSecurityManager.h; path = JSONStore/JSONStoreSecurityManager.h; sourceTree = "<group>"; };
 		E8238518D230CF5AE5FE185BCA6365BC /* ResourceBundle-POMRessources-POMFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-POMRessources-POMFramework-Info.plist"; sourceTree = "<group>"; };
 		E83580CD34CC51029237F8FA0B668200 /* NSString+WLJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+WLJSON.h"; path = "JSONStore/NSString+WLJSON.h"; sourceTree = "<group>"; };
-		E8BCBC16EB0811993F687489FE033342 /* KSCPU_arm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCPU_arm.c; path = Source/KSCrash/Recording/Tools/KSCPU_arm.c; sourceTree = "<group>"; };
-		E8FA1DDCC86EA0D27E613E0AC27686B5 /* KSCrashMonitor_User.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCrashMonitor_User.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_User.c; sourceTree = "<group>"; };
+		E8BCBC16EB0811993F687489FE033342 /* KSCPU_arm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCPU_arm.c; path = Source/KSCrash/Recording/Tools/KSCPU_arm.c; sourceTree = "<group>"; };
+		E8FA1DDCC86EA0D27E613E0AC27686B5 /* KSCrashMonitor_User.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCrashMonitor_User.c; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_User.c; sourceTree = "<group>"; };
 		E9E2A048A17FA17CBDB212999D6FD6F2 /* KSCrashInstallationConsole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashInstallationConsole.h; path = Source/KSCrash/Installations/KSCrashInstallationConsole.h; sourceTree = "<group>"; };
 		EA136FD741497962A4745CC0FA8A15C8 /* MetierUOView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MetierUOView.xib; path = POMFramework/Assets/MetierUOView.xib; sourceTree = "<group>"; };
 		EA14A2010E952295BA0F8F0E29503B6B /* KSStackCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSStackCursor.h; path = Source/KSCrash/Recording/Tools/KSStackCursor.h; sourceTree = "<group>"; };
@@ -1099,13 +1099,13 @@
 		EAEB381010C9A007A04BA8ABA1EADF27 /* POMMetier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = POMMetier.h; sourceTree = "<group>"; };
 		EAED566104C76B5962030D10E99DACA0 /* POMLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMLog.m; sourceTree = "<group>"; };
 		ED0AE34631FE5F33CDAAA170E4A3B354 /* LibraryFileResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LibraryFileResponseParser.h; sourceTree = "<group>"; };
-		EE0DF615A7B9EEA2E3B98319771D9134 /* KSCPU.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSCPU.c; path = Source/KSCrash/Recording/Tools/KSCPU.c; sourceTree = "<group>"; };
+		EE0DF615A7B9EEA2E3B98319771D9134 /* KSCPU.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSCPU.c; path = Source/KSCrash/Recording/Tools/KSCPU.c; sourceTree = "<group>"; };
 		EE0FE11A1D768F2154522502EB5DDA17 /* KSCrashMonitor_Zombie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashMonitor_Zombie.h; path = Source/KSCrash/Recording/Monitors/KSCrashMonitor_Zombie.h; sourceTree = "<group>"; };
 		EE19A5FF2C3B7264276EFCD9C9637B9F /* connecter-fermer_iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "connecter-fermer_iPad.png"; path = "POMFramework/Assets/connecter-fermer_iPad.png"; sourceTree = "<group>"; };
 		EE7549D77A01878B1D0D848AAFF657A9 /* PomFramework.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PomFramework.pch; path = POMFramework/SupportingFiles/PomFramework.pch; sourceTree = "<group>"; };
 		EE8C515AC7A7887D7781560A7BD1A952 /* KSCrashReportSinkStandard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCrashReportSinkStandard.h; path = Source/KSCrash/Reporting/Sinks/KSCrashReportSinkStandard.h; sourceTree = "<group>"; };
 		F028BE196CF3407692F94C0BF4F908C6 /* llvm-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "llvm-config.h"; path = "Source/KSCrash/llvm/Config/llvm-config.h"; sourceTree = "<group>"; };
-		F06A4D384054EEB851BB742E5E4CDA1A /* KSObjC.c */ = {isa = PBXFileReference; includeInIndex = 1; name = KSObjC.c; path = Source/KSCrash/Recording/Tools/KSObjC.c; sourceTree = "<group>"; };
+		F06A4D384054EEB851BB742E5E4CDA1A /* KSObjC.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = KSObjC.c; path = Source/KSCrash/Recording/Tools/KSObjC.c; sourceTree = "<group>"; };
 		F0DDA0A6C9F7CBD3EE4AD6F8E99A5003 /* ApplicationListConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ApplicationListConnectionDelegate.h; sourceTree = "<group>"; };
 		F1308EAFB8F03A4626DC4750BE57347F /* POMButtonItemView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = POMButtonItemView.xib; path = POMFramework/Assets/POMButtonItemView.xib; sourceTree = "<group>"; };
 		F1F918640752D72EF7B2B231E6F7BBE2 /* POMMetier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = POMMetier.m; sourceTree = "<group>"; };
@@ -1122,7 +1122,7 @@
 		F817E0B18C9E01922394F691E8A99F70 /* UIPomHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIPomHelper.h; sourceTree = "<group>"; };
 		F85783533E601DB618F933AD35D94261 /* SQLiteDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteDatabase.m; path = JSONStore/SQLiteDatabase.m; sourceTree = "<group>"; };
 		F86D577B0A24E25DF4DA4F5A4A200E6E /* warning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warning.png; path = POMFramework/Assets/warning.png; sourceTree = "<group>"; };
-		F9341AB5B17CA7FB87045DBDA5D30E0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F9341AB5B17CA7FB87045DBDA5D30E0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F9F2F0112824EC2D2E0C6416A0AC10F8 /* DeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
 		FA2C0632061DC5B9949E55C43266901F /* TokenContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TokenContainer.h; sourceTree = "<group>"; };
 		FA8F4CA0EFD9C276BEB34D57F83C99E0 /* ScanService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ScanService.h; sourceTree = "<group>"; };
@@ -1926,7 +1926,6 @@
 				F85783533E601DB618F933AD35D94261 /* SQLiteDatabase.m */,
 				6AE6F536D914D4078C88422590ADD3D5 /* Support Files */,
 			);
-			name = JSONStore;
 			path = JSONStore;
 			sourceTree = "<group>";
 		};
@@ -2022,7 +2021,6 @@
 				8F647FFD37625924B4C0A45B6CF99CC9 /* Reporting */,
 				1D51F9701381E981D73422BB116972E8 /* Support Files */,
 			);
-			name = KSCrash;
 			path = KSCrash;
 			sourceTree = "<group>";
 		};
@@ -2095,71 +2093,70 @@
 				B640F970473CEDA400A7281E075D9BAA /* Support Files */,
 				4FBA69E157B12BB7E2FA646C13C0A03E /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		F388564502D0E91E098D87B349CAE184 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CEE220FC8CDBBDAE1FA9B388794A553D /* appli-active_iPad.png */,
-				4CF68FC93E8B1F7B385165A3FA4485C9 /* appli-active_iPhone.png */,
+				6883E53DCBBBBEFF38348394103D289C /* POMConfig.plist */,
 				13B7A7A155D07842A8D6E7ABF49EA9C6 /* appli_iPad.png */,
 				5199FE8D228ACB9B6D484965E958A8A8 /* appli_iPhone.png */,
-				3E0E8751BC6053BEBD61C31C9AE720EA /* ApplicationListView.xib */,
+				386A480B0D56FCA352E59E1BE260A356 /* connecter-fermer_iPhone.png */,
+				CEE220FC8CDBBDAE1FA9B388794A553D /* appli-active_iPad.png */,
+				4CF68FC93E8B1F7B385165A3FA4485C9 /* appli-active_iPhone.png */,
 				98A9C4F6586C76E133E06EF5D7635B7D /* arrow.png */,
 				AE09D926E7DEDD55B247576C17521950 /* cadena-appli_iPhone.png */,
 				115C1BAD31632706803CE6DC0AA47D23 /* cadena-connection_iPhone.png */,
 				EE19A5FF2C3B7264276EFCD9C9637B9F /* connecter-fermer_iPad.png */,
-				386A480B0D56FCA352E59E1BE260A356 /* connecter-fermer_iPhone.png */,
 				2CB266DA938475800CB36A927FFF745C /* connecter-fermer_pc.png */,
 				B234416E314957C3DCA41EB6D64C0B31 /* connecter-ouvert_iPad.png */,
 				65EE9B31812B92B50F17D7587959AFEB /* connecter-ouvert_iPhone.png */,
 				7C881FA79683528B524AC17ADB7C0FA4 /* connecter-ouvert_pc.png */,
-				DEA3ABA5A9D983710760A45E87E6ADB2 /* CustomCellForMetierUO.xib */,
-				AE22D88FB8433FF06A13871E82C3EED6 /* CVCell.xib */,
 				DD73F4E2F2DC1DE89BE76702FEB85317 /* deconnecter-fermer_iPad.png */,
 				5160C55E6295C527CB581948CCF176C3 /* deconnecter-fermer_iPhone.png */,
 				3DDF1355F5E4C95CC467BD31E3752D4C /* deconnecter-ouvert_iPad.png */,
 				DB75FBD5D29B0BA0BD760A5AFC1B7753 /* deconnecter-ouvert_iPhone.png */,
 				A37AAC350BB539091C8539BB66C0341A /* deconnercter-fermer-pc.png */,
 				243DEC523229310F9D435B7FBEADD8F9 /* deconnercter-ouvert-pc.png */,
-				7B7F826FFDE1BA887FA1D38FBDCB7A80 /* enrolement-active_iPad.png */,
-				AEF5AB547433E4A9A71AFBD7BD14ED4A /* enrolement-active_iPhone.png */,
 				47F6B0E405F699386D365E2C5D6EFF46 /* enrolement_iPad.png */,
 				1E9E70EA847124512FFF62E1A30078B3 /* enrolement_iPhone.png */,
-				6DD9EF3DE9BB727D0AA02EE59E7BBBBA /* EnrollmentView.xib */,
-				40094EE93F7927D5139153F4F6FFC258 /* FOND-TABLETTE-20.png */,
+				7B7F826FFDE1BA887FA1D38FBDCB7A80 /* enrolement-active_iPad.png */,
+				AEF5AB547433E4A9A71AFBD7BD14ED4A /* enrolement-active_iPhone.png */,
 				46D55B686DD05DEDB8F8CB0888D1BC83 /* fond_actif.png */,
 				28B9F334632868FEDB66A7B771156DED /* fond_inactif.png */,
+				40094EE93F7927D5139153F4F6FFC258 /* FOND-TABLETTE-20.png */,
+				07E63DA60C74759D7AC5D8E6013F49E6 /* info_iPad.png */,
+				AAFAB16C3EFEC36C65845A3B01F76F40 /* info_iPhone.png */,
+				50C032FD88899740CECEA780E95EF508 /* info-active_iPad.png */,
+				26408C16DD6EE6E6C061B4EB232EEED9 /* info-active_iPhone.png */,
+				870E28AC6BF72F9708F65E3F0A0DB88F /* key.png */,
+				695C6A49C91F3B817536CE9F2D74F980 /* leftarrow.png */,
+				B7ADDEC89A04E9B23B2679FD1502D05E /* lignerouge.png */,
+				C637398BB358BAE947DC3B77C4E6C643 /* noimage.png */,
+				D5CFF883F36EDDF3AF7DF8FFE88FFF6D /* private.png */,
+				492FED62E84E0A61FFA6C9F54CEBE5FB /* tweaks.png */,
+				A15C320042F11407BE81601AA9572EDD /* user-default.old.png */,
+				B2B444B604D016EBEA4E36DB3E096559 /* user-default.png */,
+				F86D577B0A24E25DF4DA4F5A4A200E6E /* warning.png */,
 				E1D6EA0381609C75BD7BE3B49CB088CA /* Gothic.ttf */,
 				73BA9BE381B6536F63A0EE56C8366F19 /* Gothicb.ttf */,
 				68A23593345C4C6B4FFB2A7A9B98EC41 /* Gothicbi.ttf */,
 				53DAB403711335A4CBD6268440A9C497 /* Gothici.ttf */,
-				50C032FD88899740CECEA780E95EF508 /* info-active_iPad.png */,
-				26408C16DD6EE6E6C061B4EB232EEED9 /* info-active_iPhone.png */,
-				07E63DA60C74759D7AC5D8E6013F49E6 /* info_iPad.png */,
-				AAFAB16C3EFEC36C65845A3B01F76F40 /* info_iPhone.png */,
-				870E28AC6BF72F9708F65E3F0A0DB88F /* key.png */,
-				695C6A49C91F3B817536CE9F2D74F980 /* leftarrow.png */,
-				B7ADDEC89A04E9B23B2679FD1502D05E /* lignerouge.png */,
+				3E0E8751BC6053BEBD61C31C9AE720EA /* ApplicationListView.xib */,
+				DEA3ABA5A9D983710760A45E87E6ADB2 /* CustomCellForMetierUO.xib */,
+				AE22D88FB8433FF06A13871E82C3EED6 /* CVCell.xib */,
+				6DD9EF3DE9BB727D0AA02EE59E7BBBBA /* EnrollmentView.xib */,
 				7BF1FDB6DF8D05491FD624AFF83818B3 /* LoginUserView.xib */,
 				FD96DBD7E407A3FB357E045663427A55 /* MesParametresView.xib */,
 				EA136FD741497962A4745CC0FA8A15C8 /* MetierUOView.xib */,
 				8F1AF128CE1773755BE7E903394EDA7A /* MonEspaceView.xib */,
-				C637398BB358BAE947DC3B77C4E6C643 /* noimage.png */,
 				F1308EAFB8F03A4626DC4750BE57347F /* POMButtonItemView.xib */,
-				6883E53DCBBBBEFF38348394103D289C /* POMConfig.plist */,
 				05E3B6C62DFCD57DABE719964521215B /* POMLogDetailViewController.xib */,
 				63C8E3076F2C7010D346672BBA39088A /* POMLogTableViewCell.xib */,
 				1CF6F9E72E2CDD59A56652FA7DD210E4 /* POMLogTableViewController.xib */,
 				211D4725246B0A5B2AC9014E02B27584 /* POMLogViewController.xib */,
 				FBD8DC59C52C85EA10ABB0C9F8839EEF /* POMMenuView.xib */,
-				D5CFF883F36EDDF3AF7DF8FFE88FFF6D /* private.png */,
-				492FED62E84E0A61FFA6C9F54CEBE5FB /* tweaks.png */,
-				B2B444B604D016EBEA4E36DB3E096559 /* user-default.png */,
-				A15C320042F11407BE81601AA9572EDD /* user-default.old.png */,
-				F86D577B0A24E25DF4DA4F5A4A200E6E /* warning.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -2584,6 +2581,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;

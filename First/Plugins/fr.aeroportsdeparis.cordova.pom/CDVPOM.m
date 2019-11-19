@@ -25,21 +25,30 @@
 
 -(void)InitMenu:(CDVInvokedUrlCommand*)command{
     
-    float pomMenuWidth = kPomMenuWidth;
-    float pomMenuHeight = kPomMenuHeight;
-    float margin = kPomMenuMarginTop;
-    
-    [POMMenuV2 addMenu:self.viewController.view width:pomMenuWidth height:pomMenuHeight margin:margin];
-    
-    NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
-    [nc addObserver:self selector:@selector(onLevel1SecurityInfoChange:) name:OnLevel1SecurityInfoChange object:nil];
-    [nc addObserver:self selector:@selector(onLevel2SecurityInfoChange:) name:OnLevel2SecurityInfoChange object:nil];
-    [nc addObserver:self selector:@selector(OnLevel2PreSignOut:) name:OnLevel2PreSignOut object:nil];
-    [nc addObserver:self selector:@selector(onMessageRaised:) name:POMMessageRaised object:nil];
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
+    [self.commandDelegate runInBackground:^{
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            float pomMenuWidth = kPomMenuWidth;
+            float pomMenuHeight = kPomMenuHeight;
+            float margin = kPomMenuMarginTop;
+            
+            [POMMenuV2 addMenu:self.viewController.view width:pomMenuWidth height:pomMenuHeight margin:margin];
+        });
+        
+        NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+        [nc addObserver:self selector:@selector(onLevel1SecurityInfoChange:) name:OnLevel1SecurityInfoChange object:nil];
+        [nc addObserver:self selector:@selector(onLevel2SecurityInfoChange:) name:OnLevel2SecurityInfoChange object:nil];
+        [nc addObserver:self selector:@selector(OnLevel2PreSignOut:) name:OnLevel2PreSignOut object:nil];
+        [nc addObserver:self selector:@selector(onMessageRaised:) name:POMMessageRaised object:nil];
+        
+    }];
 }
 
 - (void)InitVPNManager:(CDVInvokedUrlCommand*)command
 {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     VPNHelper *vpnManager = [VPNHelper sharedManager];
     [vpnManager InitVPNTimer];
 }
@@ -48,6 +57,7 @@
 
 -(void) onLevel1SecurityInfoChange:(NSNotification *)notice
 {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         DeviceAuthInfo *device = notice.object;
@@ -57,6 +67,7 @@
 
 -(void) onLevel2SecurityInfoChange:(NSNotification *)notice
 {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         UserAuthInfo *user = notice.object;
@@ -67,6 +78,7 @@
 
 -(void) OnLevel2PreSignOut:(NSNotification *)notice
 {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onLevel2PreSignOut", @"{}"]];
@@ -75,6 +87,7 @@
 
 -(void) onMessageRaised:(NSNotification *)notice
 {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         [self.commandDelegate evalJs:[NSString stringWithFormat:@"javascript:cordova.fireDocumentEvent('%@', %@)", @"onMessageRaised", [notice.object JSONString]]];
         
@@ -88,6 +101,7 @@
 
 - (void)GetIpadName:(CDVInvokedUrlCommand*)command
 {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         NSString *deviceName =  [[UIDevice currentDevice] name];
         CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:deviceName];
@@ -98,6 +112,7 @@
 
 - (void)GetFrameworkVersion:(CDVInvokedUrlCommand*)command
 {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDouble:POMFrameworkVersionNumber];
@@ -106,6 +121,7 @@
 }
 
 - (void)CallApplication:(CDVInvokedUrlCommand*)command{
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         CDVPluginResult* result;
@@ -126,6 +142,7 @@
 }
 
 - (void)Level1SecurityInfo:(CDVInvokedUrlCommand*)command{
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         DeviceAuthInfo *device = [[POMAPI sharedInstance] Level1SecurityInfo];
         CDVPluginResult* result;
@@ -153,6 +170,7 @@
 }
 
 - (void)Level2SecurityInfo:(CDVInvokedUrlCommand*)command{
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         UserAuthInfo *user =  [[POMAPI sharedInstance] Level2SecurityInfo];
@@ -181,29 +199,34 @@
 }
 
 -(void)RequestLevel2SignIn:(CDVInvokedUrlCommand*)command{
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         [[POMAPI sharedInstance] RequestLevel2SignIn];
     }];
 }
 
 -(void)DisplayMenu:(CDVInvokedUrlCommand*)command{
+        NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
         BOOL display = [[command.arguments objectAtIndex:0] boolValue];
         self.DisplayStandardMenu = display;
 }
 
 -(void)RequestLevel2SignOut:(CDVInvokedUrlCommand*)command{
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         [[POMAPI sharedInstance] RequestLevel2SignOut];
     }];
 }
 
 -(void)ForceRefreshSecurity:(CDVInvokedUrlCommand*)command{
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         [[POMAPI sharedInstance] ForceRefreshSecurity];
     }];
 }
 
 - (void)GetRawClaims:(CDVInvokedUrlCommand*)command{
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         TokenContainer *tokens = [[POMAPI sharedInstance] GetRawClaims];
@@ -224,6 +247,7 @@
 
 - (void)GetApplicationList:(CDVInvokedUrlCommand*)command{
     
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         POMAPI *service = [POMAPI sharedInstance];
@@ -242,7 +266,7 @@
 }
 
 - (void)GetUserThumbnailURL:(CDVInvokedUrlCommand*)command{
-    // Command en background !!!!!!
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         NSString *url = [[POMAPI sharedInstance] GetUserThumbnailURL];
         CDVPluginResult* result;
@@ -259,6 +283,7 @@
 }
 
 - (void)GetUserThumbnailPicture:(CDVInvokedUrlCommand*)command{
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         NSData *picture = [[POMAPI sharedInstance] GetUserThumbnailPicture];
@@ -278,6 +303,7 @@
 
 - (void)IsTokenBlacklisted:(CDVInvokedUrlCommand*)command
 {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     [self.commandDelegate runInBackground:^{
         
         NSString* token = [command.arguments objectAtIndex:0];
@@ -290,9 +316,11 @@
 }
 
 - (BOOL)DisplayStandardMenu {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     return [[POMService sharedManager] DisplayStandardMenu];
 }
 - (void)setDisplayStandardMenu:(BOOL)newValue {
+    NSLog(@"<%@:%@>", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], NSStringFromSelector(_cmd));
     POMService *service = [POMService sharedManager];
     service.DisplayStandardMenu = newValue;
 }
@@ -416,7 +444,6 @@
 
 - (void)returnScanSuccess:(NSString*)scannedText format:(NSString*)format flightInformation:(NSDictionary *)flightInformation cancelled:(BOOL)cancelled{
     
-    
     NSNumber* cancelledNumber = [NSNumber numberWithInt:(cancelled?1:0)];
     
     NSMutableDictionary* resultDict = [[NSMutableDictionary alloc] init];
@@ -432,6 +459,5 @@
     
     [self.commandDelegate sendPluginResult:result callbackId:self.scanCallbackId];
 }
-
 
 @end
