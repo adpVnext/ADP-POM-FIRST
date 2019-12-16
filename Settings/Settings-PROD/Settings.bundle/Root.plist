@@ -10,7 +10,7 @@
 			<key>AutocorrectionType</key>
 			<string>No</string>
 			<key>DefaultValue</key>
-			<string>https://first.prod.adp.fr/</string>
+			<string>https://first.prod.adp.fr/first</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>Key</key>
@@ -56,41 +56,40 @@
 			<key>KeyboardType</key>
 			<string>URL</string>
 		</dict>
-        <dict>
-            <key>Type</key>
-            <string>PSGroupSpecifier</string>
-            <key>Title</key>
-            <string>Application insight</string>
-        </dict>
-        <dict>
-            <key>Type</key>
-            <string>PSToggleSwitchSpecifier</string>
-            <key>DefaultValue</key>
-            <false/>
-            <key>Title</key>
-            <string>Mode Debug</string>
-            <key>Key</key>
-            <string>LOGINT</string>
-            <key>TrueValue</key>
-            <true/>
-            <key>FalseValue</key>
-            <false/>
-        </dict>
-        <dict>
-            <key>Type</key>
-            <string>PSTextFieldSpecifier</string>
-            <key>DefaultValue</key>
-            <string></string>
-            <key>Title</key>
-            <string>URL LOG Service</string>
-            <key>Key</key>
-            <string>URLLOGSVC</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>KeyboardType</key>
-            <string>URL</string>
-        </dict>
-
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Application insight</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Title</key>
+			<string>Mode Debug</string>
+			<key>Key</key>
+			<string>LOGINT</string>
+			<key>TrueValue</key>
+			<true/>
+			<key>FalseValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>Title</key>
+			<string>URL LOG Service</string>
+			<key>Key</key>
+			<string>URLLOGSVC</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+		</dict>
 	</array>
 	<key>StringsTable</key>
 	<string>Root</string>
