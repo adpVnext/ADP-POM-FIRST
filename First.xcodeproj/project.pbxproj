@@ -714,7 +714,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/First/Scripts/copy-www-build-step.sh\"";
+			shellScript = "\"$SRCROOT/First/Scripts/copy-www-build-step.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CE79D8B12373133D004C0F44 /* [CP] Embed Pods Frameworks */ = {
@@ -1007,6 +1007,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1031,7 +1032,7 @@
 				INFOPLIST_FILE = "First/First-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PODS_BUILD_DIR = $BUILD_DIR;
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
@@ -1057,6 +1058,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1079,7 +1081,7 @@
 				INFOPLIST_FILE = "First/First-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PODS_BUILD_DIR = $BUILD_DIR;
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
@@ -1185,6 +1187,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1209,7 +1212,7 @@
 				INFOPLIST_FILE = "First/First-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PODS_BUILD_DIR = $BUILD_DIR;
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
@@ -1235,6 +1238,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1257,7 +1261,7 @@
 				INFOPLIST_FILE = "First/First-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PODS_BUILD_DIR = $BUILD_DIR;
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
@@ -1283,6 +1287,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1307,7 +1312,7 @@
 				INFOPLIST_FILE = "First/First-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PODS_BUILD_DIR = $BUILD_DIR;
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
@@ -1333,6 +1338,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1355,7 +1361,7 @@
 				INFOPLIST_FILE = "First/First-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PODS_BUILD_DIR = $BUILD_DIR;
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
@@ -1381,6 +1387,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1405,7 +1412,7 @@
 				INFOPLIST_FILE = "First/First-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PODS_BUILD_DIR = $BUILD_DIR;
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
@@ -1432,6 +1439,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2ZP448W2WZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1454,7 +1462,7 @@
 				INFOPLIST_FILE = "First/First-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'";
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PODS_BUILD_DIR = $BUILD_DIR;
 				PODS_CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
